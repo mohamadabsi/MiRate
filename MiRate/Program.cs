@@ -4,7 +4,7 @@
 //using Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MiRate.Data;
+using MiRate.Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

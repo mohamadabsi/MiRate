@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MiRate.Pages
+namespace MiRate.Web.Pages
 {
-    
+
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiRate.Application", "MiRat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiRate.Domain", "MiRate.Domain\MiRate.Domain.csproj", "{FB90DCE3-E457-4AA7-87A0-0927A45009EE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Attachments", "..\..\Frameworks\Attachments\Framework.Attachments\Framework.Attachments.csproj", "{8237ACA2-84C1-4346-8532-15A666BF14B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8237ACA2-84C1-4346-8532-15A666BF14B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8237ACA2-84C1-4346-8532-15A666BF14B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8237ACA2-84C1-4346-8532-15A666BF14B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8237ACA2-84C1-4346-8532-15A666BF14B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
