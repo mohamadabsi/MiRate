@@ -22,7 +22,7 @@ namespace Framework.Attachments
         public static void AddAttachments(this IServiceCollection services, IConfiguration configuration, IHostEnvironment environment)
         {
       
-            services.UseDatabase<AttachmentsDbContext>(configuration, environment, "AttachmentsConnection");
+            services.UseDatabase<AttachmentsDbContext>(configuration, environment, "DefaultConnection");
 
             services.AddScoped(typeof(IUnitOfWorkBase<>), typeof(UnitOfWorkBase<>));
 
