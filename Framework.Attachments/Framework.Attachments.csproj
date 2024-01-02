@@ -1,0 +1,24 @@
+
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+
+  <!--<ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <PropertyGroup>
+  <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+</PropertyGroup>-->
+ 
+  <ItemGroup> 
+	  <ProjectReference Include="..\..\..\MiRate\MiRate\MiRate.Application\MiRate.Application.csproj" />
+	  <ProjectReference Include="..\..\Core\Framework.Core\Framework.Core.csproj" />
+	  <ProjectReference Include="..\..\Localization\Localization.csproj" />
+  </ItemGroup>
+ 
+  <ItemGroup>
+    <Folder Include="Infrastructure\Data\Migrations\" />
+  </ItemGroup>
+</Project>
