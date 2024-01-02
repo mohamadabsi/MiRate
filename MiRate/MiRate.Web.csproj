@@ -16,4 +16,14 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Frameworks\Attachments\Framework.Attachments\Framework.Attachments.csproj" />
+    <ProjectReference Include="..\..\..\Frameworks\Common\Framework.Common\Framework.Common.csproj" />
+    <ProjectReference Include="..\..\..\Frameworks\Core\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\..\..\Frameworks\Localization\Localization.csproj" />
+    <ProjectReference Include="..\..\..\Frameworks\Notifications\Framework.Notifications\Framework.Notifications.csproj" />
+    <ProjectReference Include="..\MiRate.Application\MiRate.Application.csproj" />
+    <ProjectReference Include="..\MiRate.Domain\MiRate.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
