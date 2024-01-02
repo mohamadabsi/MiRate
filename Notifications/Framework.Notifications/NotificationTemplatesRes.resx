@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CompaniesMessageNotification" xml:space="preserve">
+    <value>Dear {UserFullName} / Company {CompanyName}
+
+{Body}</value>
+  </data>
+  <data name="CompaniesMessageNotificationAr" xml:space="preserve">
+    <value>&lt;span&gt;&lt;/span&gt;</value>
+  </data>
+  <data name="CRExpiredNotification" xml:space="preserve">
+    <value>"&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt; Dear {UserFullNameEn}, the authorized person for the company {CompanyName} &lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt; Greetings.  ،
+    &lt;p&gt;
+Kindly be informed that  the company profile has been suspended due to the  expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to reactivate the profile again.&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="CRExpiredNotificationAr" xml:space="preserve">
+    <value>"
+&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;تحية طيبة،
+ &lt;p&gt;
+يرجى العلم أنه تم  تعليق الملف التعريفي للشركة بسبب   انتهاء صلاحية السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لإعادة تفعيل ملف الشركة.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="CRExpiredNotificationSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that  the company profile has been suspended due to the  expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to reactivate the profile again.</value>
+  </data>
+  <data name="CRExpiredNotificationSMSAr" xml:space="preserve">
+    <value>"المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+تحية طيبة،
+  يرجى العلم أنه تم  تعليق الملف التعريفي للشركة بسبب   انتهاء صلاحية السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لإعادة تفعيل ملف الشركة"</value>
+  </data>
+  <data name="CRExpiringNotification" xml:space="preserve">
+    <value>"&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt; Dear {UserFullNameEn}, the authorized person for the company {CompanyName} &lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt; Greetings.  ،
+    &lt;p&gt;
+Kindly be informed that tomorrow the company profile will be suspended due to the  expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to update this information.&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="CRExpiringNotificationAr" xml:space="preserve">
+    <value>"
+&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;تحية طيبة،
+ &lt;p&gt;
+يرجى العلم أنه غدا سيتم تعليق الملف التعريفي للشركة بسبب انتهاء صلاحية السجل التجاري اليوم.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لتحديث هذه المعلومات.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="CRExpiringNotificationSMS" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that tomorrow the company profile will be suspended due to the  expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to update this information."</value>
+  </data>
+  <data name="CRExpiringNotificationSMSAr" xml:space="preserve">
+    <value>"المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+تحية طيبة،
+يرجى العلم أنه غدا سيتم تعليق الملف التعريفي للشركة بسبب انتهاء صلاحية السجل التجاري اليوم.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لتحديث هذه المعلومات. "</value>
+  </data>
+  <data name="CRPreExpirationNotification" xml:space="preserve">
+    <value>"&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;" &gt; Dear {UserFullNameEn}, the authorized person for the company {CompanyName} &lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;" &gt;Greetings،
+    &lt;p&gt;Kindly be informed that the company profile will be suspended due to the near expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to update this information.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="CRPreExpirationNotificationAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;يرجى العلم أنه سيتم تعليق الملف التعريفي للشركة بسبب قرب انتهاء صلاحية السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لتحديث هذه المعلومات.&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="CRPreExpirationNotificationSMS" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that the company profile will be suspended due to the near expiration of the commercial registery.
+So please make sure that the commercial registery renewed and login to the portal to update this information."</value>
+  </data>
+  <data name="CRPreExpirationNotificationSMSAr" xml:space="preserve">
+    <value>"المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+تحية طيبة،
+يرجى العلم أنه سيتم تعليق الملف التعريفي للشركة بسبب قرب انتهاء صلاحية السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري والدخول إلى البوابة لتحديث هذه المعلومات.
+ "</value>
+  </data>
+  <data name="DelayReminderAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلبات لديكم تستدعي اتخاذ إجراء .... نأمل اتخاذ اللازم..&lt;/p&gt;</value>
+  </data>
+  <data name="DelayReminderEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that you have late requests، that no action has been taken on yet .... Kindly take the necessary action..&lt;/p&gt;</value>
+  </data>
+  <data name="Director_HasNewRequestToReview" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn} Director of the Department&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;Kindly log in to the company registration platform to approve the request to approve the {RequestType} request added to your assignment box via the following link: {InternalUrl}&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Director_HasNewRequestToReviewAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} مدير الإدارة&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p &gt;نأمل منكم التكرم &amp;nbsp;بزيارة منصة تك لاعتماد طلب {RequestTypeAr} المضاف لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Director_HasNewRequestToReviewSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn} Director of the Department
+
+Greetings,
+
+Kindly log in to Manassa Tech platform to approve the request to approve the {RequestType} request added to your assignment box via the following link: {InternalUrl}</value>
+  </data>
+  <data name="Director_HasNewRequestToReviewSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} مدير الإدارة
+
+تحية طيبة،
+
+نأمل منكم التكرم  بزيارة منصة تك لاعتماد طلب {RequestTypeAr} المضاف لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}</value>
+  </data>
+  <data name="Director_HasNewRequestToReviewSub" xml:space="preserve">
+    <value>A request has been submitted for approval</value>
+  </data>
+  <data name="Director_HasNewRequestToReview_SubAr" xml:space="preserve">
+    <value>إرسال طلب للاعتماد</value>
+  </data>
+  <data name="EmailCodeVerification" xml:space="preserve">
+    <value>&lt;h2 style="color: #030062; font-size: 15px; line-height: 25px; text-align: justify; font-weight: bold;"&gt;Dear {NameEn}&lt;/h2&gt;
+&lt;h3 style="text-align: justify; font-weight: normal;"&gt;Greetings,&lt;/h3&gt;
+&lt;p style="text-align: left;"&gt;Kindly use the following code to activate your email {Code} so you can keep procced&lt;/p&gt;</value>
+  </data>
+  <data name="EmailCodeVerificationAr" xml:space="preserve">
+    <value>&lt;h2 style="color: #030062; font-size: 15px; line-height: 25px; text-align: justify; font-weight: bold;"&gt;المكرم {NameAr} 
+&lt;h3 style="text-align: justify; font-weight: normal;"&gt;تحية طيبة،&lt;/h3&gt;
+&lt;p&gt;.الرجاء إستخدام الرمز التالي لتفعيل البريد الإلكتروني {Code} &lt;/p&gt;</value>
+  </data>
+  <data name="EmailLayoutTemplate" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml" dir="rtl"&gt;&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;title style="dispaly:none"&gt;CST&lt;/title&gt;
+&lt;/head&gt;
+&lt;body dir="ltr" style="padding:0px"&gt;
+&lt;div style="background-color: #030062; text-align: center; padding: 1rem;"&gt;
+    &lt;img class="email_header" style="max-width: 220px" src="{RootUrl}/CITC/images/citc_logo_email.png" /&gt;
+&lt;/div&gt;
+&lt;table border="0" width="100%" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td class="email_conts"
+                style="padding: 10px 20px; font: 11px Segoe UI,tahoma; line-height: 20px; color: #404040; text-align: right; border: 1px solid #eee; border-top: none;"&gt;
+                &lt;div dir="ltr"&gt;{body}&lt;/div&gt;
+                &lt;div dir="rtl"&gt;{bodyAr}&lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class="email_footer"
+                style="padding: 10px 0; background-color: #030062; color: #fff; font: 11px Segoe UI,tahoma; text-align: center;"
+                width="600"&gt;For your suggestions and comments, send us an e-mail: &lt;a
+                    style="color: #fff; font: 11px Segoe UI,tahoma;" href="{ContactUsEmail}"&gt;{ContactUsEmail}&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="EmailLayoutTemplateAr" xml:space="preserve">
+    <value>&lt;html xmlns="http://www.w3.org/1999/xhtml" dir="rtl"&gt;&lt;head&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+    &lt;title style="dispaly:none"&gt;CST&lt;/title&gt;
+&lt;/head&gt;
+&lt;body dir="ltr" style="padding:0px"&gt;
+&lt;div style="background-color: #030062; text-align: center; padding: 1rem;"&gt;
+    &lt;img class="email_header" style="max-width: 220px" src="{RootUrl}/CITC/images/citc_logo_email.png" /&gt;
+&lt;/div&gt;
+&lt;table border="0" width="100%" cellspacing="0" cellpadding="0"&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td class="email_conts"
+                style="padding: 10px 20px; font: 11px Segoe UI,tahoma; line-height: 20px; color: #404040; text-align: right; border: 1px solid #eee; border-top: none;"&gt;
+                &lt;div dir="ltr"&gt;{body}&lt;/div&gt;
+                &lt;div dir="rtl"&gt;{bodyAr}&lt;/div&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td class="email_footer"
+                style="padding: 10px 0; background-color: #030062; color: #fff; font: 11px Segoe UI,tahoma; text-align: center;"
+                width="600"&gt;For your suggestions and comments, send us an e-mail: &lt;a
+                    style="color: #fff; font: 11px Segoe UI,tahoma;" href="{ContactUsEmail}"&gt;{ContactUsEmail}&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</value>
+  </data>
+  <data name="EmailResetPassword" xml:space="preserve">
+    <value>&lt;h2&gt;عزيزي {FullName}&lt;/h2&gt;لقد تلقينا طلب تغيير كلمة المرور لحسابك.&lt;br /&gt;لرجاء استخدام هذا الرمز: {Token} لإعادة تعيين
+كلمة المرور &lt;br /&gt;يمكنك النقر فوق &lt;a href="{RootUrl}/{ResetPasswordUrl}"&gt;هنا&lt;/a&gt; لذهاب إلى صفحة إعادة تعيين كلمة المرور
+الخاصة بك .&lt;br /&gt;وشكراً&lt;br /&gt;هيئة الاتصالات وتقنية المعلومات  .</value>
+  </data>
+  <data name="ErrorPage" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="ar"&gt;
+&lt;head&gt;
+    &lt;title&gt;G20 Saudi Secretariat&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=1.0, user-scalable=no" /&gt;
+    &lt;!--[if lt IE 8]&gt;
+    &lt;script src="js/html5.js"&gt;&lt;/script&gt;
+    &lt;script src="js/css3-mediaqueries.js"&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+  
+    &lt;style&gt;
+        *, *:before, *:after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        body {
+            overflow: auto;
+            overflow-x: hidden;
+            margin: 0px !important;
+            padding: 0px !important;
+            font-family: 'Roboto', sans-serif;
+            direction: rtl;
+            min-width: 425px;
+            color: #404040;
+            font-size: 24px;
+            height: 100%
+        }
+
+        html {
+            height: 100%
+        }
+
+        .clr {
+            clear: both;
+            display: block
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle
+        }
+
+        a {
+            text-decoration: none;
+            color: #404040
+        }
+
+        .main_div {
+            background: url(../images/experiences_bg.jpg) no-repeat bottom center;
+            background-size: 100% 100%;
+            min-height: 100%;
+            padding: 20px 20px 50px
+        }
+
+        .header {
+            width: 100%;
+            max-width: 1000px;
+            padding: 10% 0 50px;
+            margin: 0 auto;
+            text-align: center
+        }
+
+        .header_logo {
+            width: 250px
+        }
+
+        .t_menu_404 {
+            color: #0d985f;
+            height: 60px;
+            text-align: left;
+            font-size: 40px;
+            padding: 10px 0 0 20px
+        }
+
+        .copyright {
+            text-align: center;
+            color: #404040;
+            padding: 0 10px 20px 10px
+        }
+
+        .int_body_404_ar {
+            padding: 40px;
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: right;
+            float: right;
+            width: 50%
+        }
+
+        .int_body_404_en {
+            padding: 10px 20px;
+            width: 100%;
+            margin: 20px auto;
+            text-align: center;
+            float: right;
+            width: 100%
+        }
+
+        .econts {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.91);
+            border-radius: 10px;
+        }
+
+        .pnf {
+            font-size: 30px;
+            color: #0d985f
+        }
+
+        .homelink {
+            font-size: 19px;
+            color: #404040;
+            padding-top: 5px
+        }
+
+            .homelink a:link, .homelink a:visited {
+                color: #0d985f; 
+                border-bottom: 1px solid #0d985f
+            }
+    &lt;/style&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="main_div"&gt;
+        &lt;div class="header"&gt;
+            &lt;a href="#" title="Home Page"&gt;&lt;img alt="" src='header_logo.png' class="header_logo" /&gt;&lt;/a&gt;
+            &lt;div class="clr"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="econts"&gt;
+          
+            &lt;div class="int_body_404_en"&gt;
+                    &lt;div class="pnf"&gt;Unexpected Error&lt;/div&gt;
+                    &lt;div class="homelink"&gt;Sorry ... Unexpected error occured during request processing, Please use this code
+                        to report the issue:  &lt;br/&gt;&lt;b&gt;  
+                            {IssueId}&lt;/b&gt;
+                        &lt;br/&gt;
+                        &lt;a
+                            href="mailto:G20Accreditation@saudisecretariat.gov.sa?subject=Accreditation%20System%20Error&amp;body={Body}"&gt;
+                            Also you can report it by clicking here&lt;/a&gt; &lt;br /&gt;&lt;a href="/"&gt;Home Page&lt;/a&gt;
+                    &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="clr"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="EscalationReminderTemplate" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that there are late request with number ({RequestNumber}) that no action has been taken on them yet .... Kindly take the necessary action ..&lt;/p&gt;</value>
+  </data>
+  <data name="EscalationReminderTemplateAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameEn}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلب متأخر برقم {RequestNumber} لم يتم اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم ..&lt;/p&gt;</value>
+  </data>
+  <data name="EscalationReminderTemplateSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+Greetings,
+Please note that there are late request with number ({RequestNumber}) that no action has been taken on them yet .... Kindly take the necessary action ..</value>
+  </data>
+  <data name="EscalationReminderTemplateSMSAr" xml:space="preserve">
+    <value>السيد المكرم {UserFullNameEn}
+
+تحية طيبة،
+
+نفيدكم بوجود طلب متأخر برقم {RequestNumber} لم يتم اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم ..</value>
+  </data>
+  <data name="EscalationReminderTemplate_Sub" xml:space="preserve">
+    <value>Dealyed Requests</value>
+  </data>
+  <data name="EscalationReminderTemplate_SubAr" xml:space="preserve">
+    <value>طلبات متأخرة</value>
+  </data>
+  <data name="EscalationTemplate" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that there are late request with number ({RequestNumber}) that no action has been taken on them yet .... Kindly take the necessary action ..&lt;/p&gt;</value>
+  </data>
+  <data name="EscalationTemplateAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameEn}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلب متأخر برقم {RequestNumber} لم يتم اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم ..&lt;/p&gt;</value>
+  </data>
+  <data name="EscalationTemplateSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+Greetings,
+Please note that there are late request with number ({RequestNumber}) that no action has been taken on them yet .... Kindly take the necessary action ..</value>
+  </data>
+  <data name="EscalationTemplateSMSAr" xml:space="preserve">
+    <value>السيد المكرم {UserFullNameEn}
+
+تحية طيبة،
+
+نفيدكم بوجود طلب متأخر برقم {RequestNumber} لم يتم اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم ..</value>
+  </data>
+  <data name="EscalationTemplate_Sub" xml:space="preserve">
+    <value>Dealyed Requests</value>
+  </data>
+  <data name="EscalationTemplate_SubAr" xml:space="preserve">
+    <value>طلبات متأخرة</value>
+  </data>
+  <data name="FinalApproveToApplicantsAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;يسر هيئة الاتصالات وتقنية المعلومات إبلاغكم بالموافقة على {RequestTypeAr} شركتكم {CompanyNameAr} في الهيئة برقم تسجيل {CR} كما يمكنكم تحميل شهادة {RequestTypeAr} عبر الرابط التالي: {ExternalUrl}&lt;/p&gt;
+</value>
+  </data>
+  <data name="FinalApproveToApplicantsEn" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+CST is pleased to inform you of the approval to {RequestType} your company {CompanyName} with CST. You can also download the registration certificate via the following link: {ExternalUrl}</value>
+  </data>
+  <data name="FinalReturnedToApplicantsAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نأمل منكم التكرم بزيارة منصة تك للاطلاع على الملاحظات الواردة على طلب {RequestTypeAr} الذي تمت مراجعته من قبلكم عبر الرابط التالي: {ExternalUrl}&lt;/p&gt;</value>
+  </data>
+  <data name="FinalReturnedToApplicantsEn" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Kindly log in to Manassa Tech platform to preview the notes on your {RequestType} request being reviewed by you via the following link: {ExternalUrl}</value>
+  </data>
+  <data name="NumberCodeVerificationSMS" xml:space="preserve">
+    <value>Kindly use the following code to activate your phone number: {Code} </value>
+  </data>
+  <data name="NumberCodeVerificationSMSAr" xml:space="preserve">
+    <value> نأمل استخدام الرمز التالي لتفعيل رقم الهاتف: {Code}
+  </value>
+  </data>
+  <data name="ProfileExpiredNotification" xml:space="preserve">
+    <value>"&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt; Dear {UserFullNameEn}, the authorized person for the company {CompanyName} &lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt; Greetings. 
+    &lt;p&gt;
+Kindly be informed that  the company profile has been suspended due to the  expiration of the registration.
+So please login to the portal to apply profile renew request.&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="ProfileExpiredNotificationAr" xml:space="preserve">
+    <value>"
+&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;تحية طيبة،
+ &lt;p&gt;
+يرجى العلم أنه تم  تعليق الملف التعريفي للشركة بسبب انتهاء صلاحية التسجيل.
+لذا يرجى  الدخول إلى البوابة لتقديم طلب تجديد لملف الشركة.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="ProfileExpiredNotificationSMS" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that  the company profile has been suspended due to the  expiration of the registration.
+So please login to the portal to apply profile renew request."</value>
+  </data>
+  <data name="ProfileExpiredNotificationSMSAr" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyNameAr}
+Greetings,
+Kindly be informed that  the company profile has been suspended due to the  expiration of the registration.
+So please login to the portal to apply profile renew request."</value>
+  </data>
+  <data name="ProfileExpiringNotification" xml:space="preserve">
+    <value>"&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt; Dear {UserFullNameEn}, the authorized person for the company {CompanyName} &lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt; Greetings. 
+    &lt;p&gt;
+Kindly be informed that tommorrow the company profile will be expired.
+So please login to the portal to apply profile renew request.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="ProfileExpiringNotificationAr" xml:space="preserve">
+    <value>"
+&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;تحية طيبة،
+ &lt;p&gt;
+يرجى العلم أنه باقى يوم على انتهاء صلاحية ملف الشركة .
+لذا يرجى  الدخول إلى البوابة لتقديم طلب تجديد لملف الشركة.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="ProfileExpiringNotificationSMS" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that tommorrow the company profile will be expired.
+So please login to the portal to apply profile renew request."</value>
+  </data>
+  <data name="ProfileExpiringNotificationSMSAr" xml:space="preserve">
+    <value>"المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+تحية طيبة،
+يرجى العلم أنه باقى يوم على انتهاء صلاحية ملف الشركة .
+لذا يرجى  الدخول إلى البوابة لتقديم طلب تجديد لملف الشركة. "</value>
+  </data>
+  <data name="ProfilePreExpirationNotification" xml:space="preserve">
+    <value>&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  Dear {UserFullNameEn}, the authorized person for the company {CompanyName}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;Greetings,
+ &lt;p&gt;
+ Kindly be informed that the company profile will be expired after one month.
+So please login to the portal to apply profile renew request
+&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="ProfilePreExpirationNotificationAr" xml:space="preserve">
+    <value>"
+&lt;h2 style=""color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;""&gt;  المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style=""text-align:justify;font-weight:normal;""&gt;تحية طيبة،
+ &lt;p&gt;
+يرجى العلم أنه باقى شهر على انتهاء صلاحية ملف الشركة .
+لذا يرجى  الدخول إلى البوابة لتقديم طلب تجديد لملف الشركة.
+&lt;/p&gt; 
+            &lt;/h3&gt;"</value>
+  </data>
+  <data name="ProfilePreExpirationNotificationSMS" xml:space="preserve">
+    <value>"Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+Greetings,
+Kindly be informed that  the company profile will be expired after one month.
+So please login to the portal to apply profile renew request."</value>
+  </data>
+  <data name="ProfilePreExpirationNotificationSMSAr" xml:space="preserve">
+    <value>"المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+تحية طيبة،
+يرجى العلم أنه باقى شهر على انتهاء صلاحية ملف الشركة .
+لذا يرجى  الدخول إلى البوابة لتقديم طلب تجديد لملف الشركة. 
+ "</value>
+  </data>
+  <data name="RequestAssignedToReviewLateAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلبات متأخرة للإسناد عند المشرف... نأمل اتخاذ اللازم.&lt;/p&gt;</value>
+  </data>
+  <data name="RequestAssignedToReviewLateEn" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Please note that there are delayed requests for assignment at the administrator ... Kindly take the necessary action.</value>
+  </data>
+  <data name="ReturnedManyTimesToApplicantsAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بإعادة طلب {RequestTypeAr} الخاص بشركة {CompanyName} عدد {Times} مرات .... نأمل معاينة الطلب، واتخاذ اللازم.&lt;/p&gt;</value>
+  </data>
+  <data name="ReturnedManyTimesToApplicantsEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that the request for the {RequestType} of the company {CompanyName} has been returned for {Times} times .... Kindly preview the request and take the necessary action.&lt;/p&gt;</value>
+  </data>
+  <data name="ReturnedToReviewerAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نأمل منكم التكرم بزيارة منصة تك الشركات لتعديل الملاحظات الواردة من المشرف على طلب {RequestTypeAr} الذي تمت مراجعته من قبلكم عبر الرابط التالي: {ExternalUrl}&lt;/p&gt;</value>
+  </data>
+  <data name="ReturnedToReviewerDelayAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameEn}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلبات متأخرة لدى المشرف، تستدعي اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم..&lt;/p&gt;</value>
+  </data>
+  <data name="ReturnedToReviewerDelayEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameAr}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that there are late requests with the administrator، that no action has been taken on yet .... Kindly take the necessary action..&lt;/p&gt;</value>
+  </data>
+  <data name="ReturnedToReviewerEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Kindly log in to Manassa Tech platform to amend the notes received from the administrator on your {RequestType} request reviewed by you via the following link: {ExternalUrl}&lt;/p&gt;</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReview" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;Kindly log in to Manassa Tech platform to study the request to attend a session added to your assignment box via the following link: {InternalUrl}&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReviewAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المشرف&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نأمل منكم التكرم بزيارة منصة تك  لدراسة طلب {RequestTypeAr} المضاف لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReviewSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Kindly log in to Manassa Tech platform to study the request added to your assignment box via the following link: {InternalUrl}</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReviewSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr}
+
+تحية طيبة،
+
+نأمل منكم التكرم بزيارة منصة تك لدراسة طلب {RequestTypeAr} شركة المضاف لصندوق المهام الخاص بكم عبر الرابط التالي:{InternalUrl}</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReview_Sub" xml:space="preserve">
+    <value>You have a new request to study</value>
+  </data>
+  <data name="Reviewer_AssignedOnRequestToReview_SubAr" xml:space="preserve">
+    <value>طلب جديد للدراسة</value>
+  </data>
+  <data name="ReviwerDelayAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نفيدكم بوجود طلبات متأخرة لدى المراجع {ReviewerName} لم يتم اتخاذ إجراء بشأنها بعد.... نأمل اتخاذ اللازم ..&lt;/p&gt;</value>
+  </data>
+  <data name="ReviwerDelayEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Please note that there are late requests with the reviewer {ReviewerName} that no action has been taken on them yet .... Kindly take the necessary action ..&lt;/p&gt;</value>
+  </data>
+  <data name="SubmitReturnToApplicantsAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تم استلام طلبكم بعد التعديل، وسيتم الرد عليكم فور معالجته ودراسته &amp;nbsp;.&lt;/p&gt;</value>
+  </data>
+  <data name="SubmitReturnToApplicantsEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Your request has been received after amendment, and it will be studied and we will reply to you soon.&lt;/p&gt;</value>
+  </data>
+  <data name="SubmitReturnToReviewerAr" xml:space="preserve">
+    <value>&lt;p style="direction: rtl;"&gt;المكرم {UserFullNameAr}&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;تحية طيبة،&lt;/p&gt;
+&lt;p style="direction: rtl;"&gt;نأمل منكم التكرم بزيارة منصة تك لدراسة طلب {RequestTypeAr} الشركة بعد تعديله. عبر الرابط التالي: {InternalUrl}&lt;/p&gt;</value>
+  </data>
+  <data name="SubmitReturnToReviewerEn" xml:space="preserve">
+    <value>&lt;p&gt;Dear {UserFullNameEn}&lt;/p&gt;
+&lt;p&gt;Greetings,&lt;/p&gt;
+&lt;p&gt;Kindly log in to Manassa Tech platform to study the company {RequestType} request after it has been amended added to your assignment box via the following link: {InternalUrl}&lt;/p&gt;</value>
+  </data>
+  <data name="Submitter_RequestApproved" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}, the authorized person for the company {CompanyName}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;We are pleased to inform you that your {RequestType} request with CST is approved  , You can review your request via the following link: {ExternalUrl}&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestApprovedAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نسعد لإبلاغكم بقبول طلب {RequestTypeAr} في منصة تك بهيئة الاتصالات وتقنية المعلومات. للاطلاع على تفاصيل الطلب والملاحظات:{ExternalUrl}.&lt;/p&gt; 
+ 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestApprovedSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+
+Greetings,
+
+We are please to inform you that your {RequestType} request with CST is approved , You can review your request via the following link: {ExternalUrl}</value>
+  </data>
+  <data name="Submitter_RequestApprovedSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+
+تحية طيبة،
+
+يسعدنا لإبلاغكم بقبول طلب {RequestTypeAr} في منصة تك بهيئة الاتصالات وتقنية المعلومات. للاطلاع على تفاصيل الطلب والملاحظات:{ExternalUrl}.
+
+ </value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfo" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}, the authorized person for the company {CompanyName}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;Kindly log in to Manassa Tech platform to amend the notes received from the reviewers on your registration at CST via the following link: {ExternalUrl}&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfoAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نأمل منكم التكرم بزيارة منصة تك لتعديل الملاحظات الواردة على الطلب تسجيلكم في الهيئة عبر الرابط التالي: {ExternalUrl}&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfoSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+
+Greetings,
+
+Kindly log in to Manassa Tech platform to amend the notes received from the reviewers on your {RequestType} at CST via the following link: {ExternalUrl}</value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfoSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+
+تحية طيبة،
+
+نأمل منكم التكرم بزيارة منصة تك لتعديل الملاحظات الواردة على الطلب {RequestTypeAr} في الهيئة عبر الرابط التالي: {ExternalUrl}</value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfo_Sub" xml:space="preserve">
+    <value>Please review the registration request for some notes.</value>
+  </data>
+  <data name="Submitter_RequestNeedsMoreInfo_SubAr" xml:space="preserve">
+    <value>حالة طلب التسجيل</value>
+  </data>
+  <data name="Submitter_RequestRejected" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}, the authorized person for the company {CompanyName}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;We regret to inform you that your {RequestType} request with CST is rejected , for the following reasons : {Reason}, You can review your request via the following link: {ExternalUrl}&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestRejectedAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نأسف لإبلاغكم برفض طلب {RequestTypeAr} في منصة تك بهيئة الاتصالات وتقنية المعلومات.  تفاصيل الرفض {Reason} وللملاحظات:{ExternalUrl}.&lt;/p&gt; 
+
+
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestRejectedSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}, the authorized person for the company {CompanyName}
+
+Greetings,
+
+We regret to inform you that your {RequestType} request with CST is rejected , for the following reasons : {Reason}, You can review your request via the following link: {ExternalUrl}</value>
+  </data>
+  <data name="Submitter_RequestRejectedSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} المفوض لشركة {CompanyNameAr}
+
+تحية طيبة،
+
+نأسف لإبلاغكم برفض طلب {RequestTypeAr}  في منصة تك بهيئة الاتصالات وتقنية المعلومات.  تفاصيل الرفض {Reason} وللملاحظات:{ExternalUrl}.
+</value>
+  </data>
+  <data name="Submitter_RequestRejected_Sub" xml:space="preserve">
+    <value>Request status</value>
+  </data>
+  <data name="Submitter_RequestRejected_SubAr" xml:space="preserve">
+    <value>حالة طلب التسجيل</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfully" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+&lt;p style="text-align: left;"&gt;Your request has been successfully submitted , and it will be studied and answered within 15 days&lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfullyAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+&lt;p&gt;تمت إرسال طلبك بنجاح وستتم دراسته والرد عليكم خلال 15 يومًا من تاريخ تقديم الطلب.&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfullySMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Your request has been successfully submitted , and it will be studied and answered within 15 days</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfullySMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr}
+
+تحية طيبة،
+
+تمت إرسال طلبك بنجاح وستتم دراسته والرد عليكم خلال 15 يومًا من تاريخ تقديم الطلب.</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfully_Sub" xml:space="preserve">
+    <value>Your request has been submitted</value>
+  </data>
+  <data name="Submitter_RequestSubmittedSucessfully_SubAr" xml:space="preserve">
+    <value>تم إرسال طلبك بنجاح</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReview" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+&lt;p style="text-align: left;"&gt;Kindly log in to Manassa Tech platform to study the request to attend a session added to your assignment box via the following link: {InternalUrl}&lt;/p&gt;&lt;h3&gt;</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReviewAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المشرف&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نأمل منكم التكرم بزيارة منصة تك لدراسة طلب {RequestTypeAr} المضاف لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReviewSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Kindly log in to Manassa Tech platform to study the request to attend a session added to your assignment box via the following link: {InternalUrl}</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReviewSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} المشرف 
+
+تحية طيبة،
+
+نأمل منكم التكرم بزيارة منصة تك لدراسة طلب {RequestTypeAr} المضاف لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReview_Sub" xml:space="preserve">
+    <value>A request has been submitted for review</value>
+  </data>
+  <data name="Supervisor_RequestSubmittedWaitingForReview_SubAr" xml:space="preserve">
+    <value>تم إرسال طلب للمراجعة</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequest" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;Dear {UserFullNameEn}&lt;/h2&gt;
+&lt;h3 style="text-align:justify;font-weight:normal;"&gt;Greetings,
+    &lt;p style="text-align: left;"&gt;Kindly log in to the company registration platform to study the request to examine financial information added to your assignment box via the following link: {InternalUrl}
+    &lt;/p&gt;
+&lt;/h3&gt;</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequestAr" xml:space="preserve">
+    <value>&lt;h2 style="color:#030062; font-size:15px; line-height:25px; text-align:justify;font-weight:bold;"&gt;المكرم {UserFullNameAr} المشرف&lt;/h2&gt;
+            &lt;h3 style="text-align:justify;font-weight:normal;"&gt;تحية طيبة،
+    &lt;p&gt;نأمل منكم التكرم بزيارة منصة تك لدراسة المعلومات المالية المضافة لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}&lt;/p&gt; 
+            &lt;/h3&gt;</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequestSMS" xml:space="preserve">
+    <value>Dear {UserFullNameEn}
+
+Greetings,
+
+Kindly log in to the company registration platform to study the request to examine financial information added to your assignment box via the following link: {InternalUrl}</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequestSMSAr" xml:space="preserve">
+    <value>المكرم {UserFullNameAr} المشرف
+
+تحية طيبة،
+
+نأمل منكم التكرم بزيارة منصة تك لدراسة المعلومات المالية المضافة لصندوق المهام الخاص بكم عبر الرابط التالي: {InternalUrl}</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequest_Sub" xml:space="preserve">
+    <value>A request has been submitted for review</value>
+  </data>
+  <data name="Supervisor_ReviewerApprovedTheRequest_SubAr" xml:space="preserve">
+    <value>تم إرسال طلب للمراجعة</value>
+  </data>
+</root>

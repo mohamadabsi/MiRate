@@ -17,8 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Common\Framework.Common\Framework.Common.csproj" />
+    <ProjectReference Include="..\Core\Framework.Core\Framework.Core.csproj" />
+    <ProjectReference Include="..\Framework.Attachments\Framework.Attachments.csproj" />
+    <ProjectReference Include="..\Localization\Localization.csproj" />
     <ProjectReference Include="..\MiRate.Application\MiRate.Application.csproj" />
     <ProjectReference Include="..\MiRate.Domain\MiRate.Domain.csproj" />
+    <ProjectReference Include="..\Notifications\Framework.Notifications\Framework.Notifications.csproj" />
   </ItemGroup>
 
 </Project>

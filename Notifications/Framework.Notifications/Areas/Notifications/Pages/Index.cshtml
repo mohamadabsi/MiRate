@@ -1,0 +1,169 @@
+﻿@*
+@page
+@model Framework.Notifications.Areas.Notifications.Pages.IndexModel
+@using Framework.Notifications.Resources
+@{
+    ViewData["Title"] = NotificationsResources.NotificationEmailDetails_Title;
+     Layout = "/Pages/Shared/_Layout.cshtml";
+
+    var filter = new Dictionary<string, string>
+{
+        {"PageNumber", Model.Filter.PageNumber.ToString()},
+        {"Subject", Model.Filter.Subject },
+        {"To", Model.Filter.To },
+        {"EmailFromAddress",Model.Filter.EmailFromAddress },
+        {"EmailFromName", Model.Filter.EmailFromName },
+        {"LastSendDateAfter", Model.Filter.LastSendDateAfter?.ToShortDateString() },
+        {"LastSendDateBefore", Model.Filter.LastSendDateBefore?.ToShortDateString() }
+    };
+}
+
+<div class="panel delagates_list">
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-12">
+            <div class="tab-pane DynamicRequests-list">
+
+
+                <div id="meetingaccordion">
+                    <div class="card-header" id="headingGeneralInfo">
+                        <div class="collapsed" data-toggle="collapse" data-target="#collapseGeneralInfo" aria-expanded="true" aria-controls="collapseGeneralInfo">
+                            <h5 class="mb-0">
+                                @NotificationsResources.NotificationEmailDetails_Title
+                            </h5>
+                        </div>
+                    </div>
+                    <div id="collapseGeneralInfo" class="collapse show" aria-labelledby="headingGeneralInfo" data-parent="#meetingaccordion">
+                        <div class="card-body">
+                            <form method="get" asp-all-route-data="filter">
+                                <div class="form-row">
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.Subject"></label>
+                                        <input asp-for="@Model.Filter.Subject" class="form-control" placeholder="@NotificationsResources.Filter_by_subject" />
+                                    </div>
+
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.EmailFromName"></label>
+                                        <input asp-for="@Model.Filter.EmailFromName" class="form-control" placeholder="@NotificationsResources.Filter_by_email_from_name" />
+                                    </div>
+
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.EmailFromAddress"></label>
+                                        <input asp-for="@Model.Filter.EmailFromAddress" class="form-control" placeholder="@NotificationsResources.Filter_by_email_from_address" />
+                                    </div>
+
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.To"></label>
+                                        <input asp-for="@Model.Filter.To" class="form-control" placeholder="@NotificationsResources.Filter_by_email_to_address" />
+                                    </div>
+
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.LastSendDateAfter"></label>
+                                        <dev-datepicker date-property="@Model.Filter.LastSendDateAfter"
+                                                        date-picker-settings="@new DatePickerSettings
+                                                        {
+                                                            RangeType = PickerRangeType.pastIncludingToday
+                                                        }"
+                                                        class="form-control date-control">
+                                        </dev-datepicker>
+                                    </div>
+
+                                    <div class="form-group col col-md-4">
+                                        <label asp-for="@Model.Filter.LastSendDateBefore"></label>
+                                        <dev-datepicker date-property="@Model.Filter.LastSendDateBefore"
+                                                        date-picker-settings="@new DatePickerSettings
+                                                        {
+                                                            RangeType = PickerRangeType.pastIncludingToday
+                                                        }"
+                                                        class="form-control date-control">
+                                        </dev-datepicker>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <button class="btn btn-primary" type="submit">@NotificationsResources.Search</button>
+                                    <a class="btn btn-secondary" asp-page="/Pages/Index" asp-area="Notifications">@NotificationsResources.Clear</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                @if (Model.NotificationEmailDetail != null && Model.NotificationEmailDetail.Any())
+                {
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">@NotificationsResources.Subject</th>
+                                <th scope="col">@NotificationsResources.EmailFromName</th>
+                                <th scope="col">@NotificationsResources.EmailFromAddress</th>
+                                <th scope="col">@NotificationsResources.EmailToAddress</th>
+                                <th scope="col">@NotificationsResources.LastSendDate</th>
+                                <th scope="col">@NotificationsResources.SendStatusCode</th>
+                                <th scope="col">@NotificationsResources.Options</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.NotificationEmailDetail)
+                            {
+                                var statues = (Framework.Notifications.Entities.NotificationEmailDetailss)item.SendStatusCode;
+                                <tr>
+                                    <td scope="col">@item.Subject</td>
+                                    <td scope="col">@item.EmailFromName</td>
+                                    <td scope="col">@item.EmailFromAddress</td>
+                                    <td scope="col">@item.To</td>
+                                    <td scope="col">@item.LastSendDate</td>
+                                    <td scope="col">@statues</td>
+                                    <td>
+                                        <span>
+                                            <a class="ajax-modal-btn float-right  spacer-right-10" href="#"
+                                               data-actionurl="@Url.Page("Index", "ReSendMessage",
+                                                     new
+                                                     {
+                                                         notificationEmailId = item.Id,
+                                                         viewMode = ViewModes.Edit
+                                                      })"
+                                               data-title="Notification Email Details">
+                                                <i class="pull-right text-right icon-eye"></i>
+                                            </a>
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+
+                        </tbody>
+                    </table>
+
+                    <div class="pagination">
+                        <div class="col-12">
+                            <div class="panel-footer clearfix">
+                                <div class="pageNum">
+                                    @NotificationsResources.Page @Model.Filter.PageNumber @NotificationsResources.Of  @Model.NotificationEmailDetail.PageCount
+                                </div>
+                                <pager class="pager-container"
+                                       options="@PagedListRenderOptions.ClassicPlusFirstAndLast"
+                                       list="@Model.NotificationEmailDetail"                                       
+                                       param-page-number="PageNumber"
+                                       asp-all-route-data="filter" />
+                            </div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning spacer-top-25">
+                        @NotificationsResources.NoDataToDisplay
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
+
+*@

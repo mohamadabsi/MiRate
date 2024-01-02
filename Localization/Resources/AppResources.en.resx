@@ -1,0 +1,3048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbleSendRegistrationRequestRoleTitle" xml:space="preserve">
+    <value>In order to be able to send the registration request, please complete all sections above by 100%</value>
+  </data>
+  <data name="DataEntryANdReSendRequest" xml:space="preserve">
+    <value>Fix comments and resend the request </value>
+  </data>
+  <data name="ReloadPage" xml:space="preserve">
+    <value>إعادة تحميل</value>
+  </data>
+  <data name="ReconnectError" xml:space="preserve">
+    <value>
+      Sorry, connection was lost please try to reload the page.
+    </value>
+  </data>
+  <data name="ProfileExpired" xml:space="preserve">
+    <value>    We can not display company profile as it is expired</value>
+  </data>
+  <data name="RegInfo" xml:space="preserve">
+    <value>  Profile details    </value>
+  </data>
+  <data name="RegDate" xml:space="preserve">
+    <value>  Profile issue date    </value>
+  </data>
+  <data name="RegNumber" xml:space="preserve">
+    <value>  Profile number  </value>
+  </data>
+  <data name="RegExpiryDate" xml:space="preserve">
+    <value> Profile expiry date     </value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value> My requests</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>     تحديث      </value>
+  </data>
+  <data name="UpdateCRDetailsSuccess" xml:space="preserve">
+    <value>   The commercial data updated succefully</value>
+  </data>
+  <data name="UpdateCRDetailsConfirm" xml:space="preserve">
+    <value>  Are you sure you want to update the commercial data?</value>
+  </data>
+  <data name="UpdateCRDetailsTitle" xml:space="preserve">
+    <value>  Update commercial data</value>
+  </data>
+  <data name="CRExpired" xml:space="preserve">
+    <value>   We can not display company profile as the commercial registry is expired</value>
+  </data>
+  <data name="ApplyForRenewProfile" xml:space="preserve">
+    <value>  Apply for renew profile </value>
+  </data>
+  <data name="ApplyForEditProfile" xml:space="preserve">
+    <value>  Apply for edit profile </value>
+  </data>
+  <data name="CompanyProfileExpiredAlert" xml:space="preserve">
+    <value>    Company profile expired. Kindly apply for a renew profile request to reactivate the profile. 
+    </value>
+  </data>
+  <data name="CompanyProfileExpirationSoonAlert" xml:space="preserve">
+    <value>    Company profile will expire soon. Kindly apply for a renew profile request to avoid profile suspension.   
+    </value>
+  </data>
+  <data name="CompaniesProfileExpiredAlert" xml:space="preserve">
+    <value>   You have expired company profiles. Kindly apply for a renew request to reactivate these profiles. 
+    </value>
+  </data>
+  <data name="CompaniesProfileExpirationSoonAlert" xml:space="preserve">
+    <value>    You have company profiles will expire soon. Kindly apply for a renew profile request to avoid suspension for these profiles.   
+    </value>
+  </data>
+  <data name="DisplayEditRequest" xml:space="preserve">
+    <value>   Edit request details  </value>
+  </data>
+  <data name="AddContactInfo" xml:space="preserve">
+    <value>  Please add contact details first</value>
+  </data>
+  <data name="RenewProfile" xml:space="preserve">
+    <value>Apply for renew request    </value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options    </value>
+  </data>
+  <data name="ConfimContactorPhone" xml:space="preserve">
+    <value>  Confim contactor Phone
+    </value>
+  </data>
+  <data name="ConfimContactorEmail" xml:space="preserve">
+    <value>Confirm contactor email
+    </value>
+  </data>
+  <data name="Confim" xml:space="preserve">
+    <value>  Confim    
+    </value>
+  </data>
+  <data name="LastComment" xml:space="preserve">
+    <value>Old comments  </value>
+  </data>
+  <data name="ReviewResult" xml:space="preserve">
+    <value>  Do you have any comments?  </value>
+  </data>
+  <data name="SendDecisionMessage" xml:space="preserve">
+    <value>   Are you sure you want  to submit the decision? You will not be able to update the decision later  </value>
+  </data>
+  <data name="SubmitDecisionTitle" xml:space="preserve">
+    <value>Submit decision  </value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Edit profile  </value>
+  </data>
+  <data name="SubmitDecision" xml:space="preserve">
+    <value>Submit decision</value>
+  </data>
+  <data name="SaveReport" xml:space="preserve">
+    <value>Save The Report  </value>
+  </data>
+  <data name="ReAssignTasks" xml:space="preserve">
+    <value>Re-assign tasks   </value>
+  </data>
+  <data name="AboutCITC" xml:space="preserve">
+    <value>About Authority </value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Download Certificate (En)</value>
+  </data>
+  <data name="MustaHaveComment" xml:space="preserve">
+    <value>  You have to identify at least on section has comments </value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>Display Certificate (En)</value>
+  </data>
+  <data name="RegistrationApplicationRejectedTitle" xml:space="preserve">
+    <value>The company’s registration request was rejected. 
+   </value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>Reason. 
+   </value>
+  </data>
+  <data name="RegistrationApplicationCancelationTitle" xml:space="preserve">
+    <value>The company’s registration request has been Cancelled.  </value>
+  </data>
+  <data name=" Description" xml:space="preserve">
+    <value> Description </value>
+  </data>
+  <data name="RegistrationApplicationReturnedTitle" xml:space="preserve">
+    <value>The registration request has been returned for modification. Please complete all required notes so that you can resubmit the application again   </value>
+  </data>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>Data Saved Successfully.</value>
+  </data>
+  <data name="Resubmit" xml:space="preserve">
+    <value>  Resubmit    </value>
+  </data>
+  <data name="About_Company" xml:space="preserve">
+    <value>About company</value>
+  </data>
+  <data name="GeneralinfoReviewStatus" xml:space="preserve">
+    <value>Do you have any comments on General Informations?      </value>
+  </data>
+  <data name="FinancialInfoReviewStatus" xml:space="preserve">
+    <value>Do you have any comments on Financial Informations?  </value>
+  </data>
+  <data name="BusinessClassificationReviewStatus" xml:space="preserve">
+    <value>Do you have any comments on Classifications?  </value>
+  </data>
+  <data name="Certifications_And_PartnersReviewStatus" xml:space="preserve">
+    <value>Do you have any comments on General Informations  Certifications and Partnerships?  </value>
+  </data>
+  <data name="ReviewReport" xml:space="preserve">
+    <value> Notes   </value>
+  </data>
+  <data name="ReviewReportAlert" xml:space="preserve">
+    <value>     Please add the following notes, To enable you from taking the decision.
+ </value>
+  </data>
+  <data name="Achived_Project_Of_Year" xml:space="preserve">
+    <value>Number of completed projects for the year {0}</value>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>Activated</value>
+  </data>
+  <data name="ActiveStatus" xml:space="preserve">
+    <value>Activation status</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AddCompany_Contact" xml:space="preserve">
+    <value>Add company - contact information</value>
+  </data>
+  <data name="Addition_Number" xml:space="preserve">
+    <value>Additional Number</value>
+  </data>
+  <data name="AddSuccessFormat" xml:space="preserve">
+    <value>{0} added successfully</value>
+  </data>
+  <data name="Add_Company" xml:space="preserve">
+    <value>Add Compny</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>System administrator</value>
+  </data>
+  <data name="AfterTodayMessage" xml:space="preserve">
+    <value>Date must be greater than today's date</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="AllowedExtensionsUploader" xml:space="preserve">
+    <value>Allowed extensions are {0} max 5 MB</value>
+    <comment>{0} extensions</comment>
+  </data>
+  <data name="AllRightsReservedCopyRIght" xml:space="preserve">
+    <value>All rights reserved © {0} to the Communications , Space and Technology Commission</value>
+  </data>
+  <data name="Annualreport" xml:space="preserve">
+    <value>Annual report</value>
+  </data>
+  <data name="ApplyForRegistration01" xml:space="preserve">
+    <value>Apply For Registration</value>
+  </data>
+  <data name="ApplyForRegistration01Description" xml:space="preserve">
+    <value>Submit applications for licenses to use frequencies and licenses for wireless devices for the following services</value>
+  </data>
+  <data name="ApproveCompanyProfile03" xml:space="preserve">
+    <value>03:Approve Company Profile</value>
+  </data>
+  <data name="ApproveCompanyProfile03Description" xml:space="preserve">
+    <value>Submit applications for licenses to use frequencies and licenses for wireless devices for the following services</value>
+  </data>
+  <data name="approved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="Areas" xml:space="preserve">
+    <value>Regions</value>
+  </data>
+  <data name="Argami" xml:space="preserve">
+    <value>My numbers</value>
+  </data>
+  <data name="AttachedFile" xml:space="preserve">
+    <value>The attached file</value>
+  </data>
+  <data name="AttachedFileNotAllowed" xml:space="preserve">
+    <value>Attached file is not allowed</value>
+  </data>
+  <data name="AuthenticationFailure" xml:space="preserve">
+    <value>Authentication failed</value>
+  </data>
+  <data name="AveragePercentageInformationCompleted" xml:space="preserve">
+    <value>
+        &lt;span&gt;&lt;span&gt;{0}%&lt;/span&gt; of the company data has been completed&lt;/span&gt;
+    </value>
+  </data>
+  <data name="awarenesscampaigns" xml:space="preserve">
+    <value>User awareness</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>A historical perspective</value>
+  </data>
+  <data name="BasicInfoCompany" xml:space="preserve">
+    <value>Basic Data</value>
+  </data>
+  <data name="BeforeTodayMessage" xml:space="preserve">
+    <value>Date must be less than today's date</value>
+  </data>
+  <data name="Begin_CreateFile_Company" xml:space="preserve">
+    <value>You are about to create a file for your company. Are you sure about creating the file?</value>
+  </data>
+  <data name="BoardDirectors" xml:space="preserve">
+    <value>Board of Directors</value>
+  </data>
+  <data name="Direcory" xml:space="preserve">
+    <value>	 Comapnies directory   
+</value>
+  </data>
+  <data name="Boniah" xml:space="preserve">
+    <value>Structure</value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>Company's Profile {0}</value>
+  </data>
+  <data name="BriefAr" xml:space="preserve">
+    <value>Company's Profile {0}</value>
+  </data>
+  <data name="BriefEN" xml:space="preserve">
+    <value>An overview in English</value>
+  </data>
+  <data name="Build_No" xml:space="preserve">
+    <value>Building Number</value>
+  </data>
+  <data name="Calssification" xml:space="preserve">
+    <value>Activities classifications</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="CancelConfirmFormat" xml:space="preserve">
+    <value>Are you sure you want to cancel this {0}?</value>
+  </data>
+  <data name="Certificate_Attachment" xml:space="preserve">
+    <value>Upload Certificate</value>
+  </data>
+  <data name="Certificate_Institute" xml:space="preserve">
+    <value>Issuing Institution</value>
+  </data>
+  <data name="Certificate_Institute_Name" xml:space="preserve">
+    <value>Institute Name (En)</value>
+  </data>
+  <data name="Certificate_Name" xml:space="preserve">
+    <value>Certificate name (En)</value>
+  </data>
+  <data name="Certificate_Work" xml:space="preserve">
+    <value>Business classification</value>
+  </data>
+  <data name="Certifications_And_Partners" xml:space="preserve">
+    <value> Certificates and Partnerships</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Choose File</value>
+  </data>
+  <data name="CITC" xml:space="preserve">
+    <value>Communications , Space and Technology Commission</value>
+  </data>
+  <data name="CITCGuidelines" xml:space="preserve">
+    <value>Authority Identity Guide</value>
+  </data>
+  <data name="CITCtasks" xml:space="preserve">
+    <value>Authority achievements</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ClassificationsAttachmentIds" xml:space="preserve">
+    <value>Company's Profile</value>
+  </data>
+  <data name="ClassificationSummary" xml:space="preserve">
+    <value>Classification summary</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="ClearResult" xml:space="preserve">
+    <value>Clear Results</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="CommerciaInfo" xml:space="preserve">
+    <value>Commercial data</value>
+  </data>
+  <data name="CommercialNumber" xml:space="preserve">
+    <value>Commercial Record No.</value>
+  </data>
+  <data name="CommercialRegistryNoUnique" xml:space="preserve">
+    <value>Commercial registry number is already registered</value>
+  </data>
+  <data name="Commercial_Data" xml:space="preserve">
+    <value>Commercial data</value>
+  </data>
+  <data name="Commercial_Registry_No" xml:space="preserve">
+    <value>Commercial Registration No.</value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>Companies</value>
+  </data>
+  <data name="CompanyDashboard" xml:space="preserve">
+    <value>Company file</value>
+  </data>
+  <data name="companyDetails" xml:space="preserve">
+    <value>Company details</value>
+  </data>
+  <data name="CompanyFileFinallyApprovedTitle" xml:space="preserve">
+    <value>Company file has been finally approved. You can view the file by clicking on the link in the side menu</value>
+  </data>
+  <data name="CompanyList" xml:space="preserve">
+    <value>List of companies </value>
+  </data>
+  <data name="CompaniesCount" xml:space="preserve">
+    <value>Companies count  ( {0} )   </value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>   No results found...
+   </value>
+  </data>
+  <data name="Comp" xml:space="preserve">
+    <value> Enterprise
+
+   </value>
+  </data>
+  <data name="CancelationRequestTitle" xml:space="preserve">
+    <value> Company Cancelation Request
+   </value>
+  </data>
+  <data name="CancelationRequestMsg" xml:space="preserve">
+    <value> Are you sure you want to apply for company cancelation request
+   </value>
+  </data>
+  <data name="CRExpirationSoonAlert" xml:space="preserve">
+    <value>  The company profile will be suspended due to the near expiration of the commercial registery.
+So please make sure that the commercial registery renewed and apply edit request to update the details.
+   </value>
+  </data>
+  <data name="CRExpiresAlert" xml:space="preserve">
+    <value>  The company profile has been be suspended due to the expiration of the commercial registery.
+So please make sure that the commercial registery renewed and click update button to update it.
+   </value>
+  </data>
+  <data name="Message_UrlNOtValid" xml:space="preserve">
+    <value>The link must be valid. Example: https://www.example.com</value>
+  </data>
+  <data name="CompanyProfile" xml:space="preserve">
+    <value>Enterprise Profile</value>
+  </data>
+  <data name="Company_Activities" xml:space="preserve">
+    <value>Company activity</value>
+  </data>
+  <data name="Company_Capital" xml:space="preserve">
+    <value>Total Capital</value>
+  </data>
+  <data name="Company_Details" xml:space="preserve">
+    <value>Company Data</value>
+  </data>
+  <data name="Company_Established _date" xml:space="preserve">
+    <value>Commercial Record Issue Date</value>
+  </data>
+  <data name="Company_Financial_Info" xml:space="preserve">
+    <value>Financial and HR Data</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value>Company name {0}</value>
+  </data>
+  <data name="Company_NameEn" xml:space="preserve">
+    <value>Company name in English</value>
+  </data>
+  <data name="Company_Type" xml:space="preserve">
+    <value>Company's Type</value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>Complaints</value>
+  </data>
+  <data name="CompletionPercentage" xml:space="preserve">
+    <value>Completion rate</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Contact information</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="Contact_info" xml:space="preserve">
+    <value>Contact information for company </value>
+  </data>
+  <data name="Contactor_info" xml:space="preserve">
+    <value>liaison information</value>
+  </data>
+  <data name="Contry" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="CoverageService" xml:space="preserve">
+    <value>Coverage Maps</value>
+  </data>
+  <data name="cpftax" xml:space="preserve">
+    <value>Net Telecom Revenue Gate</value>
+  </data>
+  <data name="CreateCompanyConfirm" xml:space="preserve">
+    <value>Are you sure to create a company profile?</value>
+  </data>
+  <data name="CybercrimesAct" xml:space="preserve">
+    <value>Anti-information crime system</value>
+  </data>
+  <data name="CyberSecurity" xml:space="preserve">
+    <value>Cybersecurity</value>
+  </data>
+  <data name="DataEntryANdSendRequest" xml:space="preserve">
+    <value>Entering data and sending the request</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="DateOutRange" xml:space="preserve">
+    <value>No date outside the original domain allowed</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="Decisions" xml:space="preserve">
+    <value>All decisions</value>
+  </data>
+  <data name="DecisionUrl" xml:space="preserve">
+    <value>Decision Link</value>
+  </data>
+  <data name="DefaultButtonRequireLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Definitionservice" xml:space="preserve">
+    <value>Service Definition</value>
+  </data>
+  <data name="Definitionservice1" xml:space="preserve">
+    <value>&lt;p&gt;
+    &lt;span&gt;
+        The platform aims to collect an integrated information base that includes all companies working in the field of information technology and emerging technologies, both local and international in the Kingdom of Saudi Arabia, to create a reference guide for workers in the field and to enhance the role of transparency by providing correct and updated information on these companies by registering companies on the platform and obtaining Authority accreditation
+    &lt;/span&gt;
+    &lt;div class="inner_title mt-5"&gt;
+        &lt;h2&gt;
+            Benefits of the platform for registered companies:
+        &lt;/h2&gt;
+    &lt;/div&gt;
+   
+    &lt;div class="category m-0 p-2 nobackground"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Issuing a certificate of registration of information notarized by the authority using the barcode, and it can be verified through the authority’s website.&lt;/li&gt;
+            &lt;li&gt; Providing easy access to companies and searching for them through the Authority’s portal according to classification, services or products.&lt;/li&gt;
+            &lt;li&gt;
+                Providing easy communication between private and government service seekers with registered companies
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Definitionservice2" xml:space="preserve">
+    <value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="DeleteConfirmFormat" xml:space="preserve">
+    <value>Are you sure you want to delete this {0}?</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Delete item</value>
+  </data>
+  <data name="Disclaimers" xml:space="preserve">
+    <value>Disclaimers</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>Neighborhood</value>
+  </data>
+  <data name="DomainNameRegistration" xml:space="preserve">
+    <value>Domain name registration</value>
+  </data>
+  <data name="DoNotHaveAccesspage" xml:space="preserve">
+    <value>You do not have access to this page</value>
+  </data>
+  <data name="draft" xml:space="preserve">
+    <value>It does not have a file</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ElectronicTransactionsLaw" xml:space="preserve">
+    <value>Electronic transaction system</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmployeeCountGreatThanZero" xml:space="preserve">
+    <value>Total number of employees must be greater than zero</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>"Sorry ... Unexpected error occured during request processing </value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>Employee Name</value>
+  </data>
+  <data name="EquipmentLicensing" xml:space="preserve">
+    <value>Devices License</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EstablishDate" xml:space="preserve">
+    <value>Commercial registry issue date</value>
+  </data>
+  <data name="ExpiryDateCommercialRegister" xml:space="preserve">
+    <value>Commercial Record Expiry Date</value>
+  </data>
+  <data name="FaceBook" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="facilityNO" xml:space="preserve">
+    <value>Organization's Number</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>FAQ</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="Female_Employee_Number" xml:space="preserve">
+    <value>Number of Female Employees</value>
+  </data>
+  <data name="FinacialAttachments" xml:space="preserve">
+    <value>Financial attachments</value>
+  </data>
+  <data name="FinancialInfo" xml:space="preserve">
+    <value>Financial Data</value>
+  </data>
+  <data name="DirectIncomPercentage" xml:space="preserve">
+    <value>The percentage of revenue is directly from the end user (%)
+</value>
+  </data>
+  <data name="Financial_List_Attach_Stamped" xml:space="preserve">
+    <value>Financial data stamped by legal auditor</value>
+  </data>
+  <data name="FormsFullyCompletedTitle" xml:space="preserve">
+    <value>All the above forms have been fully completed. You must agree to the pledge in order to be able to send your request.</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>From date of</value>
+  </data>
+  <data name="CancelRequestConfirmation" xml:space="preserve">
+    <value>
+The company acknowledges that register cancelation will subsequently revoke the issued certificate and that the cancellation request was driven by the absence of any activity or business in IT and emerging technologies market.    </value>
+  </data>
+  <data name="FromTime" xml:space="preserve">
+    <value>From hour</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="Generalinfo" xml:space="preserve">
+    <value>Commercial data</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Go back to home page</value>
+  </data>
+  <data name="Head_Center_Location" xml:space="preserve">
+    <value>Company's main website</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="HRInfo" xml:space="preserve">
+    <value>Human Resource Data</value>
+  </data>
+  <data name="ICTIndicators" xml:space="preserve">
+    <value>Performance of the communications and information technology market</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>InActive</value>
+  </data>
+  <data name="indicators" xml:space="preserve">
+    <value>Indicators</value>
+  </data>
+  <data name="Indicator_Escalation" xml:space="preserve">
+    <value>Service Provider Rating Index</value>
+  </data>
+  <data name="InformationSecurityIncident" xml:space="preserve">
+    <value>Cybersecurity reports</value>
+  </data>
+  <data name="Instagram" xml:space="preserve">
+    <value>Instagram</value>
+  </data>
+  <data name="Insureance_Certificate_Attach" xml:space="preserve">
+    <value>Copy of an Active GOSI Certificate</value>
+  </data>
+  <data name="InternationalArena" xml:space="preserve">
+    <value>Authority in the international arena</value>
+  </data>
+  <data name="InvalidEmailAddressMessage" xml:space="preserve">
+    <value>E-mail format is incorrect</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Activation status</value>
+  </data>
+  <data name="IssuanceCertificate" xml:space="preserve">
+    <value>Issuance of certificate</value>
+  </data>
+  <data name="jobs" xml:space="preserve">
+    <value>Jobs</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>Log out</value>
+  </data>
+  <data name="LogoId" xml:space="preserve">
+    <value>Company's Logo</value>
+  </data>
+  <data name="Main_Address" xml:space="preserve">
+    <value>Enterprise Headquarters Address.</value>
+  </data>
+  <data name="Male_Employee_Number" xml:space="preserve">
+    <value>Number of Male Employees</value>
+  </data>
+  <data name="MaxLengthMessageError" xml:space="preserve">
+    <value>Maximum limit {0}</value>
+  </data>
+  <data name="MaxNumber" xml:space="preserve">
+    <value>Maximum limit is {0}</value>
+  </data>
+  <data name="mediacenter" xml:space="preserve">
+    <value>Media Center</value>
+  </data>
+  <data name="meqyas" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="MEQYAS1" xml:space="preserve">
+    <value>Scale</value>
+  </data>
+  <data name="Message_LatinLetters" xml:space="preserve">
+    <value>Only English characters are allowed</value>
+  </data>
+  <data name="Message_LatinLettersAndNumber" xml:space="preserve">
+    <value>Only English letters and numbers are allowed</value>
+  </data>
+  <data name="MinuseNotAllowed" xml:space="preserve">
+    <value>Negative numbers are not allowed</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Profile personly</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameUnique" xml:space="preserve">
+    <value>Company name is already registered</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next classification</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoHaveProfile" xml:space="preserve">
+    <value> No Profile</value>
+  </data>
+  <data name="Non_Saudi_Employee_Number" xml:space="preserve">
+    <value>Number of Non-Saudi Employees</value>
+  </data>
+  <data name="NotSignedIn" xml:space="preserve">
+    <value>You are not logged in</value>
+  </data>
+  <data name="NumberCharactersRemaining" xml:space="preserve">
+    <value>Number of characters remaining</value>
+  </data>
+  <data name="NumberingService" xml:space="preserve">
+    <value>Altrgimah Resources</value>
+  </data>
+  <data name="NumberOnlyErrorMessage" xml:space="preserve">
+    <value>Field only allows numbers</value>
+  </data>
+  <data name="Number_Completed_Projects" xml:space="preserve">
+    <value>Number of completed projects</value>
+  </data>
+  <data name="Number_Of_Office_Inside_KSA" xml:space="preserve">
+    <value>Number of Offices Inside the Kingdom</value>
+  </data>
+  <data name="Number_Of_Office_Outside_KSA" xml:space="preserve">
+    <value>Number of Offices Outside the Kingdom</value>
+  </data>
+  <data name="OnlyArabicLetters" xml:space="preserve">
+    <value>Only Arabic characters are allowed</value>
+  </data>
+  <data name="OrganizationalStructure" xml:space="preserve">
+    <value>Organizational Structure</value>
+  </data>
+  <data name="OrginatedOn" xml:space="preserve">
+    <value>Date obtained</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>Page not found</value>
+  </data>
+  <data name="PageNotFoundNotes" xml:space="preserve">
+    <value>We could not find the page you were looking for.
+         &lt;br /&gt; Please go back</value>
+  </data>
+  <data name="PasswordIsNotComplex" xml:space="preserve">
+    <value>Password is not strong</value>
+  </data>
+  <data name="pending" xml:space="preserve">
+    <value>Under procedure</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PhoneNumberErrorMessage" xml:space="preserve">
+    <value>Wrong phone number must begin with 00966 or 9200 or 05</value>
+  </data>
+  <data name="PostaCode" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="PhoneErrorMessage" xml:space="preserve">
+    <value>Phone must start with  05 </value>
+  </data>
+  <data name="pressreleases" xml:space="preserve">
+    <value>Authority News</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous classification</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="Promotions" xml:space="preserve">
+    <value>Approved offers</value>
+  </data>
+  <data name="ReviewCompanyDetails021Description" xml:space="preserve">
+    <value>Registration application has been sent to the company and its under process</value>
+  </data>
+  <data name="publicannouncements" xml:space="preserve">
+    <value>Published decisions</value>
+  </data>
+  <data name="PublicConsultation" xml:space="preserve">
+    <value>Public Visuals</value>
+  </data>
+  <data name="ServiceBeneficiaries" xml:space="preserve">
+    <value> Service Beneficiaries  </value>
+  </data>
+  <data name="CommercialSector" xml:space="preserve">
+    <value> Business Sector (Companies and Institutions)
+</value>
+  </data>
+  <data name="Quality_of_Service" xml:space="preserve">
+    <value>Quality of service</value>
+  </data>
+  <data name="RegisterTech" xml:space="preserve">
+    <value>Manassa Tech </value>
+  </data>
+  <data name="SecondClassification" xml:space="preserve">
+    <value>Secondary classification</value>
+  </data>
+  <data name="RegistrationApplicationSentTitle" xml:space="preserve">
+    <value>Registration request has been submitted and it's under process </value>
+  </data>
+  <data name="Registrationsteps" xml:space="preserve">
+    <value>Registration Steps</value>
+  </data>
+  <data name="RegistrationTechnologyCompanies" xml:space="preserve">
+    <value>IT Companies Registration</value>
+  </data>
+  <data name="rejected" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Reloading</value>
+  </data>
+  <data name="ReportsService" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>Request Date</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>Request Number</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>Request Status</value>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>Request Type</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Required field</value>
+  </data>
+  <data name="RequiredClassificationSelected" xml:space="preserve">
+    <value>At least one subcategory must be selected</value>
+  </data>
+  <data name="RequiredClassificationSelected1" xml:space="preserve">
+    <value>At least one subcategory must be selected</value>
+  </data>
+  <data name="researchsandstudies" xml:space="preserve">
+    <value>Studies and research</value>
+  </data>
+  <data name="RetireDate" xml:space="preserve">
+    <value>Certificate expiration date</value>
+  </data>
+  <data name="returned" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="ReviewCompanyDetails02" xml:space="preserve">
+    <value>02: Review Company Details</value>
+  </data>
+  <data name="RulesandSystems" xml:space="preserve">
+    <value>Authority system</value>
+  </data>
+  <data name="RulesandSystems1" xml:space="preserve">
+    <value>Communications regulations</value>
+  </data>
+  <data name="RulesandSystemspostal" xml:space="preserve">
+    <value>Regulatory postal sector documents</value>
+  </data>
+  <data name="RulesandSystemspostlaw" xml:space="preserve">
+    <value>Communications regulations</value>
+  </data>
+  <data name="RulesandSystemsprivacy" xml:space="preserve">
+    <value>Privacy of personal data</value>
+  </data>
+  <data name="RulesandSystemsRegulatoryDocuments" xml:space="preserve">
+    <value>Regulatory documents for the telecommunications sector</value>
+  </data>
+  <data name="Saudi_Employee_Number" xml:space="preserve">
+    <value>Number of Saudi Employees</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveAndAdd" xml:space="preserve">
+    <value>Save and add</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>Save and close </value>
+  </data>
+  <data name="SaveAndNext" xml:space="preserve">
+    <value>Save and next</value>
+  </data>
+  <data name="SaveAndSend" xml:space="preserve">
+    <value>Save and send</value>
+  </data>
+  <data name="SaveConfirm" xml:space="preserve">
+    <value>Are you sure you want to save?</value>
+  </data>
+  <data name="SaveDraft" xml:space="preserve">
+    <value>Save as draft</value>
+  </data>
+  <data name="Save_As_Draft" xml:space="preserve">
+    <value>Save as draft</value>
+  </data>
+  <data name="ScriptsNotAllowedErrorMessage" xml:space="preserve">
+    <value>No script allowed in this field</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="SearchIn" xml:space="preserve">
+    <value>Search for</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Search result</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>- Select -</value>
+  </data>
+  <data name="SendRequest" xml:space="preserve">
+    <value>Send request</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services </value>
+  </data>
+  <data name="service_providers_coverage_maps" xml:space="preserve">
+    <value>Phone networks coverage </value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="SIMAuthenticationCode" xml:space="preserve">
+    <value>Cards Authentication Code</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>SiteMap</value>
+  </data>
+  <data name="spectrum" xml:space="preserve">
+    <value>Spectrum</value>
+  </data>
+  <data name="StartDateMustBeLessThanOrEqualToEndDate" xml:space="preserve">
+    <value>Date must be less than the date to</value>
+  </data>
+  <data name="StarttheService" xml:space="preserve">
+    <value>Start Service</value>
+  </data>
+  <data name="Statues" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Street_Name" xml:space="preserve">
+    <value>Street Name</value>
+  </data>
+  <data name="StudyRequest" xml:space="preserve">
+    <value>Processing Request</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Send </value>
+  </data>
+  <data name="SubmitApplicationsDefination" xml:space="preserve">
+    <value>Apply For Registration Request</value>
+  </data>
+  <data name="SubmitCompanyProfile" xml:space="preserve">
+    <value>Send company profile</value>
+  </data>
+  <data name="SubmitCompanyProfileConfirm" xml:space="preserve">
+    <value>Are you sure Send Request </value>
+  </data>
+  <data name="SubmitCompanyProfileConfirmTitle" xml:space="preserve">
+    <value>Send Request </value>
+  </data>
+  <data name="SubmitCompanyProfileMessage" xml:space="preserve">
+    <value>Your request has been sent successfully</value>
+  </data>
+  <data name="SubmitCompanyProfileTitle" xml:space="preserve">
+    <value>Sent succesfully</value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>Under procedure</value>
+  </data>
+  <data name="Submitter" xml:space="preserve">
+    <value>Sender</value>
+  </data>
+  <data name="SubmitterType" xml:space="preserve">
+    <value>Sender type</value>
+  </data>
+  <data name="SummationErrorMessage" xml:space="preserve">
+    <value>Total value of the total staff</value>
+  </data>
+  <data name="suppliers" xml:space="preserve">
+    <value>Supplier portal</value>
+  </data>
+  <data name="SystemCITCOrdinance" xml:space="preserve">
+    <value>Communications Authority System</value>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>Task Name</value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="TelecommunicationsAct" xml:space="preserve">
+    <value>Communication system</value>
+  </data>
+  <data name="TelecomServiceRequest" xml:space="preserve">
+    <value>Requests registration for communications service</value>
+  </data>
+  <data name="TelephoneNumber" xml:space="preserve">
+    <value>Phone number</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Terms of use</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>To date</value>
+  </data>
+  <data name="Toltal_Incom" xml:space="preserve">
+    <value>Company Size</value>
+  </data>
+  <data name="TransactionInquiryService" xml:space="preserve">
+    <value>Inquire transactions</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>Twitter</value>
+  </data>
+  <data name="unhandledexception" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Unified_Phone" xml:space="preserve">
+    <value>Company unified contact number</value>
+  </data>
+  <data name="unitNumber" xml:space="preserve">
+    <value>Unit No.</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="UsersManagement" xml:space="preserve">
+    <value>User Management</value>
+  </data>
+  <data name="UserView" xml:space="preserve">
+    <value>View user details</value>
+  </data>
+  <data name="ViewCompanyDetails" xml:space="preserve">
+    <value>View company details</value>
+  </data>
+  <data name="ViolationService" xml:space="preserve">
+    <value>Communications licenses</value>
+  </data>
+  <data name="ViolationService1" xml:space="preserve">
+    <value>Electronic Violations System</value>
+  </data>
+  <data name="Visionandmission" xml:space="preserve">
+    <value>Vision, mission and tasks</value>
+  </data>
+  <data name="WaselData" xml:space="preserve">
+    <value>  National Address</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="MainAddresOfComapny" xml:space="preserve">
+    <value>      HQ Address</value>
+  </data>
+  <data name="WebsiteFiltering" xml:space="preserve">
+    <value>Internet filtration</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="WF_Action" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+  <data name="WF_ActionBy" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="WF_DecisionTitle" xml:space="preserve">
+    <value>Decision</value>
+  </data>
+  <data name="WF_HistoryTitle" xml:space="preserve">
+    <value>Request History</value>
+  </data>
+  <data name="WF_RequestDetails" xml:space="preserve">
+    <value>Request details</value>
+  </data>
+  <data name="BriefAboutCompany" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="BusinessClassification" xml:space="preserve">
+    <value> IT Classifications  </value>
+  </data>
+  <data name="WF_RequestInfo" xml:space="preserve">
+    <value>Request Information</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Youtube" xml:space="preserve">
+    <value>YouTube</value>
+  </data>
+  <data name="PleaseSelectClassification" xml:space="preserve">
+    <value>Please Select Classifications</value>
+  </data>
+  <data name="CommercialSector1" xml:space="preserve">
+    <value>Business sector (companies and institutions)</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Select File</value>
+  </data>
+  <data name="ViewCompanyProfile" xml:space="preserve">
+    <value>View Company Profile</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value> You are not authorized to view this page. </value>
+  </data>
+  <data name="CategoriesManagement" xml:space="preserve">
+    <value>Categories Management</value>
+  </data>
+  <data name="CompaniesManagement" xml:space="preserve">
+    <value>Companies Management</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="FAQManagement" xml:space="preserve">
+    <value>FAQ Management</value>
+  </data>
+  <data name="PagesManagement" xml:space="preserve">
+    <value>Pages Management</value>
+  </data>
+  <data name="SettingsManagement" xml:space="preserve">
+    <value>Settings Management</value>
+  </data>
+  <data name="AcceptConfirmAllData" xml:space="preserve">
+    <value>The Company acknowledges that all data, information and attachments that have been recorded,  inserted, entered or added in Manassa tech platform are true and not fake. If these information and data or part of it is proven incorrect, the company will be subject to the legal penalties prescribed in accordance with the regulations. The company also acknowledges its approval for the Communications , Space and Technology Commission and the agencies cooperating with it in this regard to publish the company’s information or part of it according to the interest, within the directory of companies registered on Manassa tech platform, and that this acknowledgment and undertaking was issued by the company without any objection to the publication of this data.</value>
+  </data>
+  <data name="EmailUnique" xml:space="preserve">
+    <value>Email is already registered</value>
+  </data>
+  <data name="UserNameUnique" xml:space="preserve">
+    <value>Username is already registered</value>
+  </data>
+  <data name="MessageAddUserSuccesfuly" xml:space="preserve">
+    <value>User successfully added</value>
+  </data>
+  <data name="OnlyEmailAddress" xml:space="preserve">
+    <value>Please enter the email correctly</value>
+  </data>
+  <data name="OnlyUserWithDomain" xml:space="preserve">
+    <value>Wrong with the domain name </value>
+  </data>
+  <data name="CITCNotes" xml:space="preserve">
+    <value>CITC Notes</value>
+  </data>
+  <data name="Activation" xml:space="preserve">
+    <value>Is active</value>
+  </data>
+  <data name="AndroidApplication" xml:space="preserve">
+    <value>Android application</value>
+  </data>
+  <data name="CITCAluthoriy" xml:space="preserve">
+    <value>Communication &amp; Information technology Commission</value>
+  </data>
+  <data name="IOSApplication" xml:space="preserve">
+    <value>IOS application</value>
+  </data>
+  <data name="Welcoming" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="WelocomMessage" xml:space="preserve">
+    <value>Manassa Tech is a platform provided by the Communications , Space and Technology Commission to register the business of IT and the emerging technologies in Saudi Arabia, to provide a unified point of contact with a clear vision and a channel for support.</value>
+  </data>
+  <data name="PhoneUnique" xml:space="preserve">
+    <value>The phone number is already registered</value>
+  </data>
+  <data name="CLDescriptionAr" xml:space="preserve">
+    <value>Description (Ar)</value>
+  </data>
+  <data name="CLDescriptionEn" xml:space="preserve">
+    <value>Description (En)</value>
+  </data>
+  <data name="CLExamplesAr" xml:space="preserve">
+    <value>Example (Ar)</value>
+  </data>
+  <data name="CLExamplesEn" xml:space="preserve">
+    <value>Exmaple (En)</value>
+  </data>
+  <data name="CLQuestionAR" xml:space="preserve">
+    <value>Question (Ar)</value>
+  </data>
+  <data name="CLQuestionEn" xml:space="preserve">
+    <value>Question (En)</value>
+  </data>
+  <data name="ItemOrder" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>	Description 	</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>Examples</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Add new item</value>
+  </data>
+  <data name="CFLNameAr" xml:space="preserve">
+    <value>Name (Ar)</value>
+  </data>
+  <data name="CFLNameEn" xml:space="preserve">
+    <value>Name (En)</value>
+  </data>
+  <data name="NameEn" xml:space="preserve">
+    <value>Name (En)</value>
+  </data>
+  <data name="FirstClassification" xml:space="preserve">
+    <value>Main classification</value>
+  </data>
+  <data name="PresentationType" xml:space="preserve">
+    <value>Presentation Style</value>
+  </data>
+  <data name="FCLManagement" xml:space="preserve">
+    <value>Main classification management</value>
+  </data>
+  <data name="InstituteManagement" xml:space="preserve">
+    <value>Institutes Management</value>
+  </data>
+  <data name="SCLManagement" xml:space="preserve">
+    <value>Secondary classification management</value>
+  </data>
+  <data name="ConfrimSubmit" xml:space="preserve">
+    <value>Are you sure you want save.? the section will be locked </value>
+  </data>
+  <data name="CertificateNameAr" xml:space="preserve">
+    <value>Certificate name (Ar)</value>
+  </data>
+  <data name="SubmitDecisionConfirm" xml:space="preserve">
+    <value>Are you sure you want submit your decision? you won't be able to edit this form later. </value>
+  </data>
+  <data name="CertificateNDA" xml:space="preserve">
+    <value>This information will not be shared</value>
+  </data>
+  <data name="FinancialNDA" xml:space="preserve">
+    <value>This information will not be shared</value>
+  </data>
+  <data name="InvalidNumber" xml:space="preserve">
+    <value>Invalid number make sure it is in the right format </value>
+  </data>
+  <data name="InvalidSocialUserName" xml:space="preserve">
+    <value>Username should start with ( @ ) and spaces are not allowed</value>
+  </data>
+  <data name="LandLineExample" xml:space="preserve">
+    <value>011xxxxxxx</value>
+  </data>
+  <data name="LandLineNumber" xml:space="preserve">
+    <value>Company land line number</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>Optional</value>
+  </data>
+  <data name="PhoneNumberExample" xml:space="preserve">
+    <value>05xxxxxxxx</value>
+  </data>
+  <data name="TotalEmployees" xml:space="preserve">
+    <value>Total Employees</value>
+  </data>
+  <data name="UnifiedNumberExample" xml:space="preserve">
+    <value>9200xxxxx</value>
+  </data>
+  <data name="UsernameExample" xml:space="preserve">
+    <value>@username</value>
+  </data>
+  <data name="InvalidEmployeeNumber" xml:space="preserve">
+    <value>Employees number out of range</value>
+  </data>
+  <data name="OutOfRange" xml:space="preserve">
+    <value>Please Enter correct value , Value Out Of Range</value>
+  </data>
+  <data name="YearlyIncom" xml:space="preserve">
+    <value>
+Total previous year revenues in Saudi Riyals</value>
+  </data>
+  <data name="CertificateStatus" xml:space="preserve">
+    <value>Certificate status </value>
+  </data>
+  <data name="PhoneType" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="CertificatesDesc1" xml:space="preserve">
+    <value>All certificates granted to the company must be attached</value>
+  </data>
+  <data name="CompleteAllRequiredFields" xml:space="preserve">
+    <value>
+      &lt;span&gt;All fields marked as requied(*) must be filled&lt;/span&gt;
+      &lt;span&gt;You can saved  part of the data as draft and complete the remaining later&lt;/span&gt;
+      &lt;span&gt;The data must be saved permanently by clicking on the Save button at the bottom of the page  &lt;/span&gt;
+</value>
+  </data>
+  <data name="UnAuthorizedDecision" xml:space="preserve">
+    <value>  You are not authorized to take the decision on this request.      </value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Alert</value>
+  </data>
+  <data name="ChangeLanguageConfirmation" xml:space="preserve">
+    <value>Are you Sure ? 
+All fields will be wiped in the process , please make sure that you have saved all the fields if exist </value>
+  </data>
+  <data name="LinkedIn" xml:space="preserve">
+    <value>LinkedIn</value>
+  </data>
+  <data name="LiaisonEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="RenewRequestAplliedAlert" xml:space="preserve">
+    <value>   There is a renew request applied for company profile  </value>
+  </data>
+  <data name="EditProfileDetails" xml:space="preserve">
+    <value>Edit profile details</value>
+  </data>
+  <data name="RenewProfileDetails" xml:space="preserve">
+    <value>Renew profile details</value>
+  </data>
+  <data name="EditRequestAplliedAlert" xml:space="preserve">
+    <value>   There is an edit request applied for company profile  </value>
+  </data>
+  <data name="LiaisonInfo" xml:space="preserve">
+    <value>Company liaison details</value>
+  </data>
+  <data name="EditLiaisonInfo" xml:space="preserve">
+    <value>Edit Company liaison details</value>
+  </data>
+  <data name="LiaisonName" xml:space="preserve">
+    <value>Name (En)</value>
+  </data>
+  <data name="LiaisonPhome" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="CertificatesDesc11" xml:space="preserve">
+    <value>All partnerships with international companies or bodies must be attached   </value>
+  </data>
+  <data name="AlreadyExistMessage" xml:space="preserve">
+    <value>{0} already exist </value>
+  </data>
+  <data name="LiaisonNameAr" xml:space="preserve">
+    <value>Name (Ar)</value>
+  </data>
+  <data name="UserAlreadyExistTitle" xml:space="preserve">
+    <value>User with same detials already exist </value>
+  </data>
+  <data name="ExpiryDateNotBeforeOrginatedDate" xml:space="preserve">
+    <value>Retire date can not be less than obtained date</value>
+  </data>
+  <data name="NoItemsFound" xml:space="preserve">
+    <value>Sorry , no result to show </value>
+  </data>
+  <data name="NameSearch" xml:space="preserve">
+    <value>Name (Ar / En)</value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value>User roles</value>
+  </data>
+  <data name="AddNewUser" xml:space="preserve">
+    <value>Add new user</value>
+  </data>
+  <data name="SaveUser" xml:space="preserve">
+    <value>Save user</value>
+  </data>
+  <data name="DeleteComfirmationTitle" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteConfirmationMsg" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item?</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Edit user</value>
+  </data>
+  <data name="ExternalOrganizationDescriptionAr" xml:space="preserve">
+    <value>Extiror organization description (Ar)</value>
+  </data>
+  <data name="ExternalOrganizationDescriptionEn" xml:space="preserve">
+    <value>Extiror organization description (En)</value>
+  </data>
+  <data name="HasAttachment" xml:space="preserve">
+    <value>Has attachment ?</value>
+  </data>
+  <data name="IsAttachmentRequired" xml:space="preserve">
+    <value>Is attachment required ?</value>
+  </data>
+  <data name="IsBelongToAnotherOrganization" xml:space="preserve">
+    <value>Is it belong to another organization ?</value>
+  </data>
+  <data name="AddFCL" xml:space="preserve">
+    <value>Main classification</value>
+  </data>
+  <data name="AddSCL" xml:space="preserve">
+    <value>Primery classification</value>
+  </data>
+  <data name="AddTCL" xml:space="preserve">
+    <value>Secondary classification</value>
+  </data>
+  <data name="ClassificationAttachment" xml:space="preserve">
+    <value>Classification icon</value>
+  </data>
+  <data name="EditFCL" xml:space="preserve">
+    <value>Edit main classification</value>
+  </data>
+  <data name="EditSCL" xml:space="preserve">
+    <value>Edit primery classification</value>
+  </data>
+  <data name="EditTCL" xml:space="preserve">
+    <value>Edit secondary classification</value>
+  </data>
+  <data name="CITCSerivces" xml:space="preserve">
+    <value>CITC Services</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>User type</value>
+  </data>
+  <data name="LessThanZeroValidationMessage" xml:space="preserve">
+    <value>Can not be less than zero</value>
+  </data>
+  <data name="YearsOfExperince" xml:space="preserve">
+    <value>Company years of experince</value>
+  </data>
+  <data name="AdditionalAttachments" xml:space="preserve">
+    <value>Additional Attachments (Optional)</value>
+  </data>
+  <data name="AttachmentsRequired" xml:space="preserve">
+    <value>Attachments are required</value>
+  </data>
+  <data name="ChoseAtLeastOne" xml:space="preserve">
+    <value>Choose at least one classification</value>
+  </data>
+  <data name="ChoseClassificationFirst" xml:space="preserve">
+    <value>Please choose classifications first</value>
+  </data>
+  <data name="DescriptionAr" xml:space="preserve">
+    <value>الوصف </value>
+  </data>
+  <data name="DescriptionEn" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>Enterprise Name (En)</value>
+  </data>
+  <data name="CompanyNameTicket" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="ExampleAr" xml:space="preserve">
+    <value>أمثلة</value>
+  </data>
+  <data name="ExampleEn" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="NotMoreThan100" xml:space="preserve">
+    <value>Percentage should not be more than {0}% </value>
+  </data>
+  <data name="FromZeroToPecentage" xml:space="preserve">
+    <value>Percentage should be from 0% to {0}% </value>
+  </data>
+  <data name="RevenueAndAttachments" xml:space="preserve">
+    <value>Income &amp; Attachments</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+  <data name="Classifications" xml:space="preserve">
+    <value>Classifications</value>
+  </data>
+  <data name="NotReadyToSubmit" xml:space="preserve">
+    <value>Choose classification, Upload attahcemnt, Fill Classification Revenue to submit </value>
+  </data>
+  <data name="NoteAr" xml:space="preserve">
+    <value>ملاحظة</value>
+  </data>
+  <data name="NoteEn" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Series" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="CalssificationOfCompany" xml:space="preserve">
+    <value>Activites classification</value>
+  </data>
+  <data name="SuggestNewClassification" xml:space="preserve">
+    <value>Suggest new classification</value>
+  </data>
+  <data name="OpenTicket" xml:space="preserve">
+    <value>Open ticket</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Ticket</value>
+  </data>
+  <data name="TicketContent" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="TicketTitle" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TicketType" xml:space="preserve">
+    <value>Ticket type</value>
+  </data>
+  <data name="CompanyType" xml:space="preserve">
+    <value>Company type</value>
+  </data>
+  <data name="EmptySection" xml:space="preserve">
+    <value>Sorry , No data to show in this section</value>
+  </data>
+  <data name="IsAllowedSuggestion" xml:space="preserve">
+    <value>Is allowed to suggest ?</value>
+  </data>
+  <data name="IsITServices" xml:space="preserve">
+    <value>Is it belong to IT services ?</value>
+  </data>
+  <data name="ITServices" xml:space="preserve">
+    <value>IT Services </value>
+  </data>
+  <data name="MaxSuggestionCount" xml:space="preserve">
+    <value>Maximum allowed suggestions number</value>
+  </data>
+  <data name="AddNewQuestion" xml:space="preserve">
+    <value>New Question</value>
+  </data>
+  <data name="SurveyManagement" xml:space="preserve">
+    <value>Survey Management</value>
+  </data>
+  <data name="MessageAddSuccesfuly" xml:space="preserve">
+    <value>Add Succesfuly</value>
+  </data>
+  <data name="AddNewSurvey" xml:space="preserve">
+    <value>New Survey</value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>Add Question</value>
+  </data>
+  <data name="ManagementSurveys" xml:space="preserve">
+    <value> Surveys </value>
+  </data>
+  <data name="Mandatory" xml:space="preserve">
+    <value>Mandatory</value>
+  </data>
+  <data name="QuestionsBank" xml:space="preserve">
+    <value>Questions Bank</value>
+  </data>
+  <data name="QuestionTitle" xml:space="preserve">
+    <value>QuestionT itle</value>
+  </data>
+  <data name="QuestionType" xml:space="preserve">
+    <value>Mechanism of answers</value>
+  </data>
+  <data name="StatrtSurvey" xml:space="preserve">
+    <value>Statrt Survey</value>
+  </data>
+  <data name="SuerveyDateEnded" xml:space="preserve">
+    <value>Suervey DateEnded</value>
+  </data>
+  <data name="SurveyCheckOut" xml:space="preserve">
+    <value>Survey CheckOut</value>
+  </data>
+  <data name="SurveyNotActive" xml:space="preserve">
+    <value>Survey Not Active</value>
+  </data>
+  <data name="SurveyNotFound" xml:space="preserve">
+    <value>Survey Not Found</value>
+  </data>
+  <data name="SurveyNotPublished" xml:space="preserve">
+    <value>Survey Not Published</value>
+  </data>
+  <data name="SurveyNotStart" xml:space="preserve">
+    <value>Survey Not Start</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="Surveys" xml:space="preserve">
+    <value>Surveys</value>
+  </data>
+  <data name="AddQuestions" xml:space="preserve">
+    <value>AddQuestions</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>CheckOut</value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>Published</value>
+  </data>
+  <data name="ReportSurvey" xml:space="preserve">
+    <value>Report Survey</value>
+  </data>
+  <data name="SurveyCode" xml:space="preserve">
+    <value>Survey Code</value>
+  </data>
+  <data name="AnswersQuestionUnique" xml:space="preserve">
+    <value>Answers Question ’Must be Unique</value>
+  </data>
+  <data name="ChangeStatusSurvey" xml:space="preserve">
+    <value>Change Status Survey</value>
+  </data>
+  <data name="MessageChangeSurveyStatusSuccesfuly" xml:space="preserve">
+    <value>the status of Survey  changed successfuly </value>
+  </data>
+  <data name="QuestionTitleUnique" xml:space="preserve">
+    <value>The question title is already registered</value>
+  </data>
+  <data name="DeleteSurveyError" xml:space="preserve">
+    <value>There are answers to this Survey </value>
+  </data>
+  <data name="SurveyCodeUnique" xml:space="preserve">
+    <value>Survey code is aready registered </value>
+  </data>
+  <data name="SurveyTitle" xml:space="preserve">
+    <value>Survey title   is aready registered</value>
+  </data>
+  <data name="SurveyTitleUnique" xml:space="preserve">
+    <value>Survey title   is aready registered</value>
+  </data>
+  <data name="MessageEditSuccesfuly" xml:space="preserve">
+    <value>Edit Successfully</value>
+  </data>
+  <data name="Answers" xml:space="preserve">
+    <value>Answers</value>
+  </data>
+  <data name="MustHaveMultipleValues" xml:space="preserve">
+    <value>Must Have Multiple Values</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="AllAnswersHaveValues" xml:space="preserve">
+    <value>All Answers must be Have Value </value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>End  Date</value>
+  </data>
+  <data name="MessageChangeSurveyCheckOutSuccesfuly" xml:space="preserve">
+    <value>survey has been checkout successfully</value>
+  </data>
+  <data name="MessageChangeSurveyPublishedSuccesfuly" xml:space="preserve">
+    <value>survey has been published successfully</value>
+  </data>
+  <data name="NotfoundQuestions" xml:space="preserve">
+    <value>Not found Questions</value>
+  </data>
+  <data name="OrderMustBeUnique" xml:space="preserve">
+    <value>order is already registered on survey </value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="StartDateMustbeGreatThanNow" xml:space="preserve">
+    <value>Start Date Mustbe Great Than Now</value>
+  </data>
+  <data name="SurveyDetails" xml:space="preserve">
+    <value>Survey Details</value>
+  </data>
+  <data name="Suggested" xml:space="preserve">
+    <value>Suggested</value>
+  </data>
+  <data name="CheckOutConfirmationMsg" xml:space="preserve">
+    <value>Are you sure you want to checkout selected item</value>
+  </data>
+  <data name="DeleteQuestionRlatedSurveyError" xml:space="preserve">
+    <value>This question is linked to a  survey </value>
+  </data>
+  <data name="MessageSurveyNotRealtedAnyQuestionError" xml:space="preserve">
+    <value>The Survey Not contains Any  question</value>
+  </data>
+  <data name="PublishedConfirmationMsg" xml:space="preserve">
+    <value>Are you sure you want to publish selected item</value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>Copy to clipboard</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Copied</value>
+  </data>
+  <data name="MessageSendSurveySuccesfuly" xml:space="preserve">
+    <value>The Survey has been sent</value>
+  </data>
+  <data name="Certificate_Institute_Name_Ar" xml:space="preserve">
+    <value>Institute name (Ar)</value>
+  </data>
+  <data name="SurveyDescription" xml:space="preserve">
+    <value>Survey Description</value>
+  </data>
+  <data name="LastShareDate" xml:space="preserve">
+    <value>Last Share Date</value>
+  </data>
+  <data name="NumberParticipants" xml:space="preserve">
+    <value>Number Participants</value>
+  </data>
+  <data name="NumberParticipantsMonth" xml:space="preserve">
+    <value>Number Participants Month</value>
+  </data>
+  <data name="NumberParticipantsToDay" xml:space="preserve">
+    <value>Number Participants ToDay</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentage</value>
+  </data>
+  <data name="QuestionCount" xml:space="preserve">
+    <value>Questions Count</value>
+  </data>
+  <data name="SurveyCompletionPercentage" xml:space="preserve">
+    <value>Completion Percentage</value>
+  </data>
+  <data name="TimeSpentSurvey" xml:space="preserve">
+    <value>Time Spent Survey</value>
+  </data>
+  <data name="TotalAnswer" xml:space="preserve">
+    <value>Total Answer</value>
+  </data>
+  <data name="FillAttachmentMsg" xml:space="preserve">
+    <value>Please fill the required attahcemnts </value>
+  </data>
+  <data name="AddNewClassification" xml:space="preserve">
+    <value>Add new classification    </value>
+  </data>
+  <data name="ReminderNotAfterEscalation" xml:space="preserve">
+    <value>Reminder days can not be less or equal Escalation days</value>
+  </data>
+  <data name="WF_Escalation_ActivityName" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="WF_Escalation_EditEscalationSetting" xml:space="preserve">
+    <value>Edit Escalation Setting</value>
+  </data>
+  <data name="WF_Escalation_EscalationSettings" xml:space="preserve">
+    <value>Escalation Settings</value>
+  </data>
+  <data name="WF_Escalation_EscalationType" xml:space="preserve">
+    <value>Escalation Type</value>
+  </data>
+  <data name="WF_Escalation_NewEscalationSetting" xml:space="preserve">
+    <value>New Escalation Setting</value>
+  </data>
+  <data name="WF_Escalation_NotificationType" xml:space="preserve">
+    <value>Notification Type</value>
+  </data>
+  <data name="WF_Escalation_ProcessName" xml:space="preserve">
+    <value>Workflow</value>
+  </data>
+  <data name="WF_Escalation_RecipientRoleName" xml:space="preserve">
+    <value>Escalated To</value>
+  </data>
+  <data name="WF_Escalation_WaitingDays" xml:space="preserve">
+    <value>Escalate After (Days)</value>
+  </data>
+  <data name="BusinessFields" xml:space="preserve">
+    <value>Emarging industries &amp; Service sectors</value>
+  </data>
+  <data name="IsBusinessFeild" xml:space="preserve">
+    <value>Is business feild</value>
+  </data>
+  <data name="MessagesNotificationList" xml:space="preserve">
+    <value>Messages Notification List</value>
+  </data>
+  <data name="AddNewMessage" xml:space="preserve">
+    <value>New Message</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="CountCompany" xml:space="preserve">
+    <value>Count Company</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="SendDate" xml:space="preserve">
+    <value>Send Date</value>
+  </data>
+  <data name="SubjectUnique" xml:space="preserve">
+    <value>subject  is aready registered</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>We are sorry an error occured</value>
+  </data>
+  <data name="MessageChangeMessageStatusSuccesfuly" xml:space="preserve">
+    <value>The message has been prepared for sending</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="SendMessageConfirmationMsg" xml:space="preserve">
+    <value>Are you sure you send the message?</value>
+  </data>
+  <data name="CodeHasBeenExpired" xml:space="preserve">
+    <value>Code has been expired , please update company contact details and try again </value>
+  </data>
+  <data name="EmailCode" xml:space="preserve">
+    <value>Email confirmation code</value>
+  </data>
+  <data name="NumberCode" xml:space="preserve">
+    <value>Phone confirmation code</value>
+  </data>
+  <data name="WrongEmailCode" xml:space="preserve">
+    <value>Confirmation code for email is wrong</value>
+  </data>
+  <data name="WrongNumberCode" xml:space="preserve">
+    <value>Confirmation code for Phone is wrong</value>
+  </data>
+  <data name="WrongCode" xml:space="preserve">
+    <value>Wrong code</value>
+  </data>
+  <data name="AccountIsConfirmed" xml:space="preserve">
+    <value>Your account is now confirmed</value>
+  </data>
+  <data name="ConfirmationIsRequired" xml:space="preserve">
+    <value>You must confirm contact details after you save it </value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="StillNotConfirmed" xml:space="preserve">
+    <value>looks like some informations still need to be confirmed </value>
+  </data>
+  <data name="ActiveAdminCountValidationMsg" xml:space="preserve">
+    <value>At least one of system admins must be active</value>
+  </data>
+  <data name="UniqClassificationName" xml:space="preserve">
+    <value>There is already classificatino with the same name , please choose another name.</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer</value>
+  </data>
+  <data name="AtleastOneActiveQuestion" xml:space="preserve">
+    <value>Atleast one active question should be in the survey </value>
+  </data>
+  <data name="QuestionDetilasReport" xml:space="preserve">
+    <value>Survey completion detials </value>
+  </data>
+  <data name="ReportChart" xml:space="preserve">
+    <value>Survey chart</value>
+  </data>
+  <data name="ReportResults" xml:space="preserve">
+    <value>Survey results </value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>Results </value>
+  </data>
+  <data name="SurveyDetailsReport" xml:space="preserve">
+    <value>Survey details </value>
+  </data>
+  <data name="SurveyReport" xml:space="preserve">
+    <value>Survey report </value>
+  </data>
+  <data name="EscalationDuplicated" xml:space="preserve">
+    <value>Same escalation is already exsit </value>
+  </data>
+  <data name="CancelationReason" xml:space="preserve">
+    <value>Cancelation Reason</value>
+  </data>
+  <data name="EscalationSettings" xml:space="preserve">
+    <value>Escalation settings</value>
+  </data>
+  <data name="CancelationRequest" xml:space="preserve">
+    <value>Cancelation Request</value>
+  </data>
+  <data name="AlreadySubmitted" xml:space="preserve">
+    <value>Already submited</value>
+  </data>
+  <data name="EditContactorInfo" xml:space="preserve">
+    <value>Edit contactor details</value>
+  </data>
+  <data name="ResendCode" xml:space="preserve">
+    <value>Resend code</value>
+  </data>
+  <data name="CopyLink" xml:space="preserve">
+    <value>Copy link</value>
+  </data>
+  <data name="AddQuestionInQueastionBank" xml:space="preserve">
+    <value>It's either all question are add in this survey or question bank is empty</value>
+  </data>
+  <data name="QuestionSurveyRequired" xml:space="preserve">
+    <value>Question {0} is required</value>
+  </data>
+  <data name="SendNotificationToCompany" xml:space="preserve">
+    <value>Send notifications to companies</value>
+  </data>
+  <data name="AboutNotification" xml:space="preserve">
+    <value>About notification</value>
+  </data>
+  <data name="AllNotifications" xml:space="preserve">
+    <value>All notifications</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="NotificationType" xml:space="preserve">
+    <value>Notification type</value>
+  </data>
+  <data name="AllRequests" xml:space="preserve">
+    <value>All requests</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>Company email</value>
+  </data>
+  <data name="CompanyNumber" xml:space="preserve">
+    <value>Company Number</value>
+  </data>
+  <data name="FullNameAr" xml:space="preserve">
+    <value>Full Name (Ar)</value>
+  </data>
+  <data name="RequestHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="MaximumAllowedDigits" xml:space="preserve">
+    <value>Maximum allowed are {0} charachter</value>
+  </data>
+  <data name="SurveyName" xml:space="preserve">
+    <value>Survey title</value>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>Income percentage of classifications</value>
+  </data>
+  <data name="RevenueMsg" xml:space="preserve">
+    <value>You should enter the income percentage for selected classifications</value>
+  </data>
+  <data name="AllSelected" xml:space="preserve">
+    <value>All are selected</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>Unselect all</value>
+  </data>
+  <data name="Dirctory" xml:space="preserve">
+    <value>Companies dirctory</value>
+  </data>
+  <data name="AddAnswer" xml:space="preserve">
+    <value>Add Answer</value>
+  </data>
+  <data name="ClassificationIncomMsg" xml:space="preserve">
+    <value>please spicify the income percentage for each classificatoin you have selected </value>
+  </data>
+  <data name="FirstClassificationName" xml:space="preserve">
+    <value>Primary classification name</value>
+  </data>
+  <data name="InsertTheIncomOfClassification" xml:space="preserve">
+    <value>Please spicify the incom percentage</value>
+  </data>
+  <data name="SelectedClassificationsCount" xml:space="preserve">
+    <value>Selected classifications count</value>
+  </data>
+  <data name="AttachmentForm" xml:space="preserve">
+    <value>Attachment form</value>
+  </data>
+  <data name="DisplayAr" xml:space="preserve">
+    <value>Display Certificate (Ar)</value>
+  </data>
+  <data name="DownloadCertificateAr" xml:space="preserve">
+    <value>Download Certificate (Ar)</value>
+  </data>
+  <data name="TCLAttachmentMsgEn" xml:space="preserve">
+    <value>Required attachment description (En)</value>
+  </data>
+  <data name="TCLAttahcmentMsgAr" xml:space="preserve">
+    <value>Required attachment description (ع)</value>
+  </data>
+  <data name="ClassificationMustHasActiveItem" xml:space="preserve">
+    <value>Classifications should has at least one active item</value>
+  </data>
+  <data name="SearchByFeilds" xml:space="preserve">
+    <value>Advanced search</value>
+  </data>
+  <data name="HomepageMsg" xml:space="preserve">
+    <value>To view all the companies that are belong to you click on Companies management</value>
+  </data>
+  <data name="DirctroyTitle" xml:space="preserve">
+    <value>List of enterprises registered with CST</value>
+  </data>
+  <data name="ChoseFCL" xml:space="preserve">
+    <value>Choose the main classification</value>
+  </data>
+  <data name="ChoseSCL" xml:space="preserve">
+    <value>Choose a subclassification</value>
+  </data>
+  <data name="ClassificationRevenueAndAttachments" xml:space="preserve">
+    <value>Classification income and attahcments</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>Name (Ar)</value>
+  </data>
+  <data name="OrganizationNameAr" xml:space="preserve">
+    <value>Organization Name Ar</value>
+  </data>
+  <data name="SearchResultDirectory" xml:space="preserve">
+    <value>Registered ITET Enterprise</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>Click here</value>
+  </data>
+  <data name="ClassificationDocument" xml:space="preserve">
+    <value>To review the IT and Emerging Technologies Market Business Classification Document, click here</value>
+  </data>
+  <data name="ClassifiationDocumentURL" xml:space="preserve">
+    <value>https://www.citc.gov.sa/ar/services/Documents/Guidance-for-classifying-service-business.pdf</value>
+  </data>
+  <data name="ToRegisterClickHere" xml:space="preserve">
+    <value>To register in Manassa Tech. </value>
+  </data>
+  <data name="DownloadAttach" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="sendProdRequestMsg" xml:space="preserve">
+    <value>Are you sure you want to send product request</value>
+  </data>
+  <data name="sendProdRequestTitle" xml:space="preserve">
+    <value>Product Request</value>
+  </data>
+  <data name="CITCPortalURL" xml:space="preserve">
+    <value>https://www.citc.gov.sa/ar/services/tech/Pages/default.aspx </value>
+  </data>
+  <data name="HasDirectoryMessage" xml:space="preserve">
+    <value>Has directory message </value>
+  </data>
+  <data name="DirectoryMessageAr" xml:space="preserve">
+    <value>Message (Ar)</value>
+  </data>
+  <data name="DirectoryMessageEn" xml:space="preserve">
+    <value>Message (En)</value>
+  </data>
+  <data name="CITCServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ManassaTech" xml:space="preserve">
+    <value>Manassa Tech</value>
+  </data>
+  <data name="ClassifiationDocumentURLEn" xml:space="preserve">
+    <value>https://www.citc.gov.sa/en/services/tech/PublishingImages/Pages/default/ITETSectorClassification.pdf</value>
+  </data>
+  <data name="SurveyNotAvailable" xml:space="preserve">
+    <value>Sorry , This survey is not available now or it been expired</value>
+  </data>
+  <data name="NextQuestion" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="PerviousQuestion" xml:space="preserve">
+    <value>Pervious</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="OnlyArabicOrEnglsihLetters" xml:space="preserve">
+    <value>Use Only ( _,(){}.? ) special character </value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="ConfimContactorMobile" xml:space="preserve">
+    <value> Confirm contactor mobile  
+    </value>
+  </data>
+  <data name="ReSendWithin" xml:space="preserve">
+    <value>You can request another code after {0}</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>Sorry</value>
+  </data>
+  <data name="MustBeActive" xml:space="preserve">
+    <value>Survey must be active</value>
+  </data>
+  <data name="NotLessThanToday" xml:space="preserve">
+    <value>Date should not be less that today</value>
+  </data>
+  <data name="RenewProfileConfirm" xml:space="preserve">
+    <value>Are you sure you want to apply for renew request?</value>
+  </data>
+  <data name="EditProfileConfirm" xml:space="preserve">
+    <value>Are you sure you want to apply for edit request?</value>
+  </data>
+  <data name="SecondClassificationsList" xml:space="preserve">
+    <value>Secondary classification</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ReturnComment" xml:space="preserve">
+    <value>Reason of returning the request</value>
+  </data>
+  <data name="PreviousQuestion" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="BlackList" xml:space="preserve">
+    <value>Black list Companies</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="EditProfileOnly" xml:space="preserve">
+    <value>Edit profile Only</value>
+  </data>
+  <data name="FirstLevelClassificationId" xml:space="preserve">
+    <value>	First Classification	</value>
+  </data>
+  <data name="EmergingTechnologyId" xml:space="preserve">
+    <value>	Second Classification 	</value>
+  </data>
+  <data name="ProductBenefitsAR" xml:space="preserve">
+    <value>Brief description of product (AR) </value>
+  </data>
+  <data name="ProductBenefitsEn" xml:space="preserve">
+    <value>Brief description of product (En) </value>
+  </data>
+  <data name="ProductURL" xml:space="preserve">
+    <value>	Product URL	</value>
+  </data>
+  <data name="ReleaseDate" xml:space="preserve">
+    <value>	Release Date 	</value>
+  </data>
+  <data name="ProductAge" xml:space="preserve">
+    <value>Product age since launching </value>
+  </data>
+  <data name="KingdomInvestmentPrec" xml:space="preserve">
+    <value>	Percentage of Saudi Government’s shareholders	</value>
+  </data>
+  <data name="SaudiInverstorPrec" xml:space="preserve">
+    <value>Percentage of other Saudi shareholders	</value>
+  </data>
+  <data name="NonSaudiInverstor" xml:space="preserve">
+    <value>Percentage of other foreign shareholders</value>
+  </data>
+  <data name="ContractMethodId" xml:space="preserve">
+    <value>Product business model</value>
+  </data>
+  <data name="RevesoContextId" xml:space="preserve">
+    <value>Form of contracting for obtaining product</value>
+  </data>
+  <data name="LocalClientsNo" xml:space="preserve">
+    <value>Number of local customers</value>
+  </data>
+  <data name="InternationalClientsNo" xml:space="preserve">
+    <value>Number of international customers</value>
+  </data>
+  <data name="ExistInCoutnryNo" xml:space="preserve">
+    <value>	ExistIn Coutnry No 	</value>
+  </data>
+  <data name="ExistInCountries" xml:space="preserve">
+    <value>Names of countries where the product is offered</value>
+  </data>
+  <data name="AvarageProductIncome" xml:space="preserve">
+    <value>Average annual profits of the product</value>
+  </data>
+  <data name="HasProductDevelopementTeam" xml:space="preserve">
+    <value>	Does the Company have staff in the Kingdom of Saudi Arabia for research and innovation in order to improve the product? 	</value>
+  </data>
+  <data name="HasProductClientStudyTeam" xml:space="preserve">
+    <value>	 Does the Company have staff in the Kingdom of Saudi Arabia for examining product-related customers’ needs?	</value>
+  </data>
+  <data name="HasProductDesignTeam" xml:space="preserve">
+    <value>	Does the Company have staff in the Kingdom of Saudi Arabia for performing duties related to product design? 	</value>
+  </data>
+  <data name="HasProductProgrammingTeam" xml:space="preserve">
+    <value>	Does the Company have staff in the Kingdom of Saudi Arabia for performing duties related to manufacturing, improving/ programming the product?	</value>
+  </data>
+  <data name="HasProductMangementTeam" xml:space="preserve">
+    <value>Does the Company use local assets for manufacturing or hosting the product?</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>	Employees 	</value>
+  </data>
+  <data name="DoesCompanyUseLocalResource" xml:space="preserve">
+    <value>Does the Company have staff in the Kingdom of Saudi Arabia for performing duties related to product management?	</value>
+  </data>
+  <data name="ManifactureName" xml:space="preserve">
+    <value>	Manufacture manufacture Name</value>
+  </data>
+  <data name="HasCopyRights" xml:space="preserve">
+    <value> Does the Company own intellectual property rights of the product ? </value>
+  </data>
+  <data name="CopyRightsCertificateAttachmentId" xml:space="preserve">
+    <value>A patent, product registration documents, or a special acknowledgment by the company that the company owns intellectual property rights</value>
+  </data>
+  <data name="HasIdeaRights" xml:space="preserve">
+    <value>Does the Company own the product trademark rights?</value>
+  </data>
+  <data name="IdeaRightsCertificateAttachmentId" xml:space="preserve">
+    <value>Product registration documents or a special acknowledgment by the company that the company owns the trademark rights to the product</value>
+  </data>
+  <data name="IsRegistredInMadeInKSA" xml:space="preserve">
+    <value>	Is Registred In Made In KSA 	</value>
+  </data>
+  <data name="ProductClass" xml:space="preserve">
+    <value>Product Category</value>
+  </data>
+  <data name="CertificateAttachmentId" xml:space="preserve">
+    <value>Certificate Attachment</value>
+  </data>
+  <data name="ProductLogo" xml:space="preserve">
+    <value>Product Logo</value>
+  </data>
+  <data name="UserManual" xml:space="preserve">
+    <value>Product brochure</value>
+  </data>
+  <data name="Investors" xml:space="preserve">
+    <value>Investors</value>
+  </data>
+  <data name="ProductClassification" xml:space="preserve">
+    <value>Product Classification</value>
+  </data>
+  <data name="ProductTeams" xml:space="preserve">
+    <value>Product team data</value>
+  </data>
+  <data name="AboutProduct" xml:space="preserve">
+    <value>About Product</value>
+  </data>
+  <data name="ProductCertificate" xml:space="preserve">
+    <value>Attachments / Certificates</value>
+  </data>
+  <data name="GeneralProductInfo" xml:space="preserve">
+    <value>Product Information</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="ProductAgreement" xml:space="preserve">
+    <value>The Company acknowledges that all data, information and attachements noted, registered, inserted, and added to the form are correct not fake. If proved incorrect, wholly or partially, the Company shall be liable to regulatory penalties prescribed by the laws. 
+The Company also acknowledges its consent to the disclosure of product details, wholly or partially, by Communications and Information Technology Commission and bodies cooperating with it in this regard, as may be required, except for the Company’s financial data, for inserting them into the local technical product catalogue. The Company also acknowledges that such acknowledgement and undertaking is issued by the Company without objection to the disclosure of such data.
+</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Add Product</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="AddEmployee" xml:space="preserve">
+    <value>Add Employee</value>
+  </data>
+  <data name="OuwnerShip" xml:space="preserve">
+    <value>Product development data</value>
+  </data>
+  <data name="MessageBodyAr" xml:space="preserve">
+    <value>Message Body Ar</value>
+  </data>
+  <data name="MessageBodyEn" xml:space="preserve">
+    <value>Message Body En</value>
+  </data>
+  <data name="LogoMessage" xml:space="preserve">
+    <value>Transperant backgraound ,  240 Px * 240 Px </value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>Created On</value>
+  </data>
+  <data name="Creator" xml:space="preserve">
+    <value>Creator</value>
+  </data>
+  <data name="CrNumber" xml:space="preserve">
+    <value>Commercial Registry No</value>
+  </data>
+  <data name="MessageBody" xml:space="preserve">
+    <value>Message Body</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="messagesLog" xml:space="preserve">
+    <value>Messages Log</value>
+  </data>
+  <data name="Messsages" xml:space="preserve">
+    <value>Messsages</value>
+  </data>
+  <data name="homeMessage" xml:space="preserve">
+    <value>Message log</value>
+  </data>
+  <data name="incomingMessages" xml:space="preserve">
+    <value>Incoming Messages</value>
+  </data>
+  <data name="outgoingMessages" xml:space="preserve">
+    <value>Outgoing Messages</value>
+  </data>
+  <data name="SendMessages" xml:space="preserve">
+    <value>Send Messages</value>
+  </data>
+  <data name="CrudOperation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="CompanyNameEn" xml:space="preserve">
+    <value>Compnay Name (En)</value>
+  </data>
+  <data name="CompanyNameAr" xml:space="preserve">
+    <value>Company Name (Ar)</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="TableName" xml:space="preserve">
+    <value>Table Name</value>
+  </data>
+  <data name="MessageAll" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="CustomLog" xml:space="preserve">
+    <value>Login Records</value>
+  </data>
+  <data name="UpdatedRequestDate" xml:space="preserve">
+    <value>Updated Request Date</value>
+  </data>
+  <data name="UpdatedDate" xml:space="preserve">
+    <value>Updated Date</value>
+  </data>
+  <data name="records" xml:space="preserve">
+    <value>Records</value>
+  </data>
+  <data name="SupportPrograms" xml:space="preserve">
+    <value>Support Programs</value>
+  </data>
+  <data name="AddNewProgram" xml:space="preserve">
+    <value>Add New Program</value>
+  </data>
+  <data name="ResponsibleIdentity" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="SupportProgramName" xml:space="preserve">
+    <value>Support Program Name</value>
+  </data>
+  <data name="SupportProgramURL" xml:space="preserve">
+    <value>Support Program URL</value>
+  </data>
+  <data name="SupportProgramAddSuccessfully" xml:space="preserve">
+    <value>Support Program Added Successfully</value>
+  </data>
+  <data name="SupportProgramModifiedSuccessfully" xml:space="preserve">
+    <value>Support Program Modified Successfully</value>
+  </data>
+  <data name="RegisteredCompaniesCount" xml:space="preserve">
+    <value>Registered Companies</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="CompanyProgramRegistration" xml:space="preserve">
+    <value>Support Program Registration</value>
+  </data>
+  <data name="SupportProgramRegConfirm" xml:space="preserve">
+    <value>Are you sure you want to register for this support program?</value>
+  </data>
+  <data name="SupportProgramConfirm" xml:space="preserve">
+    <value>Are you sure you want to add this support program?</value>
+  </data>
+  <data name="RequestCount" xml:space="preserve">
+    <value>Request Count</value>
+  </data>
+  <data name="AddOrganization" xml:space="preserve">
+    <value>Add Organization</value>
+  </data>
+  <data name="AddOrganizationConfirm" xml:space="preserve">
+    <value>Are you sure you want to add new organization?</value>
+  </data>
+  <data name="ModifyOrganizationConfirm" xml:space="preserve">
+    <value>Are you sure you want to modify the organization?</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>Organizations</value>
+  </data>
+  <data name="AddNewOfficial" xml:space="preserve">
+    <value>Add New Official</value>
+  </data>
+  <data name="IdentityNumber" xml:space="preserve">
+    <value>Identity Number</value>
+  </data>
+  <data name="SupportProgramOfficialConfirm" xml:space="preserve">
+    <value>Are you sure you want to add support program official?</value>
+  </data>
+  <data name="SupportProgramsOfficials" xml:space="preserve">
+    <value>Support Programs Officials</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="Createdby" xml:space="preserve">
+    <value>Created by</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CommunicationBetweenCompanies" xml:space="preserve">
+    <value>Communication Between Companies</value>
+  </data>
+  <data name="SupportProgramCertificate" xml:space="preserve">
+    <value>Support Program Certificate</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>Current Status</value>
+  </data>
+  <data name="NameDecisionMaker" xml:space="preserve">
+    <value>Name Decision Maker</value>
+  </data>
+  <data name="NameTask" xml:space="preserve">
+    <value>Name Task</value>
+  </data>
+  <data name="SupportProgramExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="SupportProgramIssueDate" xml:space="preserve">
+    <value>Issue Date</value>
+  </data>
+  <data name="FileIsTooLarge" xml:space="preserve">
+    <value>File is too large, must select file under 5 Mb.</value>
+  </data>
+  <data name="FileIsTooSmallVideo" xml:space="preserve">
+    <value>You must upload a file larger than 5MB</value>
+  </data>
+  <data name="RegisterDate" xml:space="preserve">
+    <value>Register Date</value>
+  </data>
+  <data name="FilterDate" xml:space="preserve">
+    <value>Filter Date</value>
+  </data>
+  <data name="LiaisonNote" xml:space="preserve">
+    <value>Note: only active regestration request will be updated</value>
+  </data>
+  <data name="LiaisonNoteProfile" xml:space="preserve">
+    <value>Note: only profile will be updated</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="DeactivationTitle" xml:space="preserve">
+    <value>Deactivation</value>
+  </data>
+  <data name="DeactivationMsg" xml:space="preserve">
+    <value>Are you sure you want to Deactivate/Activate this company?</value>
+  </data>
+  <data name="AssignedToWorkflowUser" xml:space="preserve">
+    <value>Reviewer</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="SupportProgramOfficialAddSuccessfully" xml:space="preserve">
+    <value>Support Program Official Added Successfully</value>
+  </data>
+  <data name="SupportProgramOfficialModifiedSuccessfully" xml:space="preserve">
+    <value>Support Program Official Modified Successfully</value>
+  </data>
+  <data name="RegistrationInSupportProgramSucess" xml:space="preserve">
+    <value>Registration with Support Program is done Successfully</value>
+  </data>
+  <data name="tasksUser" xml:space="preserve">
+    <value>Tasks User</value>
+  </data>
+  <data name="SupportProgramRegisteredCompanies" xml:space="preserve">
+    <value>Support Program Registered Companies</value>
+  </data>
+  <data name="RegistrationInSupportProgram" xml:space="preserve">
+    <value>Registration In Support Programs</value>
+  </data>
+  <data name="RequestRenewal" xml:space="preserve">
+    <value>Request Renewal</value>
+  </data>
+  <data name="SupportProgram" xml:space="preserve">
+    <value>Support Program</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SPCertificateDownload" xml:space="preserve">
+    <value>Download Support Program Certificate</value>
+  </data>
+  <data name="SupportProgramConfirmEdit" xml:space="preserve">
+    <value>Are you sure you want to modify this support program?</value>
+  </data>
+  <data name="SupportProgramOfficialConfirmEdit" xml:space="preserve">
+    <value>Are you sure you want to modify (support program official) data?</value>
+  </data>
+  <data name="CurrentSupportPrograms" xml:space="preserve">
+    <value>Current Support Programs</value>
+  </data>
+  <data name="AllowedForSupportProgramm" xml:space="preserve">
+    <value>Allow to register in Support Programs</value>
+  </data>
+  <data name="InterestInSupportProgram" xml:space="preserve">
+    <value>I would like to apply for available Support and Development Programs.</value>
+  </data>
+  <data name="ListCompanies" xml:space="preserve">
+    <value>List Companies</value>
+  </data>
+  <data name="AtLeastOneCompanyMustBeSelected" xml:space="preserve">
+    <value>At least one company must be selected</value>
+  </data>
+  <data name="TotalCount" xml:space="preserve">
+    <value>Total Count</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TheMinimumNumberOfCharacters" xml:space="preserve">
+    <value>The Minimum Number Of Characters Is 250</value>
+  </data>
+  <data name="PreviousCase" xml:space="preserve">
+    <value>Previous Case</value>
+  </data>
+  <data name="TheCancellationRequestHasBeenSubmittedSuccessfully" xml:space="preserve">
+    <value>The Cancellation Request Has Been Submitted Successfully</value>
+  </data>
+  <data name="productdraft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="AddBlackList" xml:space="preserve">
+    <value>Add company to black list</value>
+  </data>
+  <data name="Requireds" xml:space="preserve">
+    <value>Requireds</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>Added Successfully</value>
+  </data>
+  <data name="SaveProgram" xml:space="preserve">
+    <value>Save Program</value>
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Export To Excel</value>
+  </data>
+  <data name="advancedSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ResponsibleName" xml:space="preserve">
+    <value>Responsible Name</value>
+  </data>
+  <data name="CompanyStatus" xml:space="preserve">
+    <value>Company Status</value>
+  </data>
+  <data name="ContactorEmail" xml:space="preserve">
+    <value>Contactor Email</value>
+  </data>
+  <data name="ContactorName" xml:space="preserve">
+    <value>Contactor Name</value>
+  </data>
+  <data name="ContactorNameAr" xml:space="preserve">
+    <value>Contactor Name Ar</value>
+  </data>
+  <data name="ContactorPhone" xml:space="preserve">
+    <value>Contactor Phone</value>
+  </data>
+  <data name="RequestSerial" xml:space="preserve">
+    <value>Request Serial</value>
+  </data>
+  <data name="RequestStatusAr" xml:space="preserve">
+    <value>Request Status Ar</value>
+  </data>
+  <data name="RequestStatusEn" xml:space="preserve">
+    <value>Request Status En</value>
+  </data>
+  <data name="RequestTitleAr" xml:space="preserve">
+    <value>Request Title Ar</value>
+  </data>
+  <data name="RequestTitleEn" xml:space="preserve">
+    <value>Request Title En</value>
+  </data>
+  <data name="RequestTypeAr" xml:space="preserve">
+    <value>Request Type Ar</value>
+  </data>
+  <data name="RequestTypeEn" xml:space="preserve">
+    <value>Request Type En</value>
+  </data>
+  <data name="UpdatedOn" xml:space="preserve">
+    <value>Updated On</value>
+  </data>
+  <data name="ActionName" xml:space="preserve">
+    <value>Action Name</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="OrganizationName" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="ResponsibleEmail" xml:space="preserve">
+    <value>Responsible Email</value>
+  </data>
+  <data name="DirectoryMsg" xml:space="preserve">
+    <value>The directory represents a reference list for information technology and emerging technology (ITET) enterprises, classified according to the ITET market business classification document issued by the CST Commission</value>
+  </data>
+  <data name="DirectoryHeader" xml:space="preserve">
+    <value>Information Technology and Emerging Technology Enterprises.</value>
+  </data>
+  <data name="SupportProgramAddMsg" xml:space="preserve">
+    <value>Information technology and emerging technology companies.</value>
+  </data>
+  <data name="OrganizationNameEn" xml:space="preserve">
+    <value>Organization Name En</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Responsible</value>
+  </data>
+  <data name="ReceivedBy" xml:space="preserve">
+    <value>Received By</value>
+  </data>
+  <data name="TheDateMustBeLessThanTodayDate" xml:space="preserve">
+    <value>The Date Must Be Less Than Today Date</value>
+  </data>
+  <data name="AreYouSureToSubmitARequestToCancelTheCompanyFile" xml:space="preserve">
+    <value>Are you sure to submit a request to cancel the company file?</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>Is Available</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="NoAnswer" xml:space="preserve">
+    <value>No Answer</value>
+  </data>
+  <data name="StatusCompany" xml:space="preserve">
+    <value>Status Company</value>
+  </data>
+  <data name="Reviewer" xml:space="preserve">
+    <value>Reviewer</value>
+  </data>
+  <data name="ClassificationRevenue" xml:space="preserve">
+    <value>Income percentage for second classification</value>
+  </data>
+  <data name="productDetails" xml:space="preserve">
+    <value>Product Details</value>
+  </data>
+  <data name="Answere" xml:space="preserve">
+    <value>Answered</value>
+  </data>
+  <data name="SupportProgramsList" xml:space="preserve">
+    <value>Support Programs List</value>
+  </data>
+  <data name="AnotherRegistrationInSupportProgramInProgress" xml:space="preserve">
+    <value>Registration is rejected as there is already a pending request</value>
+  </data>
+  <data name="VisitCompanyProfile" xml:space="preserve">
+    <value>View Company's Profile</value>
+  </data>
+  <data name="VisitCompanyWebsite" xml:space="preserve">
+    <value>Visit Company's Website</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Create Profile</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>View Company</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="SendProduct" xml:space="preserve">
+    <value>Send Product Confirm</value>
+  </data>
+  <data name="SendProductConfirm" xml:space="preserve">
+    <value>Are you sure you want to Send The Request?</value>
+  </data>
+  <data name="SupportProgramRegistered" xml:space="preserve">
+    <value>Companies registered in the support program</value>
+  </data>
+  <data name="SupportProgramExist" xml:space="preserve">
+    <value>Registration is already exist</value>
+  </data>
+  <data name="Certified" xml:space="preserve">
+    <value>Certified</value>
+  </data>
+  <data name="StartComp" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="EmployeeRequired" xml:space="preserve">
+    <value>You have to enter at least one staff</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="SendMessageConfirmationMssages" xml:space="preserve">
+    <value>Are you sure you send the message?</value>
+  </data>
+  <data name="CompanyNameTo" xml:space="preserve">
+    <value> To (Company Name)</value>
+  </data>
+  <data name="CreatedOnSend" xml:space="preserve">
+    <value>Sending Date</value>
+  </data>
+  <data name="MessageBodyTitle" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="AssignedToWorkflowUserName" xml:space="preserve">
+    <value>Reviewer</value>
+  </data>
+  <data name="searchKeywords" xml:space="preserve">
+    <value>Search Keywords</value>
+  </data>
+  <data name="CompanyDataAcknowledgment" xml:space="preserve">
+    <value>Company data and acknowledgment of the validity of the information</value>
+  </data>
+  <data name="CommercialRegister" xml:space="preserve">
+    <value>Commercial Register</value>
+  </data>
+  <data name="OfficialData" xml:space="preserve">
+    <value>Official Data</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="AcknowledgmentNumberClients" xml:space="preserve">
+    <value>Acknowledgment by the Company of customers’ numbers, names and countries and details of contact with each customer</value>
+  </data>
+  <data name="ContactInformationRelevantEmployeesCompany" xml:space="preserve">
+    <value>Details of contact with people in charge of the product</value>
+  </data>
+  <data name="FinancialStatements" xml:space="preserve">
+    <value>Product revenue financial statements</value>
+  </data>
+  <data name="GeneralData" xml:space="preserve">
+    <value>General Data</value>
+  </data>
+  <data name="HowProductWorks" xml:space="preserve">
+    <value>Product method of work</value>
+  </data>
+  <data name="ProductCtegory" xml:space="preserve">
+    <value>Product Ctegory</value>
+  </data>
+  <data name="ProductInvoice" xml:space="preserve">
+    <value>Provide a purchase order, invoice for the product, or other appropriate proof</value>
+  </data>
+  <data name="PublicData" xml:space="preserve">
+    <value>Public Data</value>
+  </data>
+  <data name="PurchaseOrders" xml:space="preserve">
+    <value>Older purchase order or invoice of the product or any appropriate proof</value>
+  </data>
+  <data name="RelatedProductManufacturingDevelopmentProgramming" xml:space="preserve">
+    <value>Acknowledgment by the Company of staff information, names and job titles</value>
+  </data>
+  <data name="TeamDataKingdomPurposeInnovation" xml:space="preserve">
+    <value>Acknowledgment by the Company of staff information, names and job titles</value>
+  </data>
+  <data name="TeamDataKingdomPurposeProductDesign" xml:space="preserve">
+    <value>Acknowledgment by the Company of staff information, names and job titles to introduce staff for the purpose of research and innovation, staff for examining product-related customers’ needs and staff for performing duties related to product design</value>
+  </data>
+  <data name="ValueAddedProduct" xml:space="preserve">
+    <value>Product added value (product features)</value>
+  </data>
+  <data name="RegCertificate" xml:space="preserve">
+    <value>Certificate</value>
+  </data>
+  <data name="NameAddressFactoryDataCenterUsed" xml:space="preserve">
+    <value>Name Address Factory Data Center Used</value>
+  </data>
+  <data name="IncludeAverageAnnualRevenue" xml:space="preserve">
+    <value>Include the average annual revenue of the product (for the last 5 years or since launch if the product is less than 5 years old)</value>
+  </data>
+  <data name="ProductData" xml:space="preserve">
+    <value>Product Information</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="ProductNameAr" xml:space="preserve">
+    <value>Product Name (Ar)</value>
+  </data>
+  <data name="CompanyDataAcknowledgmentValidityInformation" xml:space="preserve">
+    <value>Company data and acknowledgment of the validity of the information</value>
+  </data>
+  <data name="AcknowledgingCompatibilityAgreeingPublishData" xml:space="preserve">
+    <value>Acknowledging the compatibility of products with principles and values, and agreeing to publish data</value>
+  </data>
+  <data name="DowenloadExportCsv" xml:space="preserve">
+    <value>Export Csv</value>
+  </data>
+  <data name="DowenloadExportPdf" xml:space="preserve">
+    <value>Export Pdf</value>
+  </data>
+  <data name="AdvancedToalTip" xml:space="preserve">
+    <value> company name, type of company, name of the contact officer, phone number of the contact officer, email of the contact officer, city, phone company, website, commercial registration number, application number, email company</value>
+  </data>
+  <data name="CountriesProductOffered" xml:space="preserve">
+    <value>Names of countries where the product is offered</value>
+  </data>
+  <data name="ApplyRequest" xml:space="preserve">
+    <value>Apply Request Again</value>
+  </data>
+  <data name="competitiveAdvantageOffered" xml:space="preserve">
+    <value>The competitive advantage offered by the product over other products in the market shall be listed, not exceeding 250 characters.</value>
+  </data>
+  <data name="DateInformationCollected" xml:space="preserve">
+    <value>Date Information Collected</value>
+  </data>
+  <data name="NameContactOfficer" xml:space="preserve">
+    <value>Name Contact Officer</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>Expired</value>
+  </data>
+  <data name="OnlyLettersRequired" xml:space="preserve">
+    <value>Only Letters Required</value>
+  </data>
+  <data name="NewValues" xml:space="preserve">
+    <value>New Values</value>
+  </data>
+  <data name="OldValues" xml:space="preserve">
+    <value>Old Values</value>
+  </data>
+  <data name="PriceProduct" xml:space="preserve">
+    <value>What is the basic price of the product (SR)?</value>
+  </data>
+  <data name="ProductPricing" xml:space="preserve">
+    <value>How is the product priced ?</value>
+  </data>
+  <data name="ProductNameS" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="logsChangeRoles" xml:space="preserve">
+    <value>Record changes to permissions</value>
+  </data>
+  <data name="NameUserMadeModification" xml:space="preserve">
+    <value>Modified by</value>
+  </data>
+  <data name="NewDataRoles" xml:space="preserve">
+    <value>New permissions</value>
+  </data>
+  <data name="OldDataRoles" xml:space="preserve">
+    <value>Old permissions</value>
+  </data>
+  <data name="RecordChangesData" xml:space="preserve">
+    <value>Record changes to the data</value>
+  </data>
+  <data name="UserNameChangeRoles" xml:space="preserve">
+    <value>Modified user</value>
+  </data>
+  <data name="notSeen" xml:space="preserve">
+    <value>Not Seen</value>
+  </data>
+  <data name="Seen" xml:space="preserve">
+    <value>Seen</value>
+  </data>
+  <data name="ProductRequest" xml:space="preserve">
+    <value>Product Request</value>
+  </data>
+</root>

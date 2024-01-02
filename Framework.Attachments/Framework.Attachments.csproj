@@ -13,9 +13,8 @@
 </PropertyGroup>-->
  
   <ItemGroup> 
-	  <ProjectReference Include="..\..\..\MiRate\MiRate\MiRate.Application\MiRate.Application.csproj" />
-	  <ProjectReference Include="..\..\Core\Framework.Core\Framework.Core.csproj" />
-	  <ProjectReference Include="..\..\Localization\Localization.csproj" />
+	  <ProjectReference Include="..\..\..\MiRate\MiRate\MiRate.Application\MiRate.Application.csproj" /> 
+	  <ProjectReference Include="..\Core\Framework.Core\Framework.Core.csproj" />
   </ItemGroup>
  
   <ItemGroup>

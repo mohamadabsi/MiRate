@@ -1,0 +1,118 @@
+﻿@model Framework.Notifications.Entities.NotificationEmailDetailsVM
+@using Framework.Notifications.Resources
+@{
+    var statues = (Framework.Notifications.Entities.NotificationEmailDetailss)Model.SendStatusCode;
+}
+
+
+<form method="post" asp-page="Index">
+    <input type="hidden" asp-for="@Model.Id" />
+
+    <div class="form-row">
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.Subject"></label>
+            <input asp-for="@Model.Subject" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.Host"></label>
+            <input asp-for="@Model.Host" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.SmtpPort"></label>
+            <input asp-for="@Model.SmtpPort" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.DeliveryMethod"></label>
+            <input asp-for="@Model.DeliveryMethod" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.EmailFromAddress"></label>
+            <input asp-for="@Model.EmailFromAddress" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.EmailFromName"></label>
+            <input asp-for="@Model.EmailFromName" readonly class="form-control" />
+        </div>
+
+
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.MailFrom"></label>
+            <input asp-for="@Model.MailFrom" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.To"></label>
+            <input asp-for="@Model.To" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.Cc"></label>
+            <input asp-for="@Model.Cc" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.Bcc"></label>
+            <input asp-for="@Model.Bcc" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.LastSendDate"></label>
+            <input asp-for="@Model.LastSendDate" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.SendErrorMessage"></label>
+            <input asp-for="@Model.SendErrorMessage" readonly class="form-control" />
+        </div>
+
+        <div class="form-group col col-md-4">
+            <label asp-for="@Model.SendStatusCode"></label>
+            <input asp-for="@statues" readonly class="form-control" />
+        </div>
+
+
+
+        <div class="form-group col col-md-12">
+            <a class="btn btn-primary float-right" href="/Notifications/Index">@NotificationsResources.Cancel</a>
+            <input type="button" class="btn btn-primary float-right ajax-submit-btn"
+                   data-title="@NotificationsResources.Notifications_data_title"
+                   data-message="@NotificationsResources.Notifications_data_Message"
+                   data-finishurl="@Url.Page("Index")"
+                   value="@NotificationsResources.ReSend" />
+        </div>
+    </div>
+
+
+    <div id="bodyaccordion" class="accordion">
+        <div class="card-header" id="headingBody">
+            <div class="collapsed" data-toggle="collapse" data-target="#collapseBody" aria-expanded="true" aria-controls="collapseBody">
+                <h5 class="mb-0">
+                   @NotificationsResources.Content
+                </h5>
+            </div>
+        </div>
+        <div id="collapseBody" class="collapse" aria-labelledby="headingBody" data-parent="#bodyaccordion">
+            <div class="card-body">
+                <div class="form-group col col-md-12">
+                    @Html.Raw(Model.MailBody)
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+
+
+@section scripts{
+
+    <partial name="_ValidationScriptsPartial" />
+
+}

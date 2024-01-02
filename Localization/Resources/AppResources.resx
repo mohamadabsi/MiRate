@@ -1,0 +1,3076 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Options" xml:space="preserve">
+    <value>خيارات    </value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>     تحديث      </value>
+  </data>
+  <data name="UnAuthorizedDecision" xml:space="preserve">
+    <value>    ليس لديك صلاحية اتخاذ القرار على الطلب      </value>
+  </data>
+  <data name="ReloadPage" xml:space="preserve">
+    <value>     إعادة تحميل الصفحة      </value>
+  </data>
+  <data name="ReconnectError" xml:space="preserve">
+    <value> 
+    عذرا, لقد تم قطع الاتصال مع الخادم يرجى محاولة اعادة تحميل الصفحة  
+    </value>
+  </data>
+  <data name="UpdateCRDetailsSuccess" xml:space="preserve">
+    <value>   تم تحديث البيانات التجارية بنجاح</value>
+  </data>
+  <data name="UpdateCRDetailsConfirm" xml:space="preserve">
+    <value> هل أنت متأكد من انك تريد تحديث البيانات التجاري؟</value>
+  </data>
+  <data name="UpdateCRDetailsTitle" xml:space="preserve">
+    <value>  تحديث البيانات التجارية     </value>
+  </data>
+  <data name="CancelationRequest" xml:space="preserve">
+    <value>طلب الغاء شركة</value>
+  </data>
+  <data name="ApplyForRenewProfile" xml:space="preserve">
+    <value>   تقديم طلب تجديد </value>
+  </data>
+  <data name="CancelationReason" xml:space="preserve">
+    <value>سبب الإلغاء</value>
+  </data>
+  <data name="CompanyNameEn" xml:space="preserve">
+    <value>اسم الشركة (En)</value>
+  </data>
+  <data name="CompanyNameAr" xml:space="preserve">
+    <value>اسم الشركة (Ar)</value>
+  </data>
+  <data name="ApplyForEditProfile" xml:space="preserve">
+    <value>   تقديم طلب تعديل </value>
+  </data>
+  <data name="AddContactInfo" xml:space="preserve">
+    <value>يرجى إدخال بيانات التواصل</value>
+  </data>
+  <data name="MyRequests" xml:space="preserve">
+    <value>   طلباتي  </value>
+  </data>
+  <data name="DisplayEditRequest" xml:space="preserve">
+    <value>تفاصيل طلب التعديل</value>
+  </data>
+  <data name="RenewProfile" xml:space="preserve">
+    <value>تقديم طلب تجديد</value>
+  </data>
+  <data name="ProfileExpired" xml:space="preserve">
+    <value>لايمكن استعراض ملف الشركة لانتهاء صلاحية التسجيل</value>
+  </data>
+  <data name="CRExpired" xml:space="preserve">
+    <value>  لايمكن استعراض ملف الشركة لانتهاء صلاحية السجل التجاري  </value>
+  </data>
+  <data name="RenewRequestAplliedAlert" xml:space="preserve">
+    <value>   يوجد طلب تجديد لملف الشركة  </value>
+  </data>
+  <data name="EditRequestAplliedAlert" xml:space="preserve">
+    <value>   يوجد طلب تعديل لملف الشركة </value>
+  </data>
+  <data name="CompanyProfileExpiredAlert" xml:space="preserve">
+    <value>   ملف الشركة منتهي يجب تقديم طلب تجديد لإعادة تفعيل ملف الشركة   
+    </value>
+  </data>
+  <data name="CompanyProfileExpirationSoonAlert" xml:space="preserve">
+    <value>   ملف الشركة أوشك على الإنتهاء يجب تقديم طلب تجديد لتجنب ايقاف ملف الشركة   
+    </value>
+  </data>
+  <data name="CompaniesProfileExpiredAlert" xml:space="preserve">
+    <value>   يوجد ملفات منتهية التسجيل يجب تقديم طلب تجديد لإعادة تفعيلها مرة أخرى   
+    </value>
+  </data>
+  <data name="CompaniesProfileExpirationSoonAlert" xml:space="preserve">
+    <value>   يوجد ملفات أوشكت على الإنتهاء يجب تقديم طلب تجديد لتجنب ايقاف هذه الملفات   
+    </value>
+  </data>
+  <data name="ConfimContactorMobile" xml:space="preserve">
+    <value>   تأكيد بيانات الهاتف    
+    </value>
+  </data>
+  <data name="ConfimContactorEmail" xml:space="preserve">
+    <value>  تأكيد البريد الإلكتروني    
+    </value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>تأكيد</value>
+  </data>
+  <data name="CertificatesDesc1" xml:space="preserve">
+    <value> يجب ارفاق كل الشهادات الرسمية المعتمدة </value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>تم النسخ</value>
+  </data>
+  <data name="CertificatesDesc11" xml:space="preserve">
+    <value>يجب ارفاق شهادات الشراكة مع اى شركات او جهات محلية او عالمية </value>
+  </data>
+  <data name="AbleSendRegistrationRequestRoleTitle" xml:space="preserve">
+    <value>لكي تتمكن من ارسال طلب التسجيل يرجى استكمال جميع النماذج أعلاه بنسبة 100%</value>
+  </data>
+  <data name="ReAssignTasks" xml:space="preserve">
+    <value>إعادة اسناد المهام       </value>
+  </data>
+  <data name="MustaHaveComment" xml:space="preserve">
+    <value> يجب تحديد قسم واحد على الاقل يوجد به ملاحظات </value>
+  </data>
+  <data name="SendDecisionMessage" xml:space="preserve">
+    <value>     ؟هل انت متأكد من إرسال القرار حيث لايمكن تغيير القرار لاحقا </value>
+  </data>
+  <data name="LastComment" xml:space="preserve">
+    <value>  الملاحظات السابقة  </value>
+  </data>
+  <data name="ReviewResult" xml:space="preserve">
+    <value>   هل يوجد ملاحظات؟   </value>
+  </data>
+  <data name="EditProfileDetails" xml:space="preserve">
+    <value>   عرض طلب التعديل   </value>
+  </data>
+  <data name="RenewProfileDetails" xml:space="preserve">
+    <value>   عرض طلب التجديد   </value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>تعديل بيانات الشركة</value>
+  </data>
+  <data name="AboutCITC" xml:space="preserve">
+    <value>عن الهيئه</value>
+  </data>
+  <data name="Attachments" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعة</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>تحميل شهادة التسجيل (En)</value>
+  </data>
+  <data name="DownloadAttach" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>عرض شهادة التسجيل  (En)</value>
+  </data>
+  <data name="RegistrationApplicationRejectedTitle" xml:space="preserve">
+    <value> تم رفض طلب التسجيل الخاص بالشركة.   </value>
+  </data>
+  <data name="Reason" xml:space="preserve">
+    <value>السبب
+   </value>
+  </data>
+  <data name="RegistrationApplicationCancelationTitle" xml:space="preserve">
+    <value> تم الغاء طلب التسجيل الخاص بالشركة.   </value>
+  </data>
+  <data name="RegistrationApplicationReturnedTitle" xml:space="preserve">
+    <value> تم إعادة طلب التسجيل للتعديل الرجاء إستكمال جميع الملاحظات المطلوبة حتى تتمكن من إعادة إرسال الطلب مرة أخرى   </value>
+  </data>
+  <data name="Resubmit" xml:space="preserve">
+    <value>  إعادة إرسال  </value>
+  </data>
+  <data name="DataEntryANdReSendRequest" xml:space="preserve">
+    <value>إستكمال الملاحظات وإعادة إرسال الطلب</value>
+  </data>
+  <data name="sendProdRequestMsg" xml:space="preserve">
+    <value>هل انت متأكد من ارسال الطلب</value>
+  </data>
+  <data name="sendProdRequestTitle" xml:space="preserve">
+    <value>طلب تسجيل منتج</value>
+  </data>
+  <data name="About_Company" xml:space="preserve">
+    <value>عن الشركة </value>
+  </data>
+  <data name="Achived_Project_Of_Year" xml:space="preserve">
+    <value>عدد المشاريع المنجزة لعام {0}</value>
+    <comment>{0} السنة</comment>
+  </data>
+  <data name="Active" xml:space="preserve">
+    <value>مفعل</value>
+  </data>
+  <data name="ActiveStatus" xml:space="preserve">
+    <value>حالة التفعيل</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="ReviewReportAlert" xml:space="preserve">
+    <value>    يجب إدخال الملاحظات التالية لكى تتمكن من إتخاذ القرار </value>
+  </data>
+  <data name="ReviewReport" xml:space="preserve">
+    <value>التقرير </value>
+  </data>
+  <data name="SaveReport" xml:space="preserve">
+    <value>حفظ التقرير</value>
+  </data>
+  <data name="GeneralinfoReviewStatus" xml:space="preserve">
+    <value>نتيجة مراجعة البيانات الأساسية</value>
+  </data>
+  <data name="FinancialInfoReviewStatus" xml:space="preserve">
+    <value>نتيجة مراجعة البيانات المالية</value>
+  </data>
+  <data name="BusinessClassificationReviewStatus" xml:space="preserve">
+    <value>نتيجة مراجعة التصنيفات</value>
+  </data>
+  <data name="Certifications_And_PartnersReviewStatus" xml:space="preserve">
+    <value>نتيجة مراجعة الشهادات والشراكات</value>
+  </data>
+  <data name="AddCompany_Contact" xml:space="preserve">
+    <value>اضافة شركة - معلومات  الاتصال </value>
+  </data>
+  <data name="Addition_Number" xml:space="preserve">
+    <value>الرقم الاضافي </value>
+  </data>
+  <data name="AddSuccessFormat" xml:space="preserve">
+    <value>تم إضافة {0} بنجاح</value>
+  </data>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>تم  حفظ البيانات بنجاح</value>
+  </data>
+  <data name="Add_Company" xml:space="preserve">
+    <value>اضافة شركة </value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>مدير النظام</value>
+  </data>
+  <data name="AfterTodayMessage" xml:space="preserve">
+    <value>يجب ان يكون التاريخ اكبر من تاريخ اليوم</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>العمر</value>
+  </data>
+  <data name="AllowedExtensionsUploader" xml:space="preserve">
+    <value>الامتدادات المسموح بها هي {0} بحد أقصى 5 ميجا بايت</value>
+    <comment> {0} Extension</comment>
+  </data>
+  <data name="AllRightsReservedCopyRIght" xml:space="preserve">
+    <value>جميع الحقوق محفوظه ©  {0} لهيئة الإتصالات و الفضاء والتقنية</value>
+  </data>
+  <data name="Annualreport" xml:space="preserve">
+    <value>التقرير السنوي</value>
+  </data>
+  <data name="ApplyForRegistration01" xml:space="preserve">
+    <value>تقديم طلب التسجيل</value>
+  </data>
+  <data name=" Description" xml:space="preserve">
+    <value> الوصف </value>
+  </data>
+  <data name="ApplyForRegistration01Description" xml:space="preserve">
+    <value>تقديم طلبات ترخيص استخدام الترددات وتراخيص الأجهزة الاسلكية للخدمات التالية</value>
+  </data>
+  <data name="ApproveCompanyProfile03" xml:space="preserve">
+    <value>03: اعتماد ملف الشركة</value>
+  </data>
+  <data name="ApproveCompanyProfile03Description" xml:space="preserve">
+    <value>تقديم طلبات ترخيص استخدام الترددات وتراخيص الأجهزة الاسلكية للخدمات التالية</value>
+  </data>
+  <data name="approved" xml:space="preserve">
+    <value>تم الإعتماد</value>
+  </data>
+  <data name="Areas" xml:space="preserve">
+    <value>المناطق</value>
+  </data>
+  <data name="Argami" xml:space="preserve">
+    <value>أرقامي</value>
+  </data>
+  <data name="AttachedFile" xml:space="preserve">
+    <value>الملف المرفق </value>
+  </data>
+  <data name="AttachedFileNotAllowed" xml:space="preserve">
+    <value>الملف المرفق غير مسموح به</value>
+  </data>
+  <data name="AuthenticationFailure" xml:space="preserve">
+    <value>فشل المصادقة</value>
+  </data>
+  <data name="AveragePercentageInformationCompleted" xml:space="preserve">
+    <value>&lt;span&gt;تم إكمال  {0}٪ من بيانات الشركة.&lt;/span&gt; 
+&lt;span&gt;يمكنك البدء بأي قسم من الأقسام الرئيسية أدناه&lt;/span&gt;</value>
+  </data>
+  <data name="awarenesscampaigns" xml:space="preserve">
+    <value>  توعية المستخدم</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>رجوع</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>نظرة تاريخية</value>
+  </data>
+  <data name="BasicInfoCompany" xml:space="preserve">
+    <value>البيانات الأساسية للشركة</value>
+  </data>
+  <data name="BeforeTodayMessage" xml:space="preserve">
+    <value>يجب ان يكون التاريخ اقل من تاريخ اليوم </value>
+  </data>
+  <data name="Begin_CreateFile_Company" xml:space="preserve">
+    <value>انت على وشك انشاء ملف لشركتكم هل انت متاكد من انشاء الملف </value>
+  </data>
+  <data name="BoardDirectors" xml:space="preserve">
+    <value>مجلس الادارة</value>
+  </data>
+  <data name="Boniah" xml:space="preserve">
+    <value>بنية </value>
+  </data>
+  <data name="Brief" xml:space="preserve">
+    <value>نبذة عن الشركة {0}</value>
+  </data>
+  <data name="BriefAboutCompany" xml:space="preserve">
+    <value>نبذة</value>
+  </data>
+  <data name="BriefAr" xml:space="preserve">
+    <value>نبذة عن الشركة {0}</value>
+  </data>
+  <data name="BriefEN" xml:space="preserve">
+    <value>نبذة باللغة الانجليزية</value>
+  </data>
+  <data name="BtnCancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="Build_No" xml:space="preserve">
+    <value>رقم المبنى </value>
+  </data>
+  <data name="BusinessClassification" xml:space="preserve">
+    <value>تصنيف الأعمال</value>
+  </data>
+  <data name="Calssification" xml:space="preserve">
+    <value>تصنيف الأعمال</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="CancelConfirm" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد إلغاء هذا العنصر؟</value>
+  </data>
+  <data name="CancelConfirmFormat" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد إلغاء هذا {0}؟</value>
+  </data>
+  <data name="Certificate_Attachment" xml:space="preserve">
+    <value>صورة الشهادة</value>
+  </data>
+  <data name="Certificate_Institute" xml:space="preserve">
+    <value>الجهة المانحة</value>
+  </data>
+  <data name="Certificate_Institute_Name" xml:space="preserve">
+    <value>  اسم الجهة المانحة (En)</value>
+  </data>
+  <data name="Certificate_Name" xml:space="preserve">
+    <value>اسم الشهادة (En)</value>
+  </data>
+  <data name="Certificate_Work" xml:space="preserve">
+    <value>تصنيف الاعمال </value>
+  </data>
+  <data name="Certifications_And_Partners" xml:space="preserve">
+    <value>الشهادات التقنية و الشراكات</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>تغيير كلمة المرور</value>
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>أختر ملف</value>
+  </data>
+  <data name="CITC" xml:space="preserve">
+    <value>هيئة الإتصالات و الفضاء والتقنية</value>
+  </data>
+  <data name="CITCGuidelines" xml:space="preserve">
+    <value> دليل هوية الهيئة</value>
+  </data>
+  <data name="CITCSerivces" xml:space="preserve">
+    <value>خدمات الهيئة </value>
+  </data>
+  <data name="CITCtasks" xml:space="preserve">
+    <value>منجزات الهيئة</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>المدينة </value>
+  </data>
+  <data name="ClassificationsAttachmentIds" xml:space="preserve">
+    <value>الملف التعريفي للشركة</value>
+  </data>
+  <data name="ClassificationSummary" xml:space="preserve">
+    <value>مختصر التصنيفات</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>مسح</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>مسح الكل</value>
+  </data>
+  <data name="ClearResult" xml:space="preserve">
+    <value>مسح النتائج</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>تعليق </value>
+  </data>
+  <data name="CommerciaInfo" xml:space="preserve">
+    <value>البيانات التجارية </value>
+  </data>
+  <data name="CommercialNumber" xml:space="preserve">
+    <value>الرقم التجاري </value>
+  </data>
+  <data name="CommercialRegistryNoUnique" xml:space="preserve">
+    <value>رقم السجل التجاري مسجل من قبل </value>
+  </data>
+  <data name="CommercialSector" xml:space="preserve">
+    <value>قطاع أعمال ( شركات ومؤسسات )</value>
+  </data>
+  <data name="Commercial_Data" xml:space="preserve">
+    <value>البيانات التجارية </value>
+  </data>
+  <data name="Commercial_Registry_No" xml:space="preserve">
+    <value>رقم السجل التجاري </value>
+  </data>
+  <data name="Companies" xml:space="preserve">
+    <value>الشركات </value>
+  </data>
+  <data name="CompanyDashboard" xml:space="preserve">
+    <value>ملف الشركة </value>
+  </data>
+  <data name="companyDetails" xml:space="preserve">
+    <value>تفاصيل الشركة </value>
+  </data>
+  <data name="CompanyFileFinallyApprovedTitle" xml:space="preserve">
+    <value>تمت الموافقة على ملف الشركة بشكل نهائى يمكن عرض الملف بالضغط على الرابط المخصص في القائمة الجانبية </value>
+  </data>
+  <data name="CompanyList" xml:space="preserve">
+    <value>قائمة الشركات </value>
+  </data>
+  <data name="CompaniesCount" xml:space="preserve">
+    <value> عدد الشركات  ( {0} ) </value>
+  </data>
+  <data name="CRExpirationSoonAlert" xml:space="preserve">
+    <value> 
+      سيتم تعليق الملف التعريفي للشركة بسبب قرب انتهاء صلاحية السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري وتقديم طلب تعديل لتحديثه.
+   </value>
+  </data>
+  <data name="Message_UrlNOtValid" xml:space="preserve">
+    <value>يجب ان يكون الرابط صحيح. مثال  : https://www.example.com</value>
+  </data>
+  <data name="CancelationRequestTitle" xml:space="preserve">
+    <value> طلب الغاء ملف شركة 
+   </value>
+  </data>
+  <data name="CancelationRequestMsg" xml:space="preserve">
+    <value> هل انت متاكد انك تريد تقديم طلب الغاء ملف شركة
+   </value>
+  </data>
+  <data name="CRExpiresAlert" xml:space="preserve">
+    <value>  
+      تم تعليق الملف التعريفي للشركة بسبب انتهاء السجل التجاري.
+لذا يرجى التأكد من تجديد السجل التجاري وتقديم طلب تعديل لتحديثه.
+   </value>
+  </data>
+  <data name="NoData" xml:space="preserve">
+    <value>  لا يوجد نتائج للبحث ...
+   </value>
+  </data>
+  <data name="Comp" xml:space="preserve">
+    <value> منشأة
+   </value>
+  </data>
+  <data name="CompanyProfile" xml:space="preserve">
+    <value>ملف المنشأة</value>
+  </data>
+  <data name="Company_Activities" xml:space="preserve">
+    <value>انشطة الشركة </value>
+  </data>
+  <data name="Company_Capital" xml:space="preserve">
+    <value>رأس مال الشركة </value>
+  </data>
+  <data name="Company_Details" xml:space="preserve">
+    <value>بيانات الشركة </value>
+  </data>
+  <data name="Company_Established _date" xml:space="preserve">
+    <value>تاريخ الانشاء </value>
+  </data>
+  <data name="Company_Financial_Info" xml:space="preserve">
+    <value>بيانات الشركة المالية والبشرية</value>
+  </data>
+  <data name="Company_Name" xml:space="preserve">
+    <value> اسم الشركة {0}</value>
+  </data>
+  <data name="Company_NameEn" xml:space="preserve">
+    <value> اسم الشركة بالإنجليزية</value>
+  </data>
+  <data name="Company_Type" xml:space="preserve">
+    <value>نوع الشركة </value>
+  </data>
+  <data name="Complaints" xml:space="preserve">
+    <value>الشكاوى </value>
+  </data>
+  <data name="CompletionPercentage" xml:space="preserve">
+    <value>نسبة الانجاز</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>معلومات الاتصال </value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="Contact_info" xml:space="preserve">
+    <value>بيانات الإتصال للشركة </value>
+  </data>
+  <data name="Contactor_info" xml:space="preserve">
+    <value>بيانات ضابط الإتصال </value>
+  </data>
+  <data name="Direcory" xml:space="preserve">
+    <value>	دليل الشركات
+</value>
+  </data>
+  <data name="Contry" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="CoverageService" xml:space="preserve">
+    <value> نخرائط التغطية</value>
+  </data>
+  <data name="cpftax" xml:space="preserve">
+    <value>    بوابة صافي ايرادات الاتصالات</value>
+  </data>
+  <data name="CreateCompanyConfirm" xml:space="preserve">
+    <value>هل انت متاكد  من انشاء ملف  خاصة للشركة ؟ </value>
+  </data>
+  <data name="CybercrimesAct" xml:space="preserve">
+    <value>  نظام مكافحة جرائم المعلوماتية</value>
+  </data>
+  <data name="CyberSecurity" xml:space="preserve">
+    <value>الأمن السيبراني</value>
+  </data>
+  <data name="DataEntryANdSendRequest" xml:space="preserve">
+    <value>ادخال  البيانات وارسال الطلب</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="DateOfBirth" xml:space="preserve">
+    <value>تاريخ الميلاد</value>
+  </data>
+  <data name="DateOutRange" xml:space="preserve">
+    <value>لا يسمح بتاريخ خارج النطاق الأصلى</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>أيام</value>
+  </data>
+  <data name="Decisions" xml:space="preserve">
+    <value>جميع القرارات</value>
+  </data>
+  <data name="DecisionUrl" xml:space="preserve">
+    <value>رابط القرار</value>
+  </data>
+  <data name="DefaultButtonRequireLabel" xml:space="preserve">
+    <value>defult button require a lable</value>
+  </data>
+  <data name="Definitionservice" xml:space="preserve">
+    <value>التعريف بالخدمة </value>
+  </data>
+  <data name="Definitionservice1" xml:space="preserve">
+    <value>&lt;p&gt;
+    &lt;span&gt;
+        تهدف المنصة إلى جمع قاعدة معلومات متكاملة تشمل جميع الشركات العاملة في مجال تقنية المعلومات والتقنيات الناشئة المحلية والدولية في المملكة العربية السعودية لإنشاء دليل مرجعي للعاملين في المجال وتعزيز دور الشفافية من خلال إتاحة معلومات صحيحة ومحدثة عن هذه الشركات وذلك من خلال تسجيل الشركات في المنصة وحصولها على اعتماد الهيئة
+    &lt;/span&gt;
+    &lt;div class="inner_title mt-5"&gt;
+        &lt;h2&gt;
+            من فوائد المنصة للشركات المسجلة:
+        &lt;/h2&gt;
+    &lt;/div&gt;
+   
+    &lt;div class="category m-0 p-2 nobackground"&gt;
+        &lt;ul&gt;
+            &lt;li&gt;إصدار شهادة تسجيل معلومات موثقة لدى الهيئة باستخدام الباركود ويمكن التحقق منها عبر موقع الهيئة.&lt;/li&gt;
+            &lt;li&gt; إتاحة سهولة الوصول للشركات والبحث عنها من خلال بوابة الهيئة حسب التصنيف أو خدماتها أو منتجاتها.&lt;/li&gt;
+            &lt;li&gt; إتاحة سهولة التواصل من طالبي الخدمات من الجهات الخاصة والحكومية مع الشركات المسجلة&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/p&gt;</value>
+  </data>
+  <data name="Definitionservice2" xml:space="preserve">
+    <value>هي خدمة تتيح لعملاء الطيف الترددي تقديم طلبات تخصيص الترددات وتراخيص الأجهزة اللاسلكية وتقديم شكاوي تداخلات الطيف الترددي والتقديم على خدمة هواة اللاسلكي .</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف </value>
+  </data>
+  <data name="DeleteConfirm" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذا العنصر؟</value>
+  </data>
+  <data name="DeleteConfirmFormat" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد حذف هذا {0}؟</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>حذف عنصر </value>
+  </data>
+  <data name="Disclaimers" xml:space="preserve">
+    <value>إخلاء المسئولية</value>
+  </data>
+  <data name="District" xml:space="preserve">
+    <value>الحي</value>
+  </data>
+  <data name="DomainNameRegistration" xml:space="preserve">
+    <value>تسجيل أسماء النطاقات</value>
+  </data>
+  <data name="DoNotHaveAccesspage" xml:space="preserve">
+    <value>ليس لديك صلاحية الوصول لهذه الصفحة</value>
+  </data>
+  <data name="draft" xml:space="preserve">
+    <value>ليس لها ملف</value>
+  </data>
+  <data name="productdraft" xml:space="preserve">
+    <value>مسودة</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="ElectronicTransactionsLaw" xml:space="preserve">
+    <value> نظام التعاملات الالكترونية</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value> البريد الالكتروني</value>
+  </data>
+  <data name="EmployeeCountGreatThanZero" xml:space="preserve">
+    <value>مجموع عدد الموظفين لابد ان يكون اكبر من صفر </value>
+  </data>
+  <data name="EmployeeCountGreatThanZero1" xml:space="preserve">
+    <value>مجموع عدد الموظفين لابد ان يكون اكبر من صفر </value>
+  </data>
+  <data name="EmployeeName" xml:space="preserve">
+    <value>اسم الموظف</value>
+  </data>
+  <data name="EquipmentLicensing" xml:space="preserve">
+    <value>تراخيص الأجهزة</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>حدث خطأ غير متوقع اثناء معالجة البيانات الرجاء المحاولة مرة أخرى فى حال تكرار الخطا الرجاء ابلاغ مدير النظام بالمشكلة.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="EstablishDate" xml:space="preserve">
+    <value>تاريخ انشاء السجل التجاري</value>
+  </data>
+  <data name="ExpiryDateCommercialRegister" xml:space="preserve">
+    <value>تاريخ إنتهاء السجل التجاري</value>
+  </data>
+  <data name="FaceBook" xml:space="preserve">
+    <value>حساب فيس بوك</value>
+  </data>
+  <data name="facilityNO" xml:space="preserve">
+    <value>رقم المنشأة </value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>أسئلة شائعة</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>رقم الفاكس </value>
+  </data>
+  <data name="Female_Employee_Number" xml:space="preserve">
+    <value>عدد الموظفين الإناث</value>
+  </data>
+  <data name="FinacialAttachments" xml:space="preserve">
+    <value> البيانات المالية و مرفقات التأمينات الاجتماعية</value>
+  </data>
+  <data name="FinancialInfo" xml:space="preserve">
+    <value>البيانات المالية</value>
+  </data>
+  <data name="Financial_List_Attach_Stamped" xml:space="preserve">
+    <value> القائمة المالية بختم المراجع القانوني</value>
+  </data>
+  <data name="FormsFullyCompletedTitle" xml:space="preserve">
+    <value>تم استكمال جميع الأقسام المطلوبة. يجب الموافقة على التعهد لكى تتمكن من إرسال طلبكم</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="FromDate" xml:space="preserve">
+    <value>من تاريخ</value>
+  </data>
+  <data name="FromTime" xml:space="preserve">
+    <value>من ساعة</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>الإسم كامل (En)</value>
+  </data>
+  <data name="Generalinfo" xml:space="preserve">
+    <value>البيانات التجارية </value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>العودة للصفحة الرئيسية</value>
+  </data>
+  <data name="Head_Center_Location" xml:space="preserve">
+    <value>موقع الشركة الرئيسي</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="HRInfo" xml:space="preserve">
+    <value>بيانات الموارد البشرية</value>
+  </data>
+  <data name="ICTIndicators" xml:space="preserve">
+    <value>داء سوق الاتصالات و تقنية المعلومات</value>
+  </data>
+  <data name="InActive" xml:space="preserve">
+    <value>غير مفعل</value>
+  </data>
+  <data name="indicators" xml:space="preserve">
+    <value>المؤشرات</value>
+  </data>
+  <data name="Indicator_Escalation" xml:space="preserve">
+    <value> مؤشر تصنيف مقدمي الخدمات</value>
+  </data>
+  <data name="InformationSecurityIncident" xml:space="preserve">
+    <value>بلاغات الأمن السيبراني</value>
+  </data>
+  <data name="Instagram" xml:space="preserve">
+    <value>حساب انستجرام </value>
+  </data>
+  <data name="Insureance_Certificate_Attach" xml:space="preserve">
+    <value> شهادة التأمينات الاجتماعية سارية </value>
+  </data>
+  <data name="InternationalArena" xml:space="preserve">
+    <value>الهيئة في الساحة الدولية</value>
+  </data>
+  <data name="InvalidEmailAddressMessage" xml:space="preserve">
+    <value>صيغة البريد الالكتروني غير صحيحة</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>مفعل - غير مفعل</value>
+  </data>
+  <data name="IssuanceCertificate" xml:space="preserve">
+    <value>   اصدار الموافقة</value>
+  </data>
+  <data name="jobs" xml:space="preserve">
+    <value>التوظيف</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>تسجيل دخول</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="LogoId" xml:space="preserve">
+    <value>شعار الشركة </value>
+  </data>
+  <data name="MainAddresOfComapny" xml:space="preserve">
+    <value>عنوان المقر الرئيسي للشركة</value>
+  </data>
+  <data name="Main_Address" xml:space="preserve">
+    <value>عنوان مقر المنشأة الرئيسي</value>
+  </data>
+  <data name="Male_Employee_Number" xml:space="preserve">
+    <value>عدد الموظفين الذكور</value>
+  </data>
+  <data name="MaxLengthMessageError" xml:space="preserve">
+    <value>الحد الاقصى المسموج به  {0}</value>
+  </data>
+  <data name="MaxNumber" xml:space="preserve">
+    <value>الحد الاقصى المسموح به هو {0}</value>
+  </data>
+  <data name="mediacenter" xml:space="preserve">
+    <value>  المركز الإعلامي</value>
+  </data>
+  <data name="meqyas" xml:space="preserve">
+    <value>مقياس</value>
+  </data>
+  <data name="MEQYAS1" xml:space="preserve">
+    <value>مقياس</value>
+  </data>
+  <data name="MessageDateGreaterThanDate" xml:space="preserve">
+    <value>يجب ان يكون التاريخ اكبر من تاريخ الانشاء </value>
+  </data>
+  <data name="MessageGreateTthanZero" xml:space="preserve">
+    <value>يجب ان يكون الرقم اكبر من صفر </value>
+  </data>
+  <data name="Message_LatinLetters" xml:space="preserve">
+    <value>يسمح فقط باستخدام الأحرف الانجليزية </value>
+  </data>
+  <data name="Message_LatinLettersAndNumber" xml:space="preserve">
+    <value>يسمح فقط بالحروف والأرقام الانجليزية </value>
+  </data>
+  <data name="Message_MustBeNumber" xml:space="preserve">
+    <value>يسمح فقط باستخدام الارقام فقط </value>
+  </data>
+  <data name="MinuseNotAllowed" xml:space="preserve">
+    <value>لا يسمح بالأرقام السالبة</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>الإسم (ع)</value>
+  </data>
+  <data name="OrganizationNameAr" xml:space="preserve">
+    <value>اسم المنظمة (Ar)</value>
+  </data>
+  <data name="NameUnique" xml:space="preserve">
+    <value>اسم الشركة مسجل من قبل </value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>التصنيف التالي</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NoHaveProfile" xml:space="preserve">
+    <value>ليس لها ملف</value>
+  </data>
+  <data name="Non_Saudi_Employee_Number" xml:space="preserve">
+    <value>عدد الموظفين غير السعوديين</value>
+  </data>
+  <data name="NotSignedIn" xml:space="preserve">
+    <value>لم يتم تسجيل الدخول </value>
+  </data>
+  <data name="NumberCharactersRemaining" xml:space="preserve">
+    <value>عدد الحروف المتبقية</value>
+  </data>
+  <data name="NumberingService" xml:space="preserve">
+    <value>الموارد الترقيمية</value>
+  </data>
+  <data name="NumberOnlyErrorMessage" xml:space="preserve">
+    <value>الحقل يسمح فقط بالأرقام</value>
+  </data>
+  <data name="Number_Completed_Projects" xml:space="preserve">
+    <value>عدد  المشاريع المنجزة </value>
+  </data>
+  <data name="Number_Of_Office_Inside_KSA" xml:space="preserve">
+    <value>عدد المكاتب داخل المملكة</value>
+  </data>
+  <data name="Number_Of_Office_Outside_KSA" xml:space="preserve">
+    <value>عدد المكاتب خارج المملكة</value>
+  </data>
+  <data name="OfficesCountGreatThanZero" xml:space="preserve">
+    <value>مجموع عدد المكاتب لابد ان يكون اكبر من صفر </value>
+  </data>
+  <data name="OnlyArabicLetters" xml:space="preserve">
+    <value>    يسمح بحروف عربية فقط  </value>
+  </data>
+  <data name="OrganizationalStructure" xml:space="preserve">
+    <value>الهيكل التنظيمي</value>
+  </data>
+  <data name="OrginatedOn" xml:space="preserve">
+    <value>تاريخ الحصول عليها</value>
+  </data>
+  <data name="PageNotFound" xml:space="preserve">
+    <value>الصفحه غير موجودة</value>
+  </data>
+  <data name="PageNotFoundNotes" xml:space="preserve">
+    <value>لم نتمكن من العثور على الصفحة التي تبحث عنها.
+        &lt;br /&gt; يرجي العوده للخلف</value>
+  </data>
+  <data name="PasswordIsNotComplex" xml:space="preserve">
+    <value>كلمة السر غير قوية</value>
+  </data>
+  <data name="pending" xml:space="preserve">
+    <value>تحت الاجراء</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>الهاتف</value>
+  </data>
+  <data name="PhoneNumberErrorMessage" xml:space="preserve">
+    <value>رقم الهاتف خطأ لابد ان يبدأ ب 00966 او 9200 او 05 </value>
+  </data>
+  <data name="PhoneErrorMessage" xml:space="preserve">
+    <value>رقم الهاتف خطأ لابد ان يبدأ ب 05 </value>
+  </data>
+  <data name="PleaseSelectClassification" xml:space="preserve">
+    <value>يرجى اختيار التصنيفات</value>
+  </data>
+  <data name="PostaCode" xml:space="preserve">
+    <value>الرمز البريدي </value>
+  </data>
+  <data name="pressreleases" xml:space="preserve">
+    <value>أخبار الهيئة</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>التصنيف السابق </value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>الملف الشخصي</value>
+  </data>
+  <data name="Promotions" xml:space="preserve">
+    <value> العروض المعتمدة</value>
+  </data>
+  <data name="publicannouncements" xml:space="preserve">
+    <value>   القرارات المنشورة</value>
+  </data>
+  <data name="PublicConsultation" xml:space="preserve">
+    <value> مرئيات العموم</value>
+  </data>
+  <data name="Quality_of_Service" xml:space="preserve">
+    <value>جودة الخدمة</value>
+  </data>
+  <data name="RegisterTech" xml:space="preserve">
+    <value>منصة تك   </value>
+  </data>
+  <data name="RegistrationApplicationSentTitle" xml:space="preserve">
+    <value>تم إرسال طلبك و الطلب قيد الدراسة من قبل الجهات المعنية</value>
+  </data>
+  <data name="Registrationsteps" xml:space="preserve">
+    <value>خطوات التسجيل</value>
+  </data>
+  <data name="RegistrationTechnologyCompanies" xml:space="preserve">
+    <value>تسجيل شركات التقنية</value>
+  </data>
+  <data name="rejected" xml:space="preserve">
+    <value>تم الرفض</value>
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>اعادة تحميل</value>
+  </data>
+  <data name="ReportsService" xml:space="preserve">
+    <value>البلاغات</value>
+  </data>
+  <data name="RequestDate" xml:space="preserve">
+    <value>تاريخ الطلب</value>
+  </data>
+  <data name="RequestNumber" xml:space="preserve">
+    <value>رقم الطلب</value>
+  </data>
+  <data name="RequestStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="RequestType" xml:space="preserve">
+    <value>نوع الطلب</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>حقل مطلوب</value>
+  </data>
+  <data name="RequiredClassificationSelected" xml:space="preserve">
+    <value>يجب اختيار تصنيف فرعى واحد على الاقل </value>
+  </data>
+  <data name="RequiredClassificationSelected1" xml:space="preserve">
+    <value>يجب اختيار تصنيف فرعى واحد على الاقل </value>
+  </data>
+  <data name="researchsandstudies" xml:space="preserve">
+    <value>   الدراسات و البحوث</value>
+  </data>
+  <data name="RetireDate" xml:space="preserve">
+    <value>تاريخ انتهاء الشهادة</value>
+  </data>
+  <data name="RegExpiryDate" xml:space="preserve">
+    <value>تاريخ انتهاء التسجيل</value>
+  </data>
+  <data name="RegNumber" xml:space="preserve">
+    <value> رقم التسجيل</value>
+  </data>
+  <data name="RegInfo" xml:space="preserve">
+    <value>    بيانات التسجيل    </value>
+  </data>
+  <data name="RegDate" xml:space="preserve">
+    <value>تاريخ التسجيل  </value>
+  </data>
+  <data name="RetireDateMustBeGreaterThanOriginatedOn" xml:space="preserve">
+    <value>يجب ان يكون تاريخ الانتهاء اكبر من تاريخ الاصدار </value>
+  </data>
+  <data name="returned" xml:space="preserve">
+    <value>تم اعادة الطلب </value>
+  </data>
+  <data name="ReviewCompanyDetails02" xml:space="preserve">
+    <value>02: Review Company Details</value>
+  </data>
+  <data name="ReviewCompanyDetails021Description" xml:space="preserve">
+    <value>تقديم طلبات ترخيص استخدام الترددات وتراخيص الأجهزة الاسلكية للخدمات التالية</value>
+  </data>
+  <data name="RulesandSystems" xml:space="preserve">
+    <value>  أنظمة الهيئة</value>
+  </data>
+  <data name="RulesandSystems1" xml:space="preserve">
+    <value> لوائح الاتصالات</value>
+  </data>
+  <data name="RulesandSystemspostal" xml:space="preserve">
+    <value> الوثائق التنظيمية لقطاع البريد</value>
+  </data>
+  <data name="RulesandSystemspostlaw" xml:space="preserve">
+    <value>  لوائح الاتصالات</value>
+  </data>
+  <data name="RulesandSystemsprivacy" xml:space="preserve">
+    <value> خصوصية البيانات الشخصية</value>
+  </data>
+  <data name="RulesandSystemsRegulatoryDocuments" xml:space="preserve">
+    <value> الوثائق التنظيمية لقطاع الاتصالات</value>
+  </data>
+  <data name="Saudi_Employee_Number" xml:space="preserve">
+    <value>عدد الموظفين السعوديين</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SaveAndAdd" xml:space="preserve">
+    <value>حفظ مع إضافة</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>حفظ و إغلاق</value>
+  </data>
+  <data name="SaveAndNext" xml:space="preserve">
+    <value>حفظ و التالي</value>
+  </data>
+  <data name="SaveAndSend" xml:space="preserve">
+    <value>حفظ و إرسال</value>
+  </data>
+  <data name="SaveConfirm" xml:space="preserve">
+    <value>هل أنت متأكد أنك تريد الحفظ؟</value>
+  </data>
+  <data name="SaveDraft" xml:space="preserve">
+    <value>حفظ كمسودة </value>
+  </data>
+  <data name="Save_As_Draft" xml:space="preserve">
+    <value>حفظ كمسودة</value>
+  </data>
+  <data name="ScriptsNotAllowedErrorMessage" xml:space="preserve">
+    <value>لا يسمح بكتابة سكريبت في هذا الحقل</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchIn" xml:space="preserve">
+    <value>بحث فى</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>نتائج البحث</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>- اختر -</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>اختر ملف</value>
+  </data>
+  <data name="SendRequest" xml:space="preserve">
+    <value>ارسال الطلب</value>
+  </data>
+  <data name="ServiceBeneficiaries" xml:space="preserve">
+    <value>المستفيدين من الخدمة</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>الخدمات</value>
+  </data>
+  <data name="service_providers_coverage_maps" xml:space="preserve">
+    <value> تغطية شبكات الهاتف المتنقل</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="SIMAuthenticationCode" xml:space="preserve">
+    <value>رمز توثيق بطاقات الاتصال</value>
+  </data>
+  <data name="SiteMap" xml:space="preserve">
+    <value>خريطة الموقع</value>
+  </data>
+  <data name="spectrum" xml:space="preserve">
+    <value>الطيف الترددي</value>
+  </data>
+  <data name="StartDateMustBeLessThanOrEqualToEndDate" xml:space="preserve">
+    <value>تاريخ من لابد ان يكون اقل من تاريخ الى</value>
+  </data>
+  <data name="StarttheService" xml:space="preserve">
+    <value>بدء الخدمة </value>
+  </data>
+  <data name="Statues" xml:space="preserve">
+    <value>الحالة </value>
+  </data>
+  <data name="Street_Name" xml:space="preserve">
+    <value>اسم الشارع </value>
+  </data>
+  <data name="StudyRequest" xml:space="preserve">
+    <value>دراسة الطلب </value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="SubmitCompanyProfile" xml:space="preserve">
+    <value>ارسال ملف الشركة </value>
+  </data>
+  <data name="SubmitCompanyProfileConfirm" xml:space="preserve">
+    <value>هل تود  إرسال الطلب بشكل نهائي</value>
+  </data>
+  <data name="SubmitDecisionConfirm" xml:space="preserve">
+    <value>هل انت متاكد من اتخاذ الاجراء وحفظه بشكل نهائي؟ </value>
+  </data>
+  <data name="SubmitCompanyProfileConfirm1" xml:space="preserve">
+    <value>هل تود  إرسال الطلب بشكل نهائي</value>
+  </data>
+  <data name="SubmitCompanyProfileConfirmTitle" xml:space="preserve">
+    <value>إرسال طلب </value>
+  </data>
+  <data name="SubmitCompanyProfileConfirmTitle1" xml:space="preserve">
+    <value>ارسال طلب </value>
+  </data>
+  <data name="SubmitCompanyProfileMessage" xml:space="preserve">
+    <value>تم إرسال طلبكم بنجاح </value>
+  </data>
+  <data name="SubmitCompanyProfileTitle" xml:space="preserve">
+    <value>تم الإرسال بنجاح </value>
+  </data>
+  <data name="SubmitDecisionTitle" xml:space="preserve">
+    <value> اتخاذ الاجراء       </value>
+  </data>
+  <data name="SubmitDecision" xml:space="preserve">
+    <value> اتخاذ الاجراء على طلب  </value>
+  </data>
+  <data name="submitted" xml:space="preserve">
+    <value>تحت الاجراء</value>
+  </data>
+  <data name="Submitter" xml:space="preserve">
+    <value>المقدم</value>
+  </data>
+  <data name="SubmitterType" xml:space="preserve">
+    <value>نوع المقدم</value>
+  </data>
+  <data name="SubmitِApplicationsDefination" xml:space="preserve">
+    <value>تقديم طلبات ترخيص استخدام الترددات وتراخيص الأجهزة الاسلكية للخدمات التالية</value>
+  </data>
+  <data name="SummationErrorMessage" xml:space="preserve">
+    <value>عدد  الموظفين الإناث و الذكور  يجب ان يساوي مجموع الموظفين  تحقق من القيم المدخلة </value>
+  </data>
+  <data name="suppliers" xml:space="preserve">
+    <value>بوابة الموردين</value>
+  </data>
+  <data name="SystemCITCOrdinance" xml:space="preserve">
+    <value> نظام هيئة الاتصالات</value>
+  </data>
+  <data name="TaskName" xml:space="preserve">
+    <value>المهمة </value>
+  </data>
+  <data name="Tasks" xml:space="preserve">
+    <value>المهام</value>
+  </data>
+  <data name="TelecommunicationsAct" xml:space="preserve">
+    <value> نظام الاتصالات</value>
+  </data>
+  <data name="TelecomServiceRequest" xml:space="preserve">
+    <value>تسجيل طلبات توفير خدمة الاتصالات</value>
+  </data>
+  <data name="TelephoneNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>شروط الاستخدام</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>النص</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>إلى</value>
+  </data>
+  <data name="ToDate" xml:space="preserve">
+    <value>إلى تاريخ</value>
+  </data>
+  <data name="Toltal_Incom" xml:space="preserve">
+    <value>حجم الشركة</value>
+  </data>
+  <data name="TransactionInquiryService" xml:space="preserve">
+    <value>الاستعلام عن المعاملات</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>حساب تويتر </value>
+  </data>
+  <data name="unhandledexception" xml:space="preserve">
+    <value>unhandled exception has occurred. See browser dev tools for details.</value>
+  </data>
+  <data name="Unified_Phone" xml:space="preserve">
+    <value> رقم الاتصال الموحد للشركة</value>
+  </data>
+  <data name="unitNumber" xml:space="preserve">
+    <value>وحدة رقم </value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="UsersManagement" xml:space="preserve">
+    <value>إدارة المستخدمين</value>
+  </data>
+  <data name="UserView" xml:space="preserve">
+    <value>عرض تفاصيل المستخدم</value>
+  </data>
+  <data name="ViewCompanyDetails" xml:space="preserve">
+    <value>عرض تفاصيل الشركة</value>
+  </data>
+  <data name="ViewCompanyProfile" xml:space="preserve">
+    <value>عرض ملف الشركة </value>
+  </data>
+  <data name="ViolationService" xml:space="preserve">
+    <value>تراخيص البريد والاتصالات</value>
+  </data>
+  <data name="ViolationService1" xml:space="preserve">
+    <value> نظام المخالفات الالكتروني</value>
+  </data>
+  <data name="Visionandmission" xml:space="preserve">
+    <value>الرؤية والرسالة و المهام</value>
+  </data>
+  <data name="WaselData" xml:space="preserve">
+    <value>بيانات العنوان الوطني</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>الموقع الالكتروني</value>
+  </data>
+  <data name="WebsiteFiltering" xml:space="preserve">
+    <value>ترشيح الإنترنت</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>اهلا</value>
+  </data>
+  <data name="WF_Action" xml:space="preserve">
+    <value>اتخاذ الاجراء</value>
+  </data>
+  <data name="WF_ActionBy" xml:space="preserve">
+    <value>بواسطة</value>
+  </data>
+  <data name="WF_DecisionTitle" xml:space="preserve">
+    <value>القرار</value>
+  </data>
+  <data name="WF_HistoryTitle" xml:space="preserve">
+    <value>سجل الطلب</value>
+  </data>
+  <data name="WF_RequestDetails" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
+  </data>
+  <data name="WF_RequestInfo" xml:space="preserve">
+    <value>بيانات الطلب</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="Youtube" xml:space="preserve">
+    <value>حساب يوتيوب</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value> غير مصرح لك الوصول لهذه الصفحة  </value>
+  </data>
+  <data name="CategoriesManagement" xml:space="preserve">
+    <value>إدارة التصنيفات</value>
+  </data>
+  <data name="CompaniesManagement" xml:space="preserve">
+    <value>إدارة الشركات</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>تفاصيل </value>
+  </data>
+  <data name="FAQManagement" xml:space="preserve">
+    <value>إدارة الأسئلة الشائعة</value>
+  </data>
+  <data name="PagesManagement" xml:space="preserve">
+    <value>إدارة الصفحات</value>
+  </data>
+  <data name="SettingsManagement" xml:space="preserve">
+    <value>إدارة الإعدادات</value>
+  </data>
+  <data name="EmailUnique" xml:space="preserve">
+    <value>الايميل مسجل من قبل </value>
+  </data>
+  <data name="UserNameUnique" xml:space="preserve">
+    <value>اسم المستخدم مسجل من قبل </value>
+  </data>
+  <data name="AcceptConfirmAllData" xml:space="preserve">
+    <value>تقر الشركة بأن كافة البيانات والمعلومات والمرفقات التي تم تدوينها وقيدها وإدراجها واضافتها في منصة تك صحيحه وغير وهمية وأنه في حال ثبت عدم صحتها أو صحة جزء من تلك المعلومات والبيانات فإن الشركة سوف تكون عرضة للجزاءات النظامية المقررة وفقاً للأنظمة. كما تقر الشركة بموافقتها على قيام هيئة الاتصالات و تقنية المعلومات والجهات المتعاونة معها فيما يتعلق بهذا الشأن بنشر معلومات الشركة أو جزء منها بحسب المصلحة و ذلك ضمن دليل الشركات المسجلة في منصة تك و أن هذا الإقرار والتعهد صدر من الشركة دون أدنى اعتراض على نشر هذه البيانات.</value>
+  </data>
+  <data name="MessageAddUserSuccesfuly" xml:space="preserve">
+    <value>تم اضافة المستخدم بنجاح</value>
+  </data>
+  <data name="OnlyEmailAddress" xml:space="preserve">
+    <value>رجاء ادخال الايميل بشكل صحيح </value>
+  </data>
+  <data name="OnlyUserWithDomain" xml:space="preserve">
+    <value>خطأ فى اسم المستخدم </value>
+  </data>
+  <data name="CITCNotes" xml:space="preserve">
+    <value>ملاحظات الهيئة</value>
+  </data>
+  <data name="Activation" xml:space="preserve">
+    <value>التفعيل </value>
+  </data>
+  <data name="AndroidApplication" xml:space="preserve">
+    <value>تطبيق الاندرويد</value>
+  </data>
+  <data name="IOSApplication" xml:space="preserve">
+    <value>تطبيق ابل </value>
+  </data>
+  <data name="CITCAluthoriy" xml:space="preserve">
+    <value>هيئة الإتصالات و الفضاء والتقنية</value>
+  </data>
+  <data name="Welcoming" xml:space="preserve">
+    <value>رسالة ترحيبية</value>
+  </data>
+  <data name="WelocomMessage" xml:space="preserve">
+    <value>منصة تك هي منصة تقدمها هيئة الاتصالات وتقنية المعلومات لتسجيل أعمال شركات تقنية المعلومات والتقنيات الناشئة في المملكة لتوفير نقطة اتصال موحدة، تقدم رؤية واضحة وقناة للدعم والتمكين وتطوير الجودة.</value>
+  </data>
+  <data name="PhoneUnique" xml:space="preserve">
+    <value>رقم الهاتف مسجل من قبل </value>
+  </data>
+  <data name="CLDescriptionAr" xml:space="preserve">
+    <value>تفاصيل (ع)</value>
+  </data>
+  <data name="CLDescriptionEn" xml:space="preserve">
+    <value>تفاصيل (En)</value>
+  </data>
+  <data name="CLExamplesAr" xml:space="preserve">
+    <value>مثال (ع)</value>
+  </data>
+  <data name="CLExamplesEn" xml:space="preserve">
+    <value>مثال (En)</value>
+  </data>
+  <data name="CLQuestionAR" xml:space="preserve">
+    <value> اسم السؤال  (ع)</value>
+  </data>
+  <data name="CLQuestionEn" xml:space="preserve">
+    <value>اسم السؤال (En)</value>
+  </data>
+  <data name="ItemOrder" xml:space="preserve">
+    <value>الترتيب</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>	الوصف	</value>
+  </data>
+  <data name="Example" xml:space="preserve">
+    <value>الأمثلة</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>السؤال</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>إضافة</value>
+  </data>
+  <data name="CFLNameAr" xml:space="preserve">
+    <value>الاسم (ع)</value>
+  </data>
+  <data name="CFLNameEn" xml:space="preserve">
+    <value>الاسم (En)</value>
+  </data>
+  <data name="FirstClassification" xml:space="preserve">
+    <value>التصنيف الرئيسي</value>
+  </data>
+  <data name="SecondClassification" xml:space="preserve">
+    <value>التصنيف الفرعي</value>
+  </data>
+  <data name="PresentationType" xml:space="preserve">
+    <value> طريقة العرض</value>
+  </data>
+  <data name="FCLManagement" xml:space="preserve">
+    <value>إدارة التصنيفات الرئيسية</value>
+  </data>
+  <data name="InstituteManagement" xml:space="preserve">
+    <value>إدارة مقدمي الشهادات</value>
+  </data>
+  <data name="SCLManagement" xml:space="preserve">
+    <value>إدارة التصنيفات الفرعية</value>
+  </data>
+  <data name="ConfrimSubmit" xml:space="preserve">
+    <value>هل انت متاكد من انك تريد حفظ الطلب بشكل نهائي حيث انك لن تستطيع التعديل عليه لاحقا ؟</value>
+  </data>
+  <data name="InvalidNumber" xml:space="preserve">
+    <value>الرجاء التحقق من صحة الرقم المدخل</value>
+  </data>
+  <data name="CertificateNameAr" xml:space="preserve">
+    <value>اسم الشهادة (ع)</value>
+  </data>
+  <data name="CertificateNDA" xml:space="preserve">
+    <value>لن يتم مشاركة الشهادات حيث  انها تخضع لإتفاقية عدم الافصاح </value>
+  </data>
+  <data name="FinancialNDA" xml:space="preserve">
+    <value>لن يتم مشاركة البيانات المالية حيث انها تخضع لإتفاقية عدم الافصاح</value>
+  </data>
+  <data name="InvalidSocialUserName" xml:space="preserve">
+    <value> اسم المستخدم  يجب ان يبدأ بـــ( @ ) و يجب ان لا يحتوي اي فراغات</value>
+  </data>
+  <data name="LandLineExample" xml:space="preserve">
+    <value>011xxxxxxx</value>
+  </data>
+  <data name="LandLineNumber" xml:space="preserve">
+    <value> رقم الهاتف الثابت للشركة</value>
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value>إختياري</value>
+  </data>
+  <data name="PhoneNumberExample" xml:space="preserve">
+    <value>05xxxxxxxx</value>
+  </data>
+  <data name="TotalEmployees" xml:space="preserve">
+    <value>مجموع الموظفين</value>
+  </data>
+  <data name="UnifiedNumberExample" xml:space="preserve">
+    <value>9200xxxxx</value>
+  </data>
+  <data name="UsernameExample" xml:space="preserve">
+    <value>@username</value>
+  </data>
+  <data name="InvalidEmployeeNumber" xml:space="preserve">
+    <value>رقم الموظفين خارج النطاق</value>
+  </data>
+  <data name="CertificateStatus" xml:space="preserve">
+    <value>حالة الشهادة</value>
+  </data>
+  <data name="PhoneType" xml:space="preserve">
+    <value>نوع الهاتف</value>
+  </data>
+  <data name="CertificatesDesc" xml:space="preserve">
+    <value>&lt;span&gt;يجب إرفاق جميع الشهادات التى تم منحها للشركة  &lt;/span&gt;
+&lt;span&gt;يجب إرفاق جميع الشراكات مع شركات أو جهات عالمية  &lt;/span&gt;</value>
+  </data>
+  <data name="CompleteAllRequiredFields" xml:space="preserve">
+    <value>
+    &lt;span&gt;يجب إستكمال جميع الحقول المطلوبة فى الأسفل&lt;/span&gt;
+    &lt;span&gt;يمكن حفظ جزء من البيانات كمسودة وإستكمال الباقى لاحقا&lt;/span&gt;
+    &lt;span&gt;يجب حفظ البيانات بشكل نهائى بالضغط على زر حفظ أسفل الصفحة&lt;/span&gt;
+ </value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>تـنبيه</value>
+  </data>
+  <data name="ChangeLanguageConfirmation" xml:space="preserve">
+    <value>هل أنت متأكد ؟ 
+سوف يتم تفريغ الحقول لتغيير اللغة. الرجاء التاكد من حفظ الحقول في حال وجود احد الحقول </value>
+  </data>
+  <data name="LinkedIn" xml:space="preserve">
+    <value>حساب لينكد إن</value>
+  </data>
+  <data name="LiaisonEmail" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="LiaisonInfo" xml:space="preserve">
+    <value>بيانات ضابط الاتصال</value>
+  </data>
+  <data name="EditLiaisonInfo" xml:space="preserve">
+    <value>تعديل بيانات ضابط الاتصال</value>
+  </data>
+  <data name="CancelRequestConfirmation" xml:space="preserve">
+    <value>تقر الشركة بموافقتها على الغاء التسجيل في منصة تك وما يترتب عليه من الغاء الشهادة الصادرة و ان طلب الالغاء جاء من عدم مزاولة اي نشاط او عمل في سوق تقنية المعلومات والتقنيات الناشئة</value>
+  </data>
+  <data name="LiaisonName" xml:space="preserve">
+    <value>الاسم (En)</value>
+  </data>
+  <data name="LiaisonPhome" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="AlreadyExistMessage" xml:space="preserve">
+    <value>لا يمكن اضافة {0} لوجوده مسبقا</value>
+  </data>
+  <data name="NameEn" xml:space="preserve">
+    <value>الاسم (En)</value>
+  </data>
+  <data name="LiaisonNameAr" xml:space="preserve">
+    <value>الإسم (ع)</value>
+  </data>
+  <data name="PhoneUserNameUnique" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserAlreadyExistTitle" xml:space="preserve">
+    <value>بيانات مستخدمة من قبل حساب اخر</value>
+  </data>
+  <data name="ExpiryDateNotBeforeOrginatedDate" xml:space="preserve">
+    <value>لا يمكن لتاريخ الإنتهاء ان يكون اكبر من تاريخ الإصدار </value>
+  </data>
+  <data name="NoItemsFound" xml:space="preserve">
+    <value>عذرا لا يوجد اي بيانات </value>
+  </data>
+  <data name="NameSearch" xml:space="preserve">
+    <value>الاسم (ع / En)</value>
+  </data>
+  <data name="AddNewUser" xml:space="preserve">
+    <value> اضافة مستخدم جديد    </value>
+  </data>
+  <data name="Roles" xml:space="preserve">
+    <value> صلاحيات المستخدم  </value>
+  </data>
+  <data name="SaveUser" xml:space="preserve">
+    <value>حفظ بيانات المستخدم</value>
+  </data>
+  <data name="DeleteComfirmationTitle" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteConfirmationMsg" xml:space="preserve">
+    <value>هل انت متأكد من حذف العنصر؟</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>تعديل الحساب</value>
+  </data>
+  <data name="ExternalOrganizationDescriptionAr" xml:space="preserve">
+    <value>وصف الهيئة الخارجية (ع)</value>
+  </data>
+  <data name="ExternalOrganizationDescriptionEn" xml:space="preserve">
+    <value>وصف الهيئة الخارجية (En)</value>
+  </data>
+  <data name="HasAttachment" xml:space="preserve">
+    <value>هل يوجد مرفق للتصنيف؟</value>
+  </data>
+  <data name="IsAttachmentRequired" xml:space="preserve">
+    <value>هل المرفق إجباري؟</value>
+  </data>
+  <data name="IsBelongToAnotherOrganization" xml:space="preserve">
+    <value>هل التصنيف تابع لهيئة خارجية؟</value>
+  </data>
+  <data name="AddFCL" xml:space="preserve">
+    <value>تصنيف رئيسي </value>
+  </data>
+  <data name="AddSCL" xml:space="preserve">
+    <value> تصنيف ثانوي</value>
+  </data>
+  <data name="AddTCL" xml:space="preserve">
+    <value>تصنيف فرعي</value>
+  </data>
+  <data name="ClassificationAttachment" xml:space="preserve">
+    <value>أيقونة التصنيف</value>
+  </data>
+  <data name="EditFCL" xml:space="preserve">
+    <value>تعديل تصنيف رئيسي </value>
+  </data>
+  <data name="EditSCL" xml:space="preserve">
+    <value>تعديل تصنيف ثانوي</value>
+  </data>
+  <data name="EditTCL" xml:space="preserve">
+    <value>تعديل تصنيف فرعي</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>نوع المستخدم</value>
+  </data>
+  <data name="LessThanZeroValidationMessage" xml:space="preserve">
+    <value>لا يمكن للحقل ان يكون اقل من صفر</value>
+  </data>
+  <data name="YearsOfExperince" xml:space="preserve">
+    <value>سنوات الخبرة للشركة</value>
+  </data>
+  <data name="AddNewQuestion" xml:space="preserve">
+    <value>اضافة سؤال </value>
+  </data>
+  <data name="SurveyManagement" xml:space="preserve">
+    <value>ادارة الاستبيان</value>
+  </data>
+  <data name="MessageAddSuccesfuly" xml:space="preserve">
+    <value>تم الارسال بنجاح </value>
+  </data>
+  <data name="AddNewSurvey" xml:space="preserve">
+    <value> استبيان جديد </value>
+  </data>
+  <data name="AddQuestion" xml:space="preserve">
+    <value>إضافة سؤال </value>
+  </data>
+  <data name="ManagementSurveys" xml:space="preserve">
+    <value>إدارة  الاستبيانات </value>
+  </data>
+  <data name="Mandatory" xml:space="preserve">
+    <value>إجبارى </value>
+  </data>
+  <data name="QuestionsBank" xml:space="preserve">
+    <value>بنك الاسئلة </value>
+  </data>
+  <data name="QuestionTitle" xml:space="preserve">
+    <value>عنوان السؤال</value>
+  </data>
+  <data name="QuestionType" xml:space="preserve">
+    <value>آلية الاجابات</value>
+  </data>
+  <data name="StatrtSurvey" xml:space="preserve">
+    <value>ابدا الاستبيان  </value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdditionalAttachments" xml:space="preserve">
+    <value>مرفقات اضافية (إختياري)</value>
+  </data>
+  <data name="AttachmentsRequired" xml:space="preserve">
+    <value>المرفقات متطلب اجباري</value>
+  </data>
+  <data name="ChoseAtLeastOne" xml:space="preserve">
+    <value>يرجى اختيار تصنيف واحد على الأقل للمتابعة</value>
+  </data>
+  <data name="ChoseClassificationFirst" xml:space="preserve">
+    <value>يرجى إختيار تصنيفات الأعمال اولا</value>
+  </data>
+  <data name="DescriptionAr" xml:space="preserve">
+    <value>الوصف </value>
+  </data>
+  <data name="DescriptionEn" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="ExampleAr" xml:space="preserve">
+    <value>أمثلة</value>
+  </data>
+  <data name="ExampleEn" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="NotMoreThan100" xml:space="preserve">
+    <value>لا يجب أن تكون إجمالي نسبة الدخل أكثر من {0}%</value>
+  </data>
+  <data name="FromZeroToPecentage" xml:space="preserve">
+    <value>يجب أن تكون النسبة من 0% إلى {0}% </value>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>نسبة الدخل لتصنيف الاعمال</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>الملخص</value>
+  </data>
+  <data name="CompanyNameTicket" xml:space="preserve">
+    <value>اسم الشركة</value>
+  </data>
+  <data name="Classifications" xml:space="preserve">
+    <value>التصنيفات</value>
+  </data>
+  <data name="NotReadyToSubmit" xml:space="preserve">
+    <value>يجب رفع المرفقات و اختيار تصنيفات و إدخال نسبة الدخل لكي تتمكن من الحفظ النهائي </value>
+  </data>
+  <data name="NoteAr" xml:space="preserve">
+    <value>ملاحظة</value>
+  </data>
+  <data name="NoteEn" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Series" xml:space="preserve">
+    <value>رقم المسلسل</value>
+  </data>
+  <data name="CalssificationOfCompany" xml:space="preserve">
+    <value>تصنيف الأعمال</value>
+  </data>
+  <data name="SuggestNewClassification" xml:space="preserve">
+    <value>إقتراح تصنيف جديد</value>
+  </data>
+  <data name="OpenTicket" xml:space="preserve">
+    <value>تذكرة جديدة</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>تذكرة</value>
+  </data>
+  <data name="TicketContent" xml:space="preserve">
+    <value>النص</value>
+  </data>
+  <data name="TicketTitle" xml:space="preserve">
+    <value>عنوان التذكرة</value>
+  </data>
+  <data name="TicketType" xml:space="preserve">
+    <value>نوع التذكرة</value>
+  </data>
+  <data name="CompanyType" xml:space="preserve">
+    <value>نوع الشركة</value>
+  </data>
+  <data name="EmptySection" xml:space="preserve">
+    <value>عذرا , لا يوجد اي بيانات في هذا القسم </value>
+  </data>
+  <data name="IsAllowedSuggestion" xml:space="preserve">
+    <value>هل يسمح بالإقتراحات ؟ </value>
+  </data>
+  <data name="IsITServices" xml:space="preserve">
+    <value>هل التصنيف تابع للخدمات التقنية ؟</value>
+  </data>
+  <data name="ITServices" xml:space="preserve">
+    <value>خدمات تكنولوجيا المعلومات</value>
+  </data>
+  <data name="MaxSuggestionCount" xml:space="preserve">
+    <value>العدد الأقصى المسموح به للإقتراح</value>
+  </data>
+  <data name="SuerveyDateEnded" xml:space="preserve">
+    <value>Suervey DateEnded</value>
+  </data>
+  <data name="SurveyCheckOut" xml:space="preserve">
+    <value>Survey CheckOut</value>
+  </data>
+  <data name="SurveyNotActive" xml:space="preserve">
+    <value>Survey Not Active</value>
+  </data>
+  <data name="SurveyNotFound" xml:space="preserve">
+    <value>Survey Not Found</value>
+  </data>
+  <data name="SurveyNotPublished" xml:space="preserve">
+    <value>Survey Not Published</value>
+  </data>
+  <data name="SurveyNotStart" xml:space="preserve">
+    <value>Survey Not Start</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>تقرير </value>
+  </data>
+  <data name="Surveys" xml:space="preserve">
+    <value>الاستبيانات </value>
+  </data>
+  <data name="AddQuestions" xml:space="preserve">
+    <value>ضافة اسئلة </value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>سحب </value>
+  </data>
+  <data name="Published" xml:space="preserve">
+    <value>نشر </value>
+  </data>
+  <data name="ReportSurvey" xml:space="preserve">
+    <value>تقرير الاستبيان </value>
+  </data>
+  <data name="SurveyCode" xml:space="preserve">
+    <value>رمز الاستبيان </value>
+  </data>
+  <data name="AnswersQuestionUnique" xml:space="preserve">
+    <value>الاجابات داخل السؤال الواحد يجب ان لا تتكرر </value>
+  </data>
+  <data name="ChangeStatusSurvey" xml:space="preserve">
+    <value>تغيير حالة الاستبيان </value>
+  </data>
+  <data name="MessageChangeSurveyStatusSuccesfuly" xml:space="preserve">
+    <value>تم تغير حالة الاستبيان بنجاح </value>
+  </data>
+  <data name="QuestionTitleUnique" xml:space="preserve">
+    <value>عنوان السؤال مسجل من قبل </value>
+  </data>
+  <data name="DeleteSurveyError" xml:space="preserve">
+    <value>يوجد اجابات على هذا الاستبيان </value>
+  </data>
+  <data name="SurveyCodeUnique" xml:space="preserve">
+    <value>رمز الاستبيان مسجل من قبل </value>
+  </data>
+  <data name="SurveyTitleUnique" xml:space="preserve">
+    <value>عنوان الاستبيان مسجل من قبل </value>
+  </data>
+  <data name="MessageEditSuccesfuly" xml:space="preserve">
+    <value>تم التعديل بنجاح </value>
+  </data>
+  <data name="Answers" xml:space="preserve">
+    <value>الإجابات</value>
+  </data>
+  <data name="MustHaveMultipleValues" xml:space="preserve">
+    <value>يجب ان يكون اكثر من إجابة </value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة </value>
+  </data>
+  <data name="AllAnswersHaveValues" xml:space="preserve">
+    <value>الاجابات يجب الا تكون فارغة </value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاريخ النهاية </value>
+  </data>
+  <data name="MessageChangeSurveyCheckOutSuccesfuly" xml:space="preserve">
+    <value>تم سحب الاستبيان بنجاح </value>
+  </data>
+  <data name="MessageChangeSurveyPublishedSuccesfuly" xml:space="preserve">
+    <value>تم نشر الاستبيان بنجاح </value>
+  </data>
+  <data name="NotfoundQuestions" xml:space="preserve">
+    <value>لم يتم العثور على أسئلة</value>
+  </data>
+  <data name="OrderMustBeUnique" xml:space="preserve">
+    <value>الترقيم مسجل من قبل فى الاستبيان </value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاريخ البداية </value>
+  </data>
+  <data name="StartDateMustbeGreatThanNow" xml:space="preserve">
+    <value>يجب أن يكون تاريخ البدء أكبر من الآن</value>
+  </data>
+  <data name="SurveyDetails" xml:space="preserve">
+    <value>تفاصيل الاستبيان </value>
+  </data>
+  <data name="Suggested" xml:space="preserve">
+    <value>مقترح</value>
+  </data>
+  <data name="CheckOutConfirmationMsg" xml:space="preserve">
+    <value>هل انت متأكد من سحب الاستبيان </value>
+  </data>
+  <data name="DeleteQuestionRlatedSurveyError" xml:space="preserve">
+    <value>هذا السؤال مربوط باستبيان </value>
+  </data>
+  <data name="MessageSurveyNotRealtedAnyQuestionError" xml:space="preserve">
+    <value>الاستبيان لا  يحتوي على اسئلة</value>
+  </data>
+  <data name="PublishedConfirmationMsg" xml:space="preserve">
+    <value>هل انت متأكد من نشر الاستبيان </value>
+  </data>
+  <data name="CopyToClipboard" xml:space="preserve">
+    <value>نــسخ</value>
+  </data>
+  <data name="MessageSendSurveySuccesfuly" xml:space="preserve">
+    <value>تم ارسال الاستبيان </value>
+  </data>
+  <data name="Certificate_Institute_Name_Ar" xml:space="preserve">
+    <value>اسم مقدم الشهادة (ع)</value>
+  </data>
+  <data name="SurveyDescription" xml:space="preserve">
+    <value>وصف الاستبيان</value>
+  </data>
+  <data name="LastShareDate" xml:space="preserve">
+    <value>تاريخ اخر مشاركة</value>
+  </data>
+  <data name="NumberParticipants" xml:space="preserve">
+    <value>عدد المشاركين </value>
+  </data>
+  <data name="NumberParticipantsMonth" xml:space="preserve">
+    <value>عدد المشاركين خلال الشهر </value>
+  </data>
+  <data name="NumberParticipantsToDay" xml:space="preserve">
+    <value>عدد المشاركين خلال اليوم </value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>النسبة </value>
+  </data>
+  <data name="QuestionCount" xml:space="preserve">
+    <value>عدد الاسئلة</value>
+  </data>
+  <data name="SurveyCompletionPercentage" xml:space="preserve">
+    <value>نسبة الاكتمال</value>
+  </data>
+  <data name="TimeSpentSurvey" xml:space="preserve">
+    <value>الوقت المستغرق</value>
+  </data>
+  <data name="TotalAnswer" xml:space="preserve">
+    <value>العدد</value>
+  </data>
+  <data name="FillAttachmentMsg" xml:space="preserve">
+    <value>الرجاء تحميل الملفات المطلوبة </value>
+  </data>
+  <data name="AddNewClassification" xml:space="preserve">
+    <value>  إضافة تصنيف جديد</value>
+  </data>
+  <data name="WF_Escalation_ActivityName" xml:space="preserve">
+    <value>المرحلة</value>
+  </data>
+  <data name="ReminderNotAfterEscalation" xml:space="preserve">
+    <value> لا يمكن لعدد ايام التذكير ان يكون اكثر من عدد ايام التصعيد</value>
+  </data>
+  <data name="WF_Escalation_EditEscalationSetting" xml:space="preserve">
+    <value>تعديل اعدادات التصعيد</value>
+  </data>
+  <data name="WF_Escalation_EscalationSettings" xml:space="preserve">
+    <value>اعدادات التصعيد</value>
+  </data>
+  <data name="WF_Escalation_EscalationType" xml:space="preserve">
+    <value>نوع الإجراء</value>
+  </data>
+  <data name="WF_Escalation_NewEscalationSetting" xml:space="preserve">
+    <value>اضافة اعدادات التصعيد</value>
+  </data>
+  <data name="WF_Escalation_NotificationType" xml:space="preserve">
+    <value>نوع الرسائل</value>
+  </data>
+  <data name="WF_Escalation_ProcessName" xml:space="preserve">
+    <value>مخطط سير العمل</value>
+  </data>
+  <data name="WF_Escalation_RecipientRoleName" xml:space="preserve">
+    <value>التصعيد ل</value>
+  </data>
+  <data name="WF_Escalation_WaitingDays" xml:space="preserve">
+    <value>عدد الأيام قبل تنفيذ الإجراء</value>
+  </data>
+  <data name="BusinessFields" xml:space="preserve">
+    <value> الصناعات الناشئة و القطاعات الخدمية</value>
+  </data>
+  <data name="IsBusinessFeild" xml:space="preserve">
+    <value>هل التصنيف يضم صناعات ناشئة / قطاعات خدمية </value>
+  </data>
+  <data name="MessagesNotificationList" xml:space="preserve">
+    <value>قائمة الرسائل</value>
+  </data>
+  <data name="AddNewMessage" xml:space="preserve">
+    <value>اضافة رسالة جديدة </value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>تفاصيل الرسالة </value>
+  </data>
+  <data name="CountCompany" xml:space="preserve">
+    <value>عدد  الشركات </value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>عنوان الرسالة </value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>رقم </value>
+  </data>
+  <data name="SendDate" xml:space="preserve">
+    <value>تاريخ الارسال </value>
+  </data>
+  <data name="SubjectUnique" xml:space="preserve">
+    <value>العنوان مسجل من قبل </value>
+  </data>
+  <data name="MessageChangeMessageStatusSuccesfuly" xml:space="preserve">
+    <value>تم اعداد الرسالة للارسال</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>إرسال الرسالة</value>
+  </data>
+  <data name="SendMessageConfirmationMsg" xml:space="preserve">
+    <value>هل انت متأكد من تقديم طلب تسجيل منتج ؟</value>
+  </data>
+  <data name="CodeHasBeenExpired" xml:space="preserve">
+    <value>لقد تم انتهاء مدة صلاحية الرمز. الرجاء تحديث بيانات تواصل الشركة و المحاولة مرة اخرى</value>
+  </data>
+  <data name="EmailCode" xml:space="preserve">
+    <value>رمز تأكيد البريد الإلكتروني</value>
+  </data>
+  <data name="NumberCode" xml:space="preserve">
+    <value>رمز تأكيد رقم الهاتف</value>
+  </data>
+  <data name="WrongEmailCode" xml:space="preserve">
+    <value>رمز تأكيد البريد الإلكتروني خاطئ</value>
+  </data>
+  <data name="WrongNumberCode" xml:space="preserve">
+    <value>رمز تأكيد رقم الهاتف خاطئ</value>
+  </data>
+  <data name="WrongCode" xml:space="preserve">
+    <value>الرمز خاطئ</value>
+  </data>
+  <data name="AccountIsConfirmed" xml:space="preserve">
+    <value>تم توثيق بيانات الإتصال</value>
+  </data>
+  <data name="ConfirmationIsRequired" xml:space="preserve">
+    <value>بعد حفظ البيانات يجب توثيق البيانات المدخلة</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>تم التأكيد</value>
+  </data>
+  <data name="StillNotConfirmed" xml:space="preserve">
+    <value>لم يتم تاكيد جميع البيانات</value>
+  </data>
+  <data name="ActiveAdminCountValidationMsg" xml:space="preserve">
+    <value>يجب ان يوجد مستخدم واحد على الأقل من مديري النظام مفعل</value>
+  </data>
+  <data name="UniqClassificationName" xml:space="preserve">
+    <value>يوجد بالفعل تصنيف بنفس الإسم يرجى إختيار اسم اخر</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>الجواب</value>
+  </data>
+  <data name="AtleastOneActiveQuestion" xml:space="preserve">
+    <value>يجب ان يحتوي الإستبيان على سؤال مفعل واحد على الأقل</value>
+  </data>
+  <data name="QuestionDetilasReport" xml:space="preserve">
+    <value>تفاصيل استكمال الإستبيان</value>
+  </data>
+  <data name="ReportChart" xml:space="preserve">
+    <value>الرسم البياني للاستبيان</value>
+  </data>
+  <data name="ReportResults" xml:space="preserve">
+    <value>نتائج الإستبيان</value>
+  </data>
+  <data name="Results" xml:space="preserve">
+    <value>النتائج</value>
+  </data>
+  <data name="SurveyDetailsReport" xml:space="preserve">
+    <value>تفاصيل الإستبيان</value>
+  </data>
+  <data name="SurveyReport" xml:space="preserve">
+    <value>تقرير الإستبيان</value>
+  </data>
+  <data name="EscalationDuplicated" xml:space="preserve">
+    <value>يوجد تصعيد مماثل بالفعل</value>
+  </data>
+  <data name="EscalationSettings" xml:space="preserve">
+    <value>إعدادت التصعيد</value>
+  </data>
+  <data name="AlreadySubmitted" xml:space="preserve">
+    <value>مرسل بالفعل</value>
+  </data>
+  <data name="CopyLink" xml:space="preserve">
+    <value>نسخ الرابط</value>
+  </data>
+  <data name="EditContactorInfo" xml:space="preserve">
+    <value>تعديل بيانات التواصل</value>
+  </data>
+  <data name="ResendCode" xml:space="preserve">
+    <value>إعادة ارسال الرمز</value>
+  </data>
+  <data name="AddQuestionInQueastionBank" xml:space="preserve">
+    <value>الرجاء اضافة اسئلة في بنك الاسئلة او ان جميع الاسئلة مضافة في الإستبيان</value>
+  </data>
+  <data name="QuestionSurveyRequired" xml:space="preserve">
+    <value>السؤال {0} مطلوب </value>
+  </data>
+  <data name="SendNotificationToCompany" xml:space="preserve">
+    <value>ارسال اشعارات للشركات</value>
+  </data>
+  <data name="AboutNotification" xml:space="preserve">
+    <value>حول الإشعار</value>
+  </data>
+  <data name="AllNotifications" xml:space="preserve">
+    <value>جميع الإشعارات</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>الإشعار</value>
+  </data>
+  <data name="NotificationType" xml:space="preserve">
+    <value>نوع الإشعار</value>
+  </data>
+  <data name="AllRequests" xml:space="preserve">
+    <value>جميع الطلبات</value>
+  </data>
+  <data name="CompanyEmail" xml:space="preserve">
+    <value>البريد الإكتروني للشركة</value>
+  </data>
+  <data name="CompanyNumber" xml:space="preserve">
+    <value>رقم الشركة</value>
+  </data>
+  <data name="FullNameAr" xml:space="preserve">
+    <value>الإسم الكامل (ع)</value>
+  </data>
+  <data name="RequestHistory" xml:space="preserve">
+    <value>السجل</value>
+  </data>
+  <data name="MaximumAllowedDigits" xml:space="preserve">
+    <value>الحد الأقصى المسموح به هو {0} حرف</value>
+  </data>
+  <data name="SurveyName" xml:space="preserve">
+    <value>عنوان الإستبيان</value>
+  </data>
+  <data name="RevenueMsg" xml:space="preserve">
+    <value>يجب ادخال النسبة المئوية من الدخل لكل تصنيف تم اختياره</value>
+  </data>
+  <data name="AllSelected" xml:space="preserve">
+    <value>تم تحديد الكل</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>عذرا لقد حدث خطأ</value>
+  </data>
+  <data name="SelectAll" xml:space="preserve">
+    <value>اختيار الكل</value>
+  </data>
+  <data name="UnselectAll" xml:space="preserve">
+    <value>مسح الكل</value>
+  </data>
+  <data name="Dirctory" xml:space="preserve">
+    <value>دليل الشركات</value>
+  </data>
+  <data name="AddAnswer" xml:space="preserve">
+    <value>إضافة جواب</value>
+  </data>
+  <data name="ClassificationIncomMsg" xml:space="preserve">
+    <value>نرجوا تحديد نسبة الدخل لكل تصنيف قمت باختياره سابقا</value>
+  </data>
+  <data name="FirstClassificationName" xml:space="preserve">
+    <value>اسم التصنيف الرئيسي</value>
+  </data>
+  <data name="InsertTheIncomOfClassification" xml:space="preserve">
+    <value>يرجى تحديد نسبة الدخل</value>
+  </data>
+  <data name="SelectedClassificationsCount" xml:space="preserve">
+    <value>عدد التصنيفات المختارة</value>
+  </data>
+  <data name="SecondClassificationsList" xml:space="preserve">
+    <value>التصنيف الفرعي</value>
+  </data>
+  <data name="AttachmentForm" xml:space="preserve">
+    <value>نموذج المرفق</value>
+  </data>
+  <data name="DisplayAr" xml:space="preserve">
+    <value>عرض شهادة التسجيل  (ع)</value>
+  </data>
+  <data name="DownloadCertificateAr" xml:space="preserve">
+    <value>تحميل شهادة التسجيل (ع)</value>
+  </data>
+  <data name="TCLAttachmentMsgEn" xml:space="preserve">
+    <value>وصف المرفق المطلوب (En)</value>
+  </data>
+  <data name="TCLAttahcmentMsgAr" xml:space="preserve">
+    <value>وصف المرفق المطلوب (ع)</value>
+  </data>
+  <data name="ClassificationMustHasActiveItem" xml:space="preserve">
+    <value>التصنيفات يجب ان تحتوي تصنيف واحد مفعل على الاقل</value>
+  </data>
+  <data name="SearchByFeilds" xml:space="preserve">
+    <value>البحث المتقدم</value>
+  </data>
+  <data name="HomepageMsg" xml:space="preserve">
+    <value>للشركات التابعة لكم الرجاء الضغط على إدارة الشركات</value>
+  </data>
+  <data name="DirctroyTitle" xml:space="preserve">
+    <value>قائمة المنشآت المسجلة مع هيئة الاتصالات والفضاء والتقنية</value>
+  </data>
+  <data name="ChoseFCL" xml:space="preserve">
+    <value>إختر التصنيفات الرئيسية</value>
+  </data>
+  <data name="ChoseSCL" xml:space="preserve">
+    <value>إختر التصنيفات الفرعية</value>
+  </data>
+  <data name="ClassificationRevenueAndAttachments" xml:space="preserve">
+    <value> الدخل من التصنيفات و رفع المرفقات</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>المجموع الكلي</value>
+  </data>
+  <data name="SearchResultDirectory" xml:space="preserve">
+    <value>قائمة المنشآت المسجلة</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>اضغط هنا</value>
+  </data>
+  <data name="ClassificationDocument" xml:space="preserve">
+    <value>للاطلاع على  وثيقة تصنيف أعمال سوق تقنية المعلومات والتقنيات الناشئة، اضغط هنا</value>
+  </data>
+  <data name="ClassifiationDocumentURL" xml:space="preserve">
+    <value>https://www.citc.gov.sa/ar/services/Documents/Guidance-for-classifying-service-business.pdf</value>
+  </data>
+  <data name="ClassifiationDocumentURLEn" xml:space="preserve">
+    <value>https://www.citc.gov.sa/en/services/tech/PublishingImages/Pages/default/ITETSectorClassification.pdf</value>
+  </data>
+  <data name="ToRegisterClickHere" xml:space="preserve">
+    <value>يمكنكم التسجيل في منصة تك عبر الرابط التالي.</value>
+  </data>
+  <data name="CITCPortalURL" xml:space="preserve">
+    <value>https://www.citc.gov.sa/ar/services/tech/Pages/default.aspx </value>
+  </data>
+  <data name="HasDirectoryMessage" xml:space="preserve">
+    <value>إظهار رسالة في دليل الشركات ؟ </value>
+  </data>
+  <data name="DirectoryMessageAr" xml:space="preserve">
+    <value>الرسالة (ع) </value>
+  </data>
+  <data name="DirectoryMessageEn" xml:space="preserve">
+    <value>الرسالة (En) </value>
+  </data>
+  <data name="CITCServices" xml:space="preserve">
+    <value>الخدمات</value>
+  </data>
+  <data name="ManassaTech" xml:space="preserve">
+    <value>منصة تك</value>
+  </data>
+  <data name="SurveyNotAvailable" xml:space="preserve">
+    <value>عذرا,الإستبيان غير متاح او منتهي</value>
+  </data>
+  <data name="NextQuestion" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="PerviousQuestion" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>إنهاء</value>
+  </data>
+  <data name="OnlyArabicOrEnglsihLetters" xml:space="preserve">
+    <value>يسمخ فقط بالرموز التالية (_,(){}.?) </value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="ReSendWithin" xml:space="preserve">
+    <value>يمكنك طلب اعادة ارسال الرمز بعد {0}</value>
+  </data>
+  <data name="Sorry" xml:space="preserve">
+    <value>عذراً</value>
+  </data>
+  <data name="MustBeActive" xml:space="preserve">
+    <value>يجب ان يكون الإستبيان مفعل</value>
+  </data>
+  <data name="NotLessThanToday" xml:space="preserve">
+    <value>التاريخ لا يجب ان يكون اقل من تاريخ اليوم</value>
+  </data>
+  <data name="RenewProfileConfirm" xml:space="preserve">
+    <value>هل انت متاكد انك تريد تقديم طلب تجديد؟</value>
+  </data>
+  <data name="EditProfileConfirm" xml:space="preserve">
+    <value>هل انت متاكد انك تريد تقديم طلب تعديل؟</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>استعراض</value>
+  </data>
+  <data name="ReturnComment" xml:space="preserve">
+    <value>سبب ارجاع الطلب</value>
+  </data>
+  <data name="PreviousQuestion" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="BlackList" xml:space="preserve">
+    <value>الشركات المحظورة</value>
+  </data>
+  <data name="Blocked" xml:space="preserve">
+    <value>محجوب</value>
+  </data>
+  <data name="EditProfileOnly" xml:space="preserve">
+    <value>تعديل ملف الشركة فقط</value>
+  </data>
+  <data name="homeMessage" xml:space="preserve">
+    <value>الرسائل</value>
+  </data>
+  <data name="incomingMessages" xml:space="preserve">
+    <value>الرسائل الواردة</value>
+  </data>
+  <data name="outgoingMessages" xml:space="preserve">
+    <value>الرسائل الصادرة</value>
+  </data>
+  <data name="SendMessages" xml:space="preserve">
+    <value>إرسال رسالة</value>
+  </data>
+  <data name="CrudOperation" xml:space="preserve">
+    <value>العمليات</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>السجل</value>
+  </data>
+  <data name="TableName" xml:space="preserve">
+    <value>اسم الجدول</value>
+  </data>
+  <data name="MessageAll" xml:space="preserve">
+    <value>الرسائل</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>إجراء</value>
+  </data>
+  <data name="CustomLog" xml:space="preserve">
+    <value>سجل عمليات الدخول</value>
+  </data>
+  <data name="UpdatedDate" xml:space="preserve">
+    <value>تاريخ اخر تحديث</value>
+  </data>
+  <data name="records" xml:space="preserve">
+    <value>السجلات</value>
+  </data>
+  <data name="FirstLevelClassificationId" xml:space="preserve">
+    <value>	التصنيف الرئيسي	</value>
+  </data>
+  <data name="EmergingTechnologyId" xml:space="preserve">
+    <value>	التصنيف الفرعي	</value>
+  </data>
+  <data name="ProductBenefitsAR" xml:space="preserve">
+    <value>	وصف مختصر للمنتج (ع)	</value>
+  </data>
+  <data name="ProductBenefitsEn" xml:space="preserve">
+    <value>	وصف مختصر للمنتج (En) 	</value>
+  </data>
+  <data name="ProductURL" xml:space="preserve">
+    <value>	رابط المنتج	</value>
+  </data>
+  <data name="ReleaseDate" xml:space="preserve">
+    <value>	تاريخ الإصدار	</value>
+  </data>
+  <data name="ProductAge" xml:space="preserve">
+    <value>	عمر المنتج منذ إطلاقه 	</value>
+  </data>
+  <data name="KingdomInvestmentPrec" xml:space="preserve">
+    <value>	 نسبة المساهمين من الشركات والمنشآت المملوكة للدولة </value>
+  </data>
+  <data name="SaudiInverstorPrec" xml:space="preserve">
+    <value>	نسبة المساهمين الآخرين السعوديين	</value>
+  </data>
+  <data name="NonSaudiInverstor" xml:space="preserve">
+    <value>	نسبة المساهمين الآخرين الأجانب	</value>
+  </data>
+  <data name="ContractMethodId" xml:space="preserve">
+    <value>	نموذج التعاقد للمنتج	</value>
+  </data>
+  <data name="RevesoContextId" xml:space="preserve">
+    <value>	نموذج العمل للمنتج	</value>
+  </data>
+  <data name="LocalClientsNo" xml:space="preserve">
+    <value>عدد العملاء المحليين</value>
+  </data>
+  <data name="InternationalClientsNo" xml:space="preserve">
+    <value>عدد العملاء الدوليين</value>
+  </data>
+  <data name="ExistInCoutnryNo" xml:space="preserve">
+    <value>	عدد الدول المتواجد بها المنتج	</value>
+  </data>
+  <data name="ExistInCountries" xml:space="preserve">
+    <value>	أسماء الدول المتواجد بها المنتج</value>
+  </data>
+  <data name="AvarageProductIncome" xml:space="preserve">
+    <value>متوسط الإيرادات السنوية للمنتج</value>
+  </data>
+  <data name="HasProductDevelopementTeam" xml:space="preserve">
+    <value>	هل تمتلك الشركة فريق
+عمل داخل المملكة العربية
+السعودية لغرض البحث
+والابتكار لتطوير المنتج؟	</value>
+  </data>
+  <data name="HasProductClientStudyTeam" xml:space="preserve">
+    <value>هل تمتلك الشركة فريق
+عمل داخل المملكة العربية
+السعودية لغرض دراسة
+احتياجات العملاء المتعلقة
+بالمنتج؟	</value>
+  </data>
+  <data name="HasProductDesignTeam" xml:space="preserve">
+    <value>	هل تمتلك الشركة فريق
+عمل داخل المملكة العربية
+السعودية لأداء المهام
+المتعلقة بتصميم المنتج؟ 	</value>
+  </data>
+  <data name="HasProductProgrammingTeam" xml:space="preserve">
+    <value>	هل تمتلك الشركة فريق
+عمل داخل المملكة العربية
+السعودية لأداء المهام
+المتعلقة بتصنيع أو
+تطوير/برمجة المنتج؟</value>
+  </data>
+  <data name="HasProductMangementTeam" xml:space="preserve">
+    <value>	هل تمتلك الشركة فريق
+عمل داخل المملكة العربية
+السعودية لأداء المهام
+المتعلقة بإدارة المنتج؟	</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>	الموظفين	</value>
+  </data>
+  <data name="DoesCompanyUseLocalResource" xml:space="preserve">
+    <value>	هل تستخدم الشركة أصول محلية لغرض تصنيع أو استضافة المنتج؟	</value>
+  </data>
+  <data name="ManifactureName" xml:space="preserve">
+    <value>	اسم المصنع	</value>
+  </data>
+  <data name="HasCopyRights" xml:space="preserve">
+    <value>	هل تمتلك الشركة حقوق الملكية الفكرية للمنتج 	</value>
+  </data>
+  <data name="CopyRightsCertificateAttachmentId" xml:space="preserve">
+    <value>براءة اختراع أو وثائق تسجيل المنتج أو إقرار خاص من الشركة بامتلاك الشركة لحقوق الملكية الفكرية</value>
+  </data>
+  <data name="HasIdeaRights" xml:space="preserve">
+    <value>هل تمتلك الشركة حقوق العلامة التجارية للمنتج ؟</value>
+  </data>
+  <data name="IdeaRightsCertificateAttachmentId" xml:space="preserve">
+    <value>وثائق تسجيل المنتج أو إقرار خاص من الشركة  بامتلاك الشركة لحقوق العلامة التجارية للمنتج</value>
+  </data>
+  <data name="IsRegistredInMadeInKSA" xml:space="preserve">
+    <value>	 مسجل في (صنع في  السعودية)	 </value>
+  </data>
+  <data name="ProductClass" xml:space="preserve">
+    <value>	فئة المنتج	</value>
+  </data>
+  <data name="CertificateAttachmentId" xml:space="preserve">
+    <value>شهادة حقوق العلامة التجارية للمنتج</value>
+  </data>
+  <data name="ProductLogo" xml:space="preserve">
+    <value>شعار المنتج</value>
+  </data>
+  <data name="UserManual" xml:space="preserve">
+    <value>كتيب المنتج</value>
+  </data>
+  <data name="Investors" xml:space="preserve">
+    <value>المساهمين</value>
+  </data>
+  <data name="ProductClassification" xml:space="preserve">
+    <value>تصنيفات المنتج</value>
+  </data>
+  <data name="ProductTeams" xml:space="preserve">
+    <value>بيانات فريق عمل المنتج</value>
+  </data>
+  <data name="AboutProduct" xml:space="preserve">
+    <value>عن المنتج</value>
+  </data>
+  <data name="ProductCertificate" xml:space="preserve">
+    <value>المرفقات و الشهادات</value>
+  </data>
+  <data name="GeneralProductInfo" xml:space="preserve">
+    <value>بيانات المنتج</value>
+  </data>
+  <data name="ProductAgreement" xml:space="preserve">
+    <value>تقر الشركة بأن كافة البيانات والمعلومات والمرفقات التي تم تدوينها وقيدها وادرجها واضافة في النموذج صحيحة وغير وهمية وانه فيه حال ثبت عدم صحتها أو صحة جزء منها فإن الشركة تكون عرضة للجزاءات النظامية المقررة وفقا للأنظمة 
+كما تقر الشركة بموافقتها على قيام هيئة الاتصالات وتقنية المعلومات والجهات والمتعاونة معها فيما يتعلق بهذا الشأن بنشر تفاصيل المنتجات أو جزء منها بحسب المصلة باستثناء البيانات المالية الخاصة بالشركة وذلك لإدراجها في دليل المنتجات التقنية المحلية وأن هذا الإقرار والتعهد صدر من الشركة دون أدنى اعتراض على نشر هذه البيانات
+</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>الدور الوظيفي</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>إضافة منتج</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="YearlyIncom" xml:space="preserve">
+    <value>إجمالي إيرادات السنة السابقة بالريال السعودي</value>
+  </data>
+  <data name="AddEmployee" xml:space="preserve">
+    <value>إضافة موظف</value>
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>اسم المنتج (En)</value>
+  </data>
+  <data name="OuwnerShip" xml:space="preserve">
+    <value>بيانات تطوير المنتج</value>
+  </data>
+  <data name="DirectIncomPercentage" xml:space="preserve">
+    <value>نسبة الايرادات من المستخدم النهائي مباشرة (%)</value>
+  </data>
+  <data name="OutOfRange" xml:space="preserve">
+    <value>الرقم المدخل غير مسموح به</value>
+  </data>
+  <data name="SupportPrograms" xml:space="preserve">
+    <value>برامج الدعم</value>
+  </data>
+  <data name="AddNewProgram" xml:space="preserve">
+    <value>اضافة برنامج الدعم</value>
+  </data>
+  <data name="ResponsibleIdentity" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="Organization" xml:space="preserve">
+    <value>اسم الجهة المسؤولة</value>
+  </data>
+  <data name="SupportProgramName" xml:space="preserve">
+    <value>اسم برنامج الدعم</value>
+  </data>
+  <data name="SupportProgramURL" xml:space="preserve">
+    <value>رابط برنامج الدعم</value>
+  </data>
+  <data name="SupportProgramAddSuccessfully" xml:space="preserve">
+    <value>تم اضافة برنامج دعم بنجاح</value>
+  </data>
+  <data name="SupportProgramModifiedSuccessfully" xml:space="preserve">
+    <value>تم تعديل برنامج الدعم بنجاح</value>
+  </data>
+  <data name="RegisteredCompaniesCount" xml:space="preserve">
+    <value>عدد الشركات المسجلة</value>
+  </data>
+  <data name="MessageBody" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="CreatedOn" xml:space="preserve">
+    <value>تاريخ الانشاء</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="CompanyProgramRegistration" xml:space="preserve">
+    <value>التسجيل فى برنامج الدعم</value>
+  </data>
+  <data name="SupportProgramRegConfirm" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد التسجيل ببرنامج الدعم ؟</value>
+  </data>
+  <data name="SupportProgramConfirm" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد اضافة برنامج الدعم؟</value>
+  </data>
+  <data name="CrNumber" xml:space="preserve">
+    <value>رقم السجل التجارى</value>
+  </data>
+  <data name="AddBlackList" xml:space="preserve">
+    <value>تعديل شركة في القائمة المحظورة</value>
+  </data>
+  <data name="RequestCount" xml:space="preserve">
+    <value>عدد المهام</value>
+  </data>
+  <data name="AddOrganization" xml:space="preserve">
+    <value>اضافة جهة</value>
+  </data>
+  <data name="AddOrganizationConfirm" xml:space="preserve">
+    <value>هل انت متاكد من اضافة جهة؟</value>
+  </data>
+  <data name="ModifyOrganizationConfirm" xml:space="preserve">
+    <value>هل انت متاكد من تعديل الجهة؟</value>
+  </data>
+  <data name="Organizations" xml:space="preserve">
+    <value>الجهات</value>
+  </data>
+  <data name="AddNewOfficial" xml:space="preserve">
+    <value>اضافة مسؤول دعم</value>
+  </data>
+  <data name="IdentityNumber" xml:space="preserve">
+    <value>رقم الهوية</value>
+  </data>
+  <data name="SupportProgramOfficialConfirm" xml:space="preserve">
+    <value>هل انت متاكد من اضافة مسؤول برنامج الدعم؟</value>
+  </data>
+  <data name="SupportProgramsOfficials" xml:space="preserve">
+    <value>مسؤولي برامج الدعم</value>
+  </data>
+  <data name="Messages" xml:space="preserve">
+    <value>الرسائل</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Createdby" xml:space="preserve">
+    <value>انشأ من قبل</value>
+  </data>
+  <data name="SupportProgramCertificate" xml:space="preserve">
+    <value>اشعار عدم الممانعة</value>
+  </data>
+  <data name="CommunicationBetweenCompanies" xml:space="preserve">
+    <value>التواصل بين الشركات</value>
+  </data>
+  <data name="CurrentStatus" xml:space="preserve">
+    <value>الحالة الحالية المتوقف لديها الطلب</value>
+  </data>
+  <data name="NameDecisionMaker" xml:space="preserve">
+    <value>اسم متخذ القرار</value>
+  </data>
+  <data name="NameTask" xml:space="preserve">
+    <value>اسم المهمة</value>
+  </data>
+  <data name="SupportProgramExpiryDate" xml:space="preserve">
+    <value>تاريخ الانتهاء</value>
+  </data>
+  <data name="SupportProgramIssueDate" xml:space="preserve">
+    <value>تاريخ الاصدار</value>
+  </data>
+  <data name="FileIsTooLarge" xml:space="preserve">
+    <value>الملف كبير جدًا ، يجب تحديد ملف أقل من 5 ميغا بايت.</value>
+  </data>
+  <data name="FileIsTooSmallVideo" xml:space="preserve">
+    <value>يجب رفع ملف اكبر من  ٥ ميجا بايت</value>
+  </data>
+  <data name="RegisterDate" xml:space="preserve">
+    <value>تاريخ التسجيل</value>
+  </data>
+  <data name="FileIsTooSmall" xml:space="preserve">
+    <value>يجب رفع ملف اكبر من ٥ ميجا بايت</value>
+  </data>
+  <data name="FilterDate" xml:space="preserve">
+    <value>الترتيب بتاريخ</value>
+  </data>
+  <data name="Sort" xml:space="preserve">
+    <value>فلتر</value>
+  </data>
+  <data name="LiaisonNote" xml:space="preserve">
+    <value>ملاحظة: سيتم التعديل فقط على الطلب الفعال</value>
+  </data>
+  <data name="LiaisonNoteProfile" xml:space="preserve">
+    <value>ملاحظة: سيتم التعديل فقط على ملف الشركة</value>
+  </data>
+  <data name="DeactivationTitle" xml:space="preserve">
+    <value>تفعيل</value>
+  </data>
+  <data name="DeactivationMsg" xml:space="preserve">
+    <value>هل انت متأكد من تفعيل/الغاء تفعيل الشركة؟</value>
+  </data>
+  <data name="AssignedToWorkflowUser" xml:space="preserve">
+    <value>المراجع</value>
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>الإجراءات</value>
+  </data>
+  <data name="SupportProgramOfficialAddSuccessfully" xml:space="preserve">
+    <value>تم اضافة مسؤول الدعم بنجاح</value>
+  </data>
+  <data name="SupportProgramOfficialModifiedSuccessfully" xml:space="preserve">
+    <value>تم تعديل بيانات مسؤول الدعم بنجاح</value>
+  </data>
+  <data name="RegistrationInSupportProgramSucess" xml:space="preserve">
+    <value>تم تقديم طلب تسجيل في برنامج الدعم بنجاح</value>
+  </data>
+  <data name="tasksUser" xml:space="preserve">
+    <value>مهام المستخدم</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>النوع</value>
+  </data>
+  <data name="SupportProgramRegisteredCompanies" xml:space="preserve">
+    <value>الشركات المسجلة ببرامج الدعم</value>
+  </data>
+  <data name="RegistrationInSupportProgram" xml:space="preserve">
+    <value>التسجيل ببرامج الدعم</value>
+  </data>
+  <data name="RequestRenewal" xml:space="preserve">
+    <value>طلب تجديد</value>
+  </data>
+  <data name="SupportProgram" xml:space="preserve">
+    <value>برنامج الدعم</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SPCertificateDownload" xml:space="preserve">
+    <value>تنزيل شهادة التسجيل ببرنامج الدعم</value>
+  </data>
+  <data name="SupportProgramConfirmEdit" xml:space="preserve">
+    <value>هل أنت متأكد من أنك تريد تعديل برنامج الدعم؟</value>
+  </data>
+  <data name="SupportProgramOfficialConfirmEdit" xml:space="preserve">
+    <value>هل انت متاكد من تعديل بيانات مسؤول الدعم؟</value>
+  </data>
+  <data name="CurrentSupportPrograms" xml:space="preserve">
+    <value>برامج الدعم الحالية</value>
+  </data>
+  <data name="AllowedForSupportProgramm" xml:space="preserve">
+    <value>مسموح التسجيل فى برامج الدعم</value>
+  </data>
+  <data name="InterestInSupportProgram" xml:space="preserve">
+    <value>ارغب في التقدم على برامج الدعم والتنمية المقدمة من الجهات الحكومية والخاصة</value>
+  </data>
+  <data name="ListCompanies" xml:space="preserve">
+    <value>قائمة الشركات</value>
+  </data>
+  <data name="AtLeastOneCompanyMustBeSelected" xml:space="preserve">
+    <value>يجب اختيار شركة واحدة على الاقل</value>
+  </data>
+  <data name="TotalCount" xml:space="preserve">
+    <value>العدد الإجمالي</value>
+  </data>
+  <data name="TheMinimumNumberOfCharacters" xml:space="preserve">
+    <value>الحد الادنى لعدد الحروف 250</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PreviousCase" xml:space="preserve">
+    <value>الحالة السابقة</value>
+  </data>
+  <data name="TheCancellationRequestHasBeenSubmittedSuccessfully" xml:space="preserve">
+    <value>تم تقديم طلب الإلغاء بنجاح</value>
+  </data>
+  <data name="Requireds" xml:space="preserve">
+    <value>مطلوب </value>
+  </data>
+  <data name="LogoMessage" xml:space="preserve">
+    <value>خلفية شفافة ,  ابعاد الصورة 240بيكسل * 240 بيكسل  </value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>تم الحفظ بنجاح</value>
+  </data>
+  <data name="SaveProgram" xml:space="preserve">
+    <value>حفظ بيانات برنامج الدعم</value>
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>التصدير الى اكسيل</value>
+  </data>
+  <data name="advancedSearch" xml:space="preserve">
+    <value>البحث العام</value>
+  </data>
+  <data name="keywords" xml:space="preserve">
+    <value>البحث</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResponsibleName" xml:space="preserve">
+    <value>مدير برنامج الدعم</value>
+  </data>
+  <data name="DirectoryMsg" xml:space="preserve">
+    <value> يمثل الدليل قائمة مرجعية للمنشآت العاملة في سوق تقنية المعلومات والتقنيات الناشئة والمصنفة وفق وثيقة تصنيف الأعمال الصادرة من الهيئة
+</value>
+  </data>
+  <data name="DirectoryHeader" xml:space="preserve">
+    <value>منشآت تقنية المعلومات والتقنيات الناشئة.</value>
+  </data>
+  <data name="CompanyStatus" xml:space="preserve">
+    <value>حالة الشركة</value>
+  </data>
+  <data name="ContactorEmail" xml:space="preserve">
+    <value>البريد الإلكتروني للضابط الإتصال</value>
+  </data>
+  <data name="ContactorName" xml:space="preserve">
+    <value>اسم  ضابط الإتصال(En)</value>
+  </data>
+  <data name="ContactorNameAr" xml:space="preserve">
+    <value>اسم  ضابط الإتصال(Ar)</value>
+  </data>
+  <data name="ContactorPhone" xml:space="preserve">
+    <value>رقم الهاتف للضابط الإتصال</value>
+  </data>
+  <data name="RequestSerial" xml:space="preserve">
+    <value>طلب المسلسل</value>
+  </data>
+  <data name="RequestStatusAr" xml:space="preserve">
+    <value>حالة الطلب (Ar)</value>
+  </data>
+  <data name="RequestStatusEn" xml:space="preserve">
+    <value>حالة الطلب (En)</value>
+  </data>
+  <data name="RequestTitleAr" xml:space="preserve">
+    <value>عنوان الطلب (Ar)</value>
+  </data>
+  <data name="RequestTitleEn" xml:space="preserve">
+    <value>عنوان الطلب (En)</value>
+  </data>
+  <data name="RequestTypeAr" xml:space="preserve">
+    <value>نوع الطلب(Ar)</value>
+  </data>
+  <data name="RequestTypeEn" xml:space="preserve">
+    <value>نوع الطلب(En)</value>
+  </data>
+  <data name="UpdatedOn" xml:space="preserve">
+    <value>اخر تحديث</value>
+  </data>
+  <data name="ResponsibleEmail" xml:space="preserve">
+    <value>البريد الإلكتروني للمسؤول</value>
+  </data>
+  <data name="ActionName" xml:space="preserve">
+    <value>الاجراء</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="OrganizationName" xml:space="preserve">
+    <value>اسم الجهة</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>اسم المنشأة</value>
+  </data>
+  <data name="MessageBodyAr" xml:space="preserve">
+    <value>الرساله</value>
+  </data>
+  <data name="OrganizationNameEn" xml:space="preserve">
+    <value>اسم المنظمة (En)</value>
+  </data>
+  <data name="ReceivedBy" xml:space="preserve">
+    <value>استلمت من قبل</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>مسؤول</value>
+  </data>
+  <data name="AreYouSureToSubmitARequestToCancelTheCompanyFile" xml:space="preserve">
+    <value>هل أنت متأكد من تقديم طلب إلغاء لملف الشركة ؟</value>
+  </data>
+  <data name="TheDateMustBeLessThanTodayDate" xml:space="preserve">
+    <value>يجب ان  يكون التاريخ لايقل من تاريخ اليوم</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>متاح</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>طلبات الشركة</value>
+  </data>
+  <data name="Answere" xml:space="preserve">
+    <value>تم الرد</value>
+  </data>
+  <data name="NoAnswer" xml:space="preserve">
+    <value>لم يتم الرد</value>
+  </data>
+  <data name="StatusCompany" xml:space="preserve">
+    <value>حالة تسجيل الشركة</value>
+  </data>
+  <data name="Reviewer" xml:space="preserve">
+    <value>المراجع</value>
+  </data>
+  <data name="ClassificationRevenue" xml:space="preserve">
+    <value>نسبة الدخل للتصنيف الفرعي</value>
+  </data>
+  <data name="productDetails" xml:space="preserve">
+    <value>تفاصيل المنتج</value>
+  </data>
+  <data name="SupportProgramsList" xml:space="preserve">
+    <value>قائمة برامج الدعم</value>
+  </data>
+  <data name="VisitCompanyProfile" xml:space="preserve">
+    <value>مشاهدة ملف الشركة</value>
+  </data>
+  <data name="VisitCompanyWebsite" xml:space="preserve">
+    <value>زيارة موقع الشركة</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>إضافة ملف شركة</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>إستعراض</value>
+  </data>
+  <data name="AnotherRegistrationInSupportProgramInProgress" xml:space="preserve">
+    <value>لا يمكن التسجيل حيث يوجد طلب قيد الدراسة</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>تفعيل</value>
+  </data>
+  <data name="Deactivate" xml:space="preserve">
+    <value>الغاء التفعيل</value>
+  </data>
+  <data name="SendProduct" xml:space="preserve">
+    <value>ارسال المنتج</value>
+  </data>
+  <data name="SendProductConfirm" xml:space="preserve">
+    <value>هل انت متأكد انك تريد ارسال الطلب ؟</value>
+  </data>
+  <data name="SupportProgramRegistered" xml:space="preserve">
+    <value>الشركات المسجلة ببرنامج الدعم</value>
+  </data>
+  <data name="SupportProgramExist" xml:space="preserve">
+    <value>تم التسجيل فى برنامج الدعم بالفعل</value>
+  </data>
+  <data name="Certified" xml:space="preserve">
+    <value>معتمد</value>
+  </data>
+  <data name="StartComp" xml:space="preserve">
+    <value>بدء</value>
+  </data>
+  <data name="EmployeeRequired" xml:space="preserve">
+    <value>يجب ادخال موظف واحد على الأقل</value>
+  </data>
+  <data name="Canceled" xml:space="preserve">
+    <value>ملغي</value>
+  </data>
+  <data name="SendMessageConfirmationMssages" xml:space="preserve">
+    <value>هل انت متأكد من انك تريد من ارسال الرسالة ؟</value>
+  </data>
+  <data name="CompanyNameTo" xml:space="preserve">
+    <value>الى (اسم الشركة)</value>
+  </data>
+  <data name="CreatedOnSend" xml:space="preserve">
+    <value>تاريخ الارسال</value>
+  </data>
+  <data name="MessageBodyTitle" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="AssignedToWorkflowUserName" xml:space="preserve">
+    <value>المراجع</value>
+  </data>
+  <data name="searchKeywords" xml:space="preserve">
+    <value>كلمات البحث!</value>
+  </data>
+  <data name="CompanyDataAcknowledgment" xml:space="preserve">
+    <value>بيانات الشركة والإقرار بصحة المعلومات</value>
+  </data>
+  <data name="CommercialRegister" xml:space="preserve">
+    <value>السجل التجارى</value>
+  </data>
+  <data name="OfficialData" xml:space="preserve">
+    <value>بيانات المسؤول</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>المنصب</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>الجوال</value>
+  </data>
+  <data name="GeneralData" xml:space="preserve">
+    <value>بيانات عامة</value>
+  </data>
+  <data name="ProductCtegory" xml:space="preserve">
+    <value>فئة المنتج</value>
+  </data>
+  <data name="ProductInvoice" xml:space="preserve">
+    <value>اقدم أمر شراء أو فاتورة للمنتج أو أى اثبات مناسب</value>
+  </data>
+  <data name="PublicData" xml:space="preserve">
+    <value>بيانات عامة</value>
+  </data>
+  <data name="AcknowledgmentNumberClients" xml:space="preserve">
+    <value>إقرار خاص من الشركة  بعدد العملاء وأسمائهم ودولهم وبيانات التواصل معهم</value>
+  </data>
+  <data name="ContactInformationRelevantEmployeesCompany" xml:space="preserve">
+    <value>بيانات التواصل مع الموظفين المعنيين في الشركة</value>
+  </data>
+  <data name="FinancialStatements" xml:space="preserve">
+    <value>قوائم مالية لإيرادات المنتج</value>
+  </data>
+  <data name="HowProductWorks" xml:space="preserve">
+    <value>طريقة عمل المنتج</value>
+  </data>
+  <data name="PurchaseOrders" xml:space="preserve">
+    <value>أوامر شراء أو فواتير للمنتج</value>
+  </data>
+  <data name="RelatedProductManufacturingDevelopmentProgramming" xml:space="preserve">
+    <value>إقرار خاص من الشركة   ببيانات فريق العمل وأسمائهم مسمياتهم الوظيفية</value>
+  </data>
+  <data name="TeamDataKingdomPurposeInnovation" xml:space="preserve">
+    <value>إقرار خاص من الشركة  ببيانات فريق العمل وأسمائهم مسمياتهم الوظيفية</value>
+  </data>
+  <data name="TeamDataKingdomPurposeProductDesign" xml:space="preserve">
+    <value>إقرار خاص من الشركة ببيانات فريق العمل واسمائهم ومسمياتهم بتوضيح فريق العمل لغرض البحث والابتكار وفريق العمل لغرض دراسة احتياجات العملاء المتعلقة بالمنتج وفريق عمل لأداء المهام المتعلقة بتصميم المنتج</value>
+  </data>
+  <data name="ValueAddedProduct" xml:space="preserve">
+    <value>القيمه المضافه للمنتج (مزايا المنتج)</value>
+  </data>
+  <data name="RegCertificate" xml:space="preserve">
+    <value>شهادة التسجيل</value>
+  </data>
+  <data name="NameAddressFactoryDataCenterUsed" xml:space="preserve">
+    <value>اسم وعنوان المصنع أو مركز البيانات المستخدم</value>
+  </data>
+  <data name="ProductData" xml:space="preserve">
+    <value>بيانات المنتج</value>
+  </data>
+  <data name="IncludeAverageAnnualRevenue" xml:space="preserve">
+    <value>إدراج متوسط الإيرادات السنوية للمنتج (لآخر 5 سنوات أو منذ إطلاقه إذا كان عمر المنتج أقل من 5 سنوات)</value>
+  </data>
+  <data name="ProductNameAr" xml:space="preserve">
+    <value>اسم المنتج (ع)</value>
+  </data>
+  <data name="CompanyDataAcknowledgmentValidityInformation" xml:space="preserve">
+    <value>بيانات الشركه والاقرار بصحة المعلومات</value>
+  </data>
+  <data name="AcknowledgingCompatibilityAgreeingPublishData" xml:space="preserve">
+    <value>إقرار بتوافق المنتجات مع المبادئ والقيم، والموافقة على نشر البيانات</value>
+  </data>
+  <data name="DowenloadExportCsv" xml:space="preserve">
+    <value>التصدير الى csv</value>
+  </data>
+  <data name="DowenloadExportPdf" xml:space="preserve">
+    <value> التصدير الى pdf</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdvancedToalTip" xml:space="preserve">
+    <value>نوع الشركة , البريد الالكتروني لشركة,اسم ضابط الإتصال, رقم الهاتف للضابط الإتصال ,  البريد الإلكتروني للضابط الإتصال , المدينة , نبذة عن الشركة , هاتف الشركة, موقع الشركة, رقم السجل التجارى , اسم الشركة  ,رقم الطلب </value>
+  </data>
+  <data name="CountriesProductOffered" xml:space="preserve">
+    <value>أسماء الدول المتواجد بها المنتج</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value />
+  </data>
+  <data name="competitiveAdvantageOffered" xml:space="preserve">
+    <value>يتم إدراج الميزة التنافسية التي يقدمها المنتج عن غيره من المنتجات في السوق، وذلك بما لا يتجاوز  250 حرفاً.</value>
+  </data>
+  <data name="DateInformationCollected" xml:space="preserve">
+    <value>تاريخ جمع المعلومات</value>
+  </data>
+  <data name="NameContactOfficer" xml:space="preserve">
+    <value>اسم ضابط الاتصال</value>
+  </data>
+  <data name="ApplyRequest" xml:space="preserve">
+    <value>إعادة تقديم الطلب</value>
+  </data>
+  <data name="Expired" xml:space="preserve">
+    <value>منتهي</value>
+  </data>
+  <data name="OnlyLettersRequired" xml:space="preserve">
+    <value>يسمح فقط باستخدام الأحرف </value>
+  </data>
+  <data name="NewValues" xml:space="preserve">
+    <value>البيانات الجديده</value>
+  </data>
+  <data name="OldValues" xml:space="preserve">
+    <value>البانات القديمة</value>
+  </data>
+  <data name="PriceProduct" xml:space="preserve">
+    <value>كم السعر الأساسي للمنتج بالريال السعودي ؟</value>
+  </data>
+  <data name="ProductPricing" xml:space="preserve">
+    <value>كيف يتم تسعير المنتج ؟</value>
+  </data>
+  <data name="ProductNameS" xml:space="preserve">
+    <value>اسم المنتج</value>
+  </data>
+  <data name="logsChangeRoles" xml:space="preserve">
+    <value>سجل التغييرات على الصلاحيات</value>
+  </data>
+  <data name="NameUserMadeModification" xml:space="preserve">
+    <value>المستخدم الذي قام بالتعديل</value>
+  </data>
+  <data name="NewDataRoles" xml:space="preserve">
+    <value>الصلاحيات الجديدة</value>
+  </data>
+  <data name="OldDataRoles" xml:space="preserve">
+    <value>الصلاحيات القديمة</value>
+  </data>
+  <data name="RecordChangesData" xml:space="preserve">
+    <value>سجل التغييرات على البيانات</value>
+  </data>
+  <data name="UserNameChangeRoles" xml:space="preserve">
+    <value> المستخدم الذي تم تعديل صلاحياته</value>
+  </data>
+  <data name="notSeen" xml:space="preserve">
+    <value>لم يتم الاستعراض</value>
+  </data>
+  <data name="Seen" xml:space="preserve">
+    <value>تم الاستعراض</value>
+  </data>
+  <data name="ProductRequest" xml:space="preserve">
+    <value>تسجيل منتج</value>
+  </data>
+</root>

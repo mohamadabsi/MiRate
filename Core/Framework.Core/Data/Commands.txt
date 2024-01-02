@@ -1,0 +1,19 @@
+﻿https://blog.tekspace.io/code-first-multiple-db-context-migration/
+
+Add-Migration InitialDbMigration -Context CommonsDbContext -o Migrations/Commons
+Update-Database -Context CommonsDbContext
+
+
+Add-Migration InitialIdentityDbMigration -Context IdentityAppDbContext -o Migrations/Identity
+Update-Database -Context IdentityAppDbContext
+
+
+Add-Migration UpdateRequestLog -Context TetcoDbContext -o Migrations
+Update-Database -Context TetcoDbContext
+
+Update-Database -Context DataKeysContext
+
+
+
+
+Add-Migration AddReAssignTasks -Context TetcoDbContext -o Migrations
