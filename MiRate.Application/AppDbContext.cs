@@ -9,7 +9,7 @@ namespace MiRate.Application
             : base(options)
         {
         }
-
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
