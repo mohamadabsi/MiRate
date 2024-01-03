@@ -5,8 +5,6 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiRate.Application", "MiRate.Application\MiRate.Application.csproj", "{6DADEAC4-A9D0-4DA9-8304-642273B3308F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiRate.Domain", "MiRate.Domain\MiRate.Domain.csproj", "{FB90DCE3-E457-4AA7-87A0-0927A45009EE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Attachments", "Framework.Attachments\Framework.Attachments.csproj", "{1FDB3502-9D34-4DD5-92CF-BE86AF5A28CD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Common", "Common\Framework.Common\Framework.Common.csproj", "{E349EBEE-BF28-4F91-83DB-A13ED614628B}"
@@ -17,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework.Notifications", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localization", "Localization\Localization.csproj", "{1C1553D6-3119-403B-AA0C-4C8092709261}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiRate.Web", "MiRate.Web\MiRate.Web.csproj", "{0AF71BB7-2D72-4B6D-A04F-BBD910F0FC5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiRate.Website", "MiRate.Website\MiRate.Website.csproj", "{1E999C0B-0E97-4327-B9A3-7DEF46D9EB35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{6DADEAC4-A9D0-4DA9-8304-642273B3308F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DADEAC4-A9D0-4DA9-8304-642273B3308F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DADEAC4-A9D0-4DA9-8304-642273B3308F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB90DCE3-E457-4AA7-87A0-0927A45009EE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1FDB3502-9D34-4DD5-92CF-BE86AF5A28CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1FDB3502-9D34-4DD5-92CF-BE86AF5A28CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FDB3502-9D34-4DD5-92CF-BE86AF5A28CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,10 +47,10 @@ Global
 		{1C1553D6-3119-403B-AA0C-4C8092709261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1553D6-3119-403B-AA0C-4C8092709261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1553D6-3119-403B-AA0C-4C8092709261}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0AF71BB7-2D72-4B6D-A04F-BBD910F0FC5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AF71BB7-2D72-4B6D-A04F-BBD910F0FC5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AF71BB7-2D72-4B6D-A04F-BBD910F0FC5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AF71BB7-2D72-4B6D-A04F-BBD910F0FC5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E999C0B-0E97-4327-B9A3-7DEF46D9EB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E999C0B-0E97-4327-B9A3-7DEF46D9EB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E999C0B-0E97-4327-B9A3-7DEF46D9EB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E999C0B-0E97-4327-B9A3-7DEF46D9EB35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
