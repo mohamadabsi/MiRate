@@ -4,6 +4,7 @@ using Framework.Attachments.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Framework.Attachments.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(AttachmentsDbContext))]
-    partial class AttachmentsDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240103085943_Attachments_Create")]
+    partial class AttachmentsCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
